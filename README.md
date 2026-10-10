@@ -142,6 +142,32 @@ executed. The fetched datasets take about 2.3 GB.
 
 Two builds from the same pins produce the same `report.json`, byte for byte.
 
+## Hashing the login-gated IETF audio
+
+The IETF 86 and 90-94 audio recordings redirect to the IETF login, so their
+`content_hash` cannot be computed anonymously. `tools/fetch_ietf_audio.py`
+downloads them with your own signed-in session and records each file's
+core-04 `content_hash` in a `manifest.tsv`:
+
+```sh
+.venv/bin/python tools/fetch_ietf_audio.py download \
+    --urls ietf-audio-urls.txt --cookies cookies.txt --out ~/ietf-audio
+```
+
+`--urls` is a file with one URL per line. `--cookies` is a Netscape-format
+`cookies.txt` exported from a browser signed in to the IETF Datatracker; it
+holds a live login, so keep it private and delete it after the run. The
+script sends only those cookies, one download at a time, two seconds apart.
+It stops, with a message saying why, on a login redirect, a web page in place
+of audio, a Cloudflare challenge, a short download, or less than 2 GiB of free
+disk; a second run verifies what is already saved and continues. For files
+downloaded in a browser instead, `hash-local --urls FILE --dir DIR` hashes
+them, matched to URLs by file name.
+
+Anyone checking these hashes needs an IETF login too, which is why the
+upstream dataset does not carry them. The manifest is not applied to the
+corpus; adding it as a correction is a separate decision.
+
 ## Validation
 
 Containers are judged with the Python `jsonschema` package as a draft-07
