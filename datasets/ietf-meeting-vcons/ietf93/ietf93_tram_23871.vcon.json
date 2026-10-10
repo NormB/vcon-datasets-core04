@@ -1,0 +1,403 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6cf-a438-8018-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "gonzalo.camarillo@ericsson.com",
+      "name": "Gonzalo Camarillo",
+      "role": "chair"
+    },
+    {
+      "mailto": "simon.perreault@logmein.com",
+      "name": "Simon Perreault",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2015-07-20T13:20:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://www.ietf.org/audio/ietf93/ietf93-athens_barcelona-20150721-1740.mp3",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 93,
+        "working_group": "tram"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 93, \"location\": \"Prague, CZ\", \"working_group\": \"tram\", \"session_id\": \"23871\", \"room\": \"Karlin III\", \"start_time\": \"2015-07-20T13:20:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:30:30.968164+00:00\", \"meeting_number\": 93, \"group_acronym\": \"tram\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:30:30.968183+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:30:30.968184+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:30:30.968186+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:30:30.968186+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:30:30.968187+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/agenda/agenda-93-tram.txt",
+      "content_hash": "sha512-dHEMFnrWjMsVMb7yI9xujlUdbSYJuSTDOBIUq0X2E1xYpSssjb5B9SPOmHpiN9ZrilcAsrp-YnliIJzDMXwfOg",
+      "mediatype": "text/plain",
+      "filename": "agenda-93-tram.txt",
+      "meta": {
+        "title": "Agenda for TRAM at IETF-93",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/agenda-93-tram"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-0.pdf",
+      "content_hash": "sha512-5NhOOJPYmJUXfTbNHSZUKKK5pr1QR8sYpGHBftOtNXZwmtbbV1WmRX4mmQ_53oB1tUQWbkO-nTjLpXduqt2YAA",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-0.pdf",
+      "meta": {
+        "title": "Chairs' update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-1.pdf",
+      "content_hash": "sha512-mQreHpsBwEgTXgA6JKlUDGj3VGyhlCunifCsz_ZF8X2hECt8UD465jb_R_LcuHUEmdgeoJYPOAFkxUQ5wZtRUw",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-1.pdf",
+      "meta": {
+        "title": "TURN Bandwidth Probe",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-2.pdf",
+      "content_hash": "sha512-swfy8ZCJgjqh7cXOv3QIwhDA4k9UbyrejSTueVXF8cbkOlv55627vtf6uRkM8Gd6j7vokbwZFmhgzDdURUrNtQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-2.pdf",
+      "meta": {
+        "title": "STUN Traceroute",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-3.pdf",
+      "content_hash": "sha512-87IKmTno4Jma2ryguQdjlX3d_ZTwoOmnootcyolGPID_ssbhAa1UMTKjw7xeKZST-Qvz0E0pC2srp2Vdvevvag",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-3.pdf",
+      "meta": {
+        "title": "PMTUD Using STUN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-4.pdf",
+      "content_hash": "sha512-q8RbQmC5gpDcF0NW61kSxmsAurdR2g-CrbuDLlOXRK5kX7ZBwkiCaqTUGW9rhb8dWHH7ew4cLzjxzmFe4o64KQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-4.pdf",
+      "meta": {
+        "title": "RETURN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-5.pdf",
+      "content_hash": "sha512-YRt6T8pmDbl0FWgqVDQjN5CswIHshHCLRY5tSu3SBazvcGRq53HlBPAxKB-GeouU2wwRwsoSE1tPzEHkA7osRQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-5.pdf",
+      "meta": {
+        "title": "TURN-Lite",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-6.pdf",
+      "content_hash": "sha512-BjLJILaowEVmdz50PKWTk6DbpvoAiaT1CRGyA3XDr8CCT6BDR4zEgAWIX_F_9zyaLg5M65lWyeZGtXa-K09lzw",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-6.pdf",
+      "meta": {
+        "title": "STUN ORIGIN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-7\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-93-tram-7.pdf\", \"title\": \"WebRTC Firewall\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-8.pdf",
+      "content_hash": "sha512-59uj3Z7TDVN8IfZRSGB9hI6CB3EWHrP_hfP-7RdV3_0fHU8PfWKi5bO29zRo53Xlbh7uF2xUdlMGPqGlHYVB8w",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-8.pdf",
+      "meta": {
+        "title": "WebRTC Firewall",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-8"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/minutes/minutes-93-tram.txt",
+      "content_hash": "sha512-rTNM8Q8QVVZIyekZXboTS4ObYh60A7qtYvYj--7A1PUdOP3yEU3GTowqjNL0rm0SXt1M-y1fKbd46MqT7Dqa_w",
+      "mediatype": "text/plain",
+      "filename": "minutes-93-tram.txt",
+      "meta": {
+        "title": "Minutes for TRAM at IETF-93",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/minutes-93-tram"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/agenda/agenda-93-tram.txt",
+      "content_hash": "sha512-dHEMFnrWjMsVMb7yI9xujlUdbSYJuSTDOBIUq0X2E1xYpSssjb5B9SPOmHpiN9ZrilcAsrp-YnliIJzDMXwfOg",
+      "mediatype": "text/plain",
+      "filename": "agenda-93-tram.txt",
+      "meta": {
+        "title": "Agenda for TRAM at IETF-93",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/agenda-93-tram"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-0.pdf",
+      "content_hash": "sha512-5NhOOJPYmJUXfTbNHSZUKKK5pr1QR8sYpGHBftOtNXZwmtbbV1WmRX4mmQ_53oB1tUQWbkO-nTjLpXduqt2YAA",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-0.pdf",
+      "meta": {
+        "title": "Chairs' update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-1.pdf",
+      "content_hash": "sha512-mQreHpsBwEgTXgA6JKlUDGj3VGyhlCunifCsz_ZF8X2hECt8UD465jb_R_LcuHUEmdgeoJYPOAFkxUQ5wZtRUw",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-1.pdf",
+      "meta": {
+        "title": "TURN Bandwidth Probe",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-2.pdf",
+      "content_hash": "sha512-swfy8ZCJgjqh7cXOv3QIwhDA4k9UbyrejSTueVXF8cbkOlv55627vtf6uRkM8Gd6j7vokbwZFmhgzDdURUrNtQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-2.pdf",
+      "meta": {
+        "title": "STUN Traceroute",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-3.pdf",
+      "content_hash": "sha512-87IKmTno4Jma2ryguQdjlX3d_ZTwoOmnootcyolGPID_ssbhAa1UMTKjw7xeKZST-Qvz0E0pC2srp2Vdvevvag",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-3.pdf",
+      "meta": {
+        "title": "PMTUD Using STUN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-4.pdf",
+      "content_hash": "sha512-q8RbQmC5gpDcF0NW61kSxmsAurdR2g-CrbuDLlOXRK5kX7ZBwkiCaqTUGW9rhb8dWHH7ew4cLzjxzmFe4o64KQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-4.pdf",
+      "meta": {
+        "title": "RETURN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-5.pdf",
+      "content_hash": "sha512-YRt6T8pmDbl0FWgqVDQjN5CswIHshHCLRY5tSu3SBazvcGRq53HlBPAxKB-GeouU2wwRwsoSE1tPzEHkA7osRQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-5.pdf",
+      "meta": {
+        "title": "TURN-Lite",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-6.pdf",
+      "content_hash": "sha512-BjLJILaowEVmdz50PKWTk6DbpvoAiaT1CRGyA3XDr8CCT6BDR4zEgAWIX_F_9zyaLg5M65lWyeZGtXa-K09lzw",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-6.pdf",
+      "meta": {
+        "title": "STUN ORIGIN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-7\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-93-tram-7.pdf\", \"title\": \"WebRTC Firewall\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/slides/slides-93-tram-8.pdf",
+      "content_hash": "sha512-59uj3Z7TDVN8IfZRSGB9hI6CB3EWHrP_hfP-7RdV3_0fHU8PfWKi5bO29zRo53Xlbh7uF2xUdlMGPqGlHYVB8w",
+      "mediatype": "application/pdf",
+      "filename": "slides-93-tram-8.pdf",
+      "meta": {
+        "title": "WebRTC Firewall",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/slides-93-tram-8"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "url": "https://www.ietf.org/proceedings/93/minutes/minutes-93-tram.txt",
+      "content_hash": "sha512-rTNM8Q8QVVZIyekZXboTS4ObYh60A7qtYvYj--7A1PUdOP3yEU3GTowqjNL0rm0SXt1M-y1fKbd46MqT7Dqa_w",
+      "mediatype": "text/plain",
+      "filename": "minutes-93-tram.txt",
+      "meta": {
+        "title": "Minutes for TRAM at IETF-93",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/93/materials/minutes-93-tram"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/93/session/tram/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TRAM Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-93-tram\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"TRAM Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:30:30.968037+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf93/ietf93_tram_23871.wtf.json",
+      "content_hash": "sha512-ekOgmA56qOU4tK1YhWKCqVSychs32x_akC8juo6tVEz3p5B8ti8VBdFP_t42Ua60fJQ-vYc14nuc2PMkzDIvfQ",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T16:30:30.968037+00:00",
+  "subject": "IETF 93 - TRAM Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-13T05:16:03.062892+00:00"
+}

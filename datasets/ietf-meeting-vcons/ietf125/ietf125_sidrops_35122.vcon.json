@@ -1,0 +1,486 @@
+{
+  "uuid": "019d3274-55a4-8512-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "housley@vigilsec.com",
+      "name": "Russ Housley",
+      "role": "chair"
+    },
+    {
+      "mailto": "ggx@gigix.net",
+      "name": "Luigi Iannone",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-18T01:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://youtu.be/5PYySakjDWs",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 125,
+        "working_group": "sidrops"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 125, \"location\": \"Shenzhen, CN\", \"working_group\": \"sidrops\", \"session_id\": \"35122\", \"room\": \"Shangri-la Ballroom 1\", \"start_time\": \"2026-03-18T01:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:19:38.148576+00:00\", \"meeting_number\": 125, \"group_acronym\": \"sidrops\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.148618+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.148622+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.148625+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.148627+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.148629+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/chatlog/chatlog-125-sidrops-202603191400-00.json",
+      "content_hash": "sha512-RSPJ_YjzwQQMjMLe5lPxBONXhSUTaLZFuktqN71g4InDkW-VjImaqrKE6Qm4eOlaviGFr5lxbn9n16YTkFF9yA",
+      "mediatype": "application/json",
+      "filename": "chatlog-125-sidrops-202603191400-00.json",
+      "meta": {
+        "title": "Chat Log IETF125: sidrops: Thu 14:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/chatlog-125-sidrops-202603191400"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ren-sidrops-soa-usage/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Source Address Validation Using Source Origin Authorizations (SOAs)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ren-sidrops-soa-profile/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"A Profile for Source Origin Authorizations(SOAs)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-zhang-sidrops-prioritized-route-validation/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"RPKI-based Validation with Prioritized Resource Data\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-liu-sidrops-rrdp-delta-retention-policy/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"RPKI Repository Delta Protocol (RRDP) Delta File Retention Policy\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-hbq-bgp-tls-auth/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TLS Authentication for BGP\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-liu-sidrops-rpki-rtr-over-quic/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"RPKI to Router Protocol over QUIC\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-li-sidrops-stealthy-hijacking/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Risk of Stealthy BGP Hijacking under Incomplete Adoption of Route Origin Validation (ROV)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-huang-idr-bgp-origin-attestation/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"RPKI-based BGP Origin Attestation\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ling-sidrops-rov-tag-profile/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"A Profile for ROV Deployment Transparency\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-fu-sidrops-rpki-repositories-monitoring/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Operational Monitoring of RPKI Repositories Health and Safety\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-xu-sidrops-asrank-vulnerabilities/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Structural Vulnerabilities in ASRank under Adversarial Conditions\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/minutes/minutes-125-sidrops-202603190600-01.md",
+      "content_hash": "sha512-4VdqZFDFZ70Hf5PvcjIdj-vULD3D99kZWUMqb2-42UAJRromONvrhMRNr62VvWlUQRrfEi6dSfZGPlL9w7ASyg",
+      "mediatype": "text/markdown",
+      "filename": "minutes-125-sidrops-202603190600-01.md",
+      "meta": {
+        "title": "Minutes IETF125: sidrops: Thu 06:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/minutes-125-sidrops-202603190600"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/agenda/agenda-125-sidrops-02.md",
+      "content_hash": "sha512-EkNt-dLDMRpwk86bH7f3Z7K9B9UCZ-Ei550PiNJt4JY6ypTTldA3oPWxY9gbloY7Uka_FQFeCcKN-fFG1PBeBA",
+      "mediatype": "text/markdown",
+      "filename": "agenda-125-sidrops-02.md",
+      "meta": {
+        "title": "Agenda IETF125: sidrops",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/agenda-125-sidrops"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-sidrops-moa-profile/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"A Profile for Mapping Origin Authorizations (MOAs)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-sidrops-rtr-yang/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"YANG Data Model for RPKI to Router Protocol\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-sidrops-rpki-ccr/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"A Profile for Resource Public Key Infrastructure (RPKI) Canonical Cache Representation (CCR)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-sidrops-rpki-erik-protocol/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"The Erik Synchronization Protocol for use with the Resource Public Key Infrastructure (RPKI)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-zhang-sidrops-aspa-egress/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"ASPA-based AS_PATH Verification for BGP Export\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-chairs-slides-00.pdf",
+      "content_hash": "sha512-SW4N3dWePCT_rbLVK5m6XoyqYoSkmtp7dg4h1m4anTj-abAlaRe3IOyn5Q2iBKakXdR3bLUyPJnIfRCea_z1gA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-chairs-slides-00.pdf",
+      "meta": {
+        "title": "Chairs' Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-chairs-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-the-rpkispool-format-for-materializing-rpki-data-slidedeck-v3-00.pdf",
+      "content_hash": "sha512--WWCZ4rokd79kOcmOPQVBP7hZy4QJ-s1G4uAMIbQiOsVbpN9DEfPzAt4ZPwPfHh8ay_ros7nuikO5tu0EUyDPQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-the-rpkispool-format-for-materializing-rpki-data-slidedeck-v3-00.pdf",
+      "meta": {
+        "title": "The RPKISPOOL format for materializing RPKI data (slidedeck v3)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-the-rpkispool-format-for-materializing-rpki-data-slidedeck-v3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-a-profile-for-mapping-origin-authorizations-moas-00.pdf",
+      "content_hash": "sha512-HqBqD37IJwfnJtfKnpePv_WoR2TkpiTPPk630qnLspLiRy4M1witdowJHtcdGYJL-Dw9EGo8SgdZh0wM2pvgkA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-a-profile-for-mapping-origin-authorizations-moas-00.pdf",
+      "meta": {
+        "title": "A Profile for Mapping Origin Authorizations (MOAs)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-a-profile-for-mapping-origin-authorizations-moas"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-update-on-the-erik-synchronization-protocol-for-use-with-rpki-00.pdf",
+      "content_hash": "sha512-362brzTvx9lahtOe1OZ4vwQAR8rS6y2f1XgC9flkwe0ZK3U8F-kKezyqTSDSAVCmnEnLoSqUpkifFGkVHB6f4g",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-update-on-the-erik-synchronization-protocol-for-use-with-rpki-00.pdf",
+      "meta": {
+        "title": "Update on the Erik Synchronization Protocol for use with RPKI",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-update-on-the-erik-synchronization-protocol-for-use-with-rpki"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-yang-data-model-for-rpki-to-router-protocol-00.pdf",
+      "content_hash": "sha512-VAKwumH973oRCa3M6-tmluCtlcXuFlAFqD6R5ztvhFsA5CmuPGIzXr8VSP8FXHZ_P7zirIeVblD7VYbCvuwfyQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-yang-data-model-for-rpki-to-router-protocol-00.pdf",
+      "meta": {
+        "title": "YANG Data Model for RPKI to Router Protocol",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-yang-data-model-for-rpki-to-router-protocol"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-rpki-repository-delta-protocol-rrdp-delta-file-retention-policy-01.pdf",
+      "content_hash": "sha512-JGrwXQ6-eG_OoJan25z_cNMNvoqZRTjznExWOgF_WdziIIVxa6t6NjSHVh-TxsRdSG8_ODpAA1LN4WEqYiOvyg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-rpki-repository-delta-protocol-rrdp-delta-file-retention-policy-01.pdf",
+      "meta": {
+        "title": "RPKI Repository Delta Protocol (RRDP) Delta File Retention Policy",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-rpki-repository-delta-protocol-rrdp-delta-file-retention-policy"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-tls-authentication-for-bgp-00.pdf",
+      "content_hash": "sha512-Udd2ljPYVPB_8H18sElWGhItIAWZIgiqp9L8dKgsxgk7SuI2BfInRur4uDCBf-HgnYHbWgEWl_buQdmNS980YQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-tls-authentication-for-bgp-00.pdf",
+      "meta": {
+        "title": "TLS Authentication for BGP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-tls-authentication-for-bgp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-aspa-based-as-path-verification-for-bgp-export-00.pdf",
+      "content_hash": "sha512-XIJDxUAkhmOCBzRCt1itQJV2F2oQAxu8YZPi_Bp2XYI7lLBor2Lrc8j5O8MDcHigBDVxl_Wqf6ADNk-9epgeuQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-aspa-based-as-path-verification-for-bgp-export-00.pdf",
+      "meta": {
+        "title": "ASPA-based AS_PATH Verification  for BGP Export",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-aspa-based-as-path-verification-for-bgp-export"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-rpki-based-validation-with-prioritized-resource-data-00.pdf",
+      "content_hash": "sha512-bL9Mmd6YeearEEZNM5bg5xf-6r-vHz7-k30AL0GUxp1LJEciUESOVtP6ZBOMmQF3GZkFJCzDMMPn5ocYktnQQQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-rpki-based-validation-with-prioritized-resource-data-00.pdf",
+      "meta": {
+        "title": "RPKI-based Validation  with Prioritized Resource Data",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-rpki-based-validation-with-prioritized-resource-data"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-source-address-validation-using-source-origin-authorizations-soas-00.pdf",
+      "content_hash": "sha512-dunJIS-UvouYgqpyhw59Rk80kIE9kzuZ-8SKe9PV2dl2KRas9rQcwug9jDL9zLO8ney4880OcJfUv0MWuI4Ezg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-source-address-validation-using-source-origin-authorizations-soas-00.pdf",
+      "meta": {
+        "title": "Source Address Validation Using \u000bSource Origin Authorizations (SOAs)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-source-address-validation-using-source-origin-authorizations-soas"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-a1-a-profile-for-rov-deployment-transparency-00.pdf",
+      "content_hash": "sha512-lrgjuAsHgI4ZTX1zREq70swAyzNKkiFhVAlSsqsL3GP1BlFhdALYvR79lVpmXS7BLPp4nrwSJX6vkZweM5eXMg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-a1-a-profile-for-rov-deployment-transparency-00.pdf",
+      "meta": {
+        "title": "A.1. A Profile for ROV Deployment Transparency",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-a1-a-profile-for-rov-deployment-transparency"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-rpki-based-bgp-origin-attestation-00.pdf",
+      "content_hash": "sha512-pduMPqkYVdQRQhpWCUNiHj9QeUvWo0KpBDaKu_BWD7Hq6gJ-AhYOCZMOqN7nNwSm0gZaFb34zBnbyJwXBbecGg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-rpki-based-bgp-origin-attestation-00.pdf",
+      "meta": {
+        "title": "RPKI-based BGP Origin Attestation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-rpki-based-bgp-origin-attestation"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-operational-monitoring-of-rpki-repositories-health-and-safety-00.pdf",
+      "content_hash": "sha512-G4A0FIF_ur2hZwaeuraGgipc-xek00_T2vb_dIvEvGtCLOpfBgkOPC8uy-8tC97aUA5Y_I2UZ1pKM-hCZ9mbWA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-operational-monitoring-of-rpki-repositories-health-and-safety-00.pdf",
+      "meta": {
+        "title": "Operational Monitoring of RPKI repositories' health and safety",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-operational-monitoring-of-rpki-repositories-health-and-safety"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sidrops-selectively-synchronize-the-rpki-data-to-routers-00.pdf",
+      "content_hash": "sha512-qsFkRNzjvSBN41MUoXuYPvmQ9qfvSoOJsBUJROKwohrFfqH-5bxGXDRuKsrilTlB0aS5i72XkbTNcJgFyU8Tag",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sidrops-selectively-synchronize-the-rpki-data-to-routers-00.pdf",
+      "meta": {
+        "title": "Selectively Synchronize the RPKI Data to Routers",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sidrops-selectively-synchronize-the-rpki-data-to-routers"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/125/session/sidrops/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"SIDROPS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-125-sidrops\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"SIDROPS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.148361+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "whisper",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf125/ietf125_sidrops_35122.wtf.json",
+      "content_hash": "sha512-3_fiX-BDMJyVwyvKHA9yEmCCtzoT2ipia3q-JDGNpb7zh9IFzvpe4D3Srt2g7Vn3R6Y9TbGEPitBh3cphRTvHQ",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:19:38.148361+00:00",
+  "subject": "IETF 125 - SIDROPS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-03-30T22:49:40.646437+00:00",
+  "vcon": "0.4.0"
+}

@@ -1,0 +1,14 @@
+# The upstream vcon-dev datasets this corpus is built from, each pinned to one
+# commit. tools/build.py fetches exactly these and refuses a checkout that is
+# not at its pin or has local changes. Commits recorded 2026-10-09, the same
+# pins sipnab's corpus test reads. License: the SPDX identifier of each
+# repository's LICENSE file at that commit.
+#
+# fake-vcons and tadhack-2025 are left out: every container in both names its
+# parties with gmail.com addresses and +1 phone numbers that were never checked
+# against real subscribers.
+#
+# name	url	commit	license
+vcon-supreme-court-arguments	https://github.com/vcon-dev/vcon-supreme-court-arguments	061d5a87976fc4246d360e27f67326995d5f0128	MIT
+ietf-meeting-vcons	https://github.com/vcon-dev/ietf-meeting-vcons	b919f24dd29c0419f356c4b1133220c18de3a9ef	BSD-3-Clause
+vcon-dataset-city-of-newport-ri	https://github.com/vcon-dev/vcon-dataset-city-of-newport-ri	1a999e1de306f9b565e4832a5de356395beb8aed	BSD-3-Clause

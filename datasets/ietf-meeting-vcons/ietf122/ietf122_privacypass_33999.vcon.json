@@ -1,0 +1,273 @@
+{
+  "uuid": "019d327a-2f5f-8c6a-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "ietf@bemasc.net",
+      "name": "Benjamin M. Schwartz",
+      "role": "chair"
+    },
+    {
+      "mailto": "joe@salowey.net",
+      "name": "Joseph A. Salowey",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2025-03-19T06:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=oG9lSla0sc0",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 122,
+        "working_group": "privacypass"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 122, \"location\": \"Bangkok, TH\", \"working_group\": \"privacypass\", \"session_id\": \"33999\", \"room\": \"Boromphimarn 4\", \"start_time\": \"2025-03-19T06:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:26:01.568095+00:00\", \"meeting_number\": 122, \"group_acronym\": \"privacypass\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:01.568123+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:01.568126+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:01.568127+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:01.568128+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:01.568129+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/agenda/agenda-122-privacypass-01.md",
+      "content_hash": "sha512-V6LJPY4_RQNKiniQxNO_ZyvzcaPVgcRG06A2YBVwlKP9qg1dgFUwV85mXnnfznv2eA2o3Lw8k6Fw0_coNuIvMw",
+      "mediatype": "text/markdown",
+      "filename": "agenda-122-privacypass-01.md",
+      "meta": {
+        "title": "Agenda IETF122: privacypass",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/agenda-122-privacypass"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/chatlog/chatlog-122-privacypass-202503191300-00.json",
+      "content_hash": "sha512-U4-7nrKB3LARqbAEH1XQMYISZmqBo_LQwcbnWbxMk5NnNASIrHXeNEhf0Ri2fPclvy0azAF_fsGL9yZH_M0zxQ",
+      "mediatype": "application/json",
+      "filename": "chatlog-122-privacypass-202503191300-00.json",
+      "meta": {
+        "title": "Chat Log IETF122: privacypass: Wed 13:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/chatlog-122-privacypass-202503191300"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/minutes/minutes-122-privacypass-202503190600-00.md",
+      "content_hash": "sha512-A2mnM7UmqR0_C2-pNjWIyviXkjd8uHPzFCpmYpRcb88S1LRuoL_9NHjVaa_2v2DpRGgcn1OOMJavqsgGQUmckQ",
+      "mediatype": "text/markdown",
+      "filename": "minutes-122-privacypass-202503190600-00.md",
+      "meta": {
+        "title": "Minutes IETF122: privacypass: Wed 06:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/minutes-122-privacypass-202503190600"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/bluesheets/bluesheets-122-privacypass-202503190600-01.txt",
+      "content_hash": "sha512-MsCYjSWAjjP7Sn_GXbRZuvAJmIhJcMpKLXk4PXczM8FswS9jHV_ZQvL84Tf15TNYlIwZiaMbfAcpO7B99a0sDw",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-122-privacypass-202503190600-01.txt",
+      "meta": {
+        "title": "Bluesheets IETF122: privacypass : Wed 06:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/bluesheets-122-privacypass-202503190600"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-chair-slides-00.pdf",
+      "content_hash": "sha512-WnYoer08GFgnx0WOgQJbm2bsQlwusQ3c-wfYqD63P7-0IZeUIaeCBAHs9AFU1OtZZnCbyg93Ni38bKaesq9jmg",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-token-metadata-00.pdf",
+      "content_hash": "sha512-lv0pxVRWFgU1BqyJ7QBNcjqFW1mZlnD_CFplokwnmo99FI0khWrkQT1GnUkkCktkWCOZOMbzVTZlzpLYumKhEw",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-token-metadata-00.pdf",
+      "meta": {
+        "title": "Token Metadata",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-token-metadata"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-attester-issuer-00.pdf",
+      "content_hash": "sha512-HEn-zHuyFUzUoHlpUL7TnetwMgOaIT5qKjIJWd46tVLP0OSiEb3WhRIyHFU4sHOZ7WTlBI003i3BU47kR8chFQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-attester-issuer-00.pdf",
+      "meta": {
+        "title": "Attester Issuer",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-attester-issuer"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-privacy-pass-for-tls-00.pdf",
+      "content_hash": "sha512-C_D7Ybr3IGofcgGshzasAcgw3DWTbwR4bpud5vZqSfBHHCBzeMjPW8iqmyTLdnSx2p8turgy4kJZ7AHd287_mA",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-privacy-pass-for-tls-00.pdf",
+      "meta": {
+        "title": "Privacy Pass for TLS",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-privacy-pass-for-tls"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-privacy-pass-reverse-flow-01.pdf",
+      "content_hash": "sha512-dplYhdPO8UqTCer8NAzSard2j4DfQ8eQo8UObcDQts_Cup1virjE4dgw9qmbeHq02HBFR5Z8EEyFUQke5usd5g",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-privacy-pass-reverse-flow-01.pdf",
+      "meta": {
+        "title": "Privacy Pass Reverse Flow",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-privacy-pass-reverse-flow"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-privacy-pass-with-token-binding-extension-02.pdf",
+      "content_hash": "sha512-oyYNY2lLU6TVDKAIDpFyIOW31xj1imVRPc5NJ9uf5RPaXP9DEQwIFUgSffMg9Xv2-bZqJFneYP5bW35JoIXrzA",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-privacy-pass-with-token-binding-extension-02.pdf",
+      "meta": {
+        "title": "Privacy Pass with Token Binding Extension",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-privacy-pass-with-token-binding-extension"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-privacypass-and-anonymous-credentials-01.pdf",
+      "content_hash": "sha512-jQXuJ0Zma7DMvf5aYyd_cT_MNZFhE63c1R8i3IU40tNabi8NO3kao6C4tPm0zAo5KRJIcDRVt0rm4QpQvCkXCg",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-privacypass-and-anonymous-credentials-01.pdf",
+      "meta": {
+        "title": "privacypass and Anonymous Credentials",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-privacypass-and-anonymous-credentials"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "url": "https://www.ietf.org/proceedings/122/slides/slides-122-privacypass-arc-00.pdf",
+      "content_hash": "sha512-9mRKgWZNKxIPxCD4o-oQBTUaBvLaoZKcyLnQi3T9XYGy6Yi_w9mULvGFsGRDsPzvfkQalIx2d5v_boms2q_0vg",
+      "mediatype": "application/pdf",
+      "filename": "slides-122-privacypass-arc-00.pdf",
+      "meta": {
+        "title": "ARC",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/122/materials/slides-122-privacypass-arc"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/122/session/privacypass/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"PRIVACYPASS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-122-privacypass\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"PRIVACYPASS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:01.567862+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf122/ietf122_privacypass_33999.wtf.json",
+      "content_hash": "sha512-dpzR15JXctfLVcUAvg12Gj0rQqIbH4xZljafrBR9ToduV45Lquf5AprvXP3d-lR80FoTulT4MRADMI5om2OamQ",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:26:01.567862+00:00",
+  "subject": "IETF 122 - PRIVACYPASS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:52:49.908237+00:00",
+  "vcon": "0.4.0"
+}

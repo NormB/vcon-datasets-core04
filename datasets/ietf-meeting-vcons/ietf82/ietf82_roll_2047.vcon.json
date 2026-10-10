@@ -1,0 +1,193 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6a3-2fe1-8c49-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 82, \"location\": \"Taipei, TW\", \"working_group\": \"roll\", \"session_id\": \"2047\", \"room\": \"102\", \"start_time\": \"2011-11-14T05:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:41:57.601923+00:00\", \"meeting_number\": 82, \"group_acronym\": \"roll\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:41:57.601946+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:41:57.601947+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:41:57.601948+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:41:57.601949+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:41:57.601950+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/agenda/roll.txt",
+      "content_hash": "sha512-SULA_2nSKPHJ7WJ4bYZIBnNHuT3y5oisLQVxAGJCUpQAO7LDtdzGublbow1bJ_yVlnlJO7upauXBKqTqYF2DZA",
+      "mediatype": "text/plain",
+      "filename": "roll.txt",
+      "meta": {
+        "title": "Agenda for ROLL at IETF-82",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/agenda-82-roll"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/minutes/roll.txt",
+      "content_hash": "sha512-PAviWCZN-dSgga2TuRcfQ9cmSKsxDDb275IuQCqGNXQWRzKGE6kAjO4eiB2A_FSoECziHXNeZMPrlYfX5mulxA",
+      "mediatype": "text/plain",
+      "filename": "roll.txt",
+      "meta": {
+        "title": "Minutes for ROLL at IETF-82",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/minutes-82-roll"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/slides/roll-0.pdf",
+      "content_hash": "sha512-2u1a-kbSzM8jbgFZ0YylgURA1WgDKIDg9xMVX3Iohr1QqSUJ5-YhoXcGGdAcf5Te1kqnu_rUT3PWjUwCjMgIDw",
+      "mediatype": "application/pdf",
+      "filename": "roll-0.pdf",
+      "meta": {
+        "title": "draft-sehgal-roll-rpl-mib-02",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/slides-82-roll-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/slides/roll-1.pptx",
+      "content_hash": "sha512-nyYganJ0KTVo7eNIAJw-gxTf0SyfRDA1iLltD_qquMC1abmQFHGWaEeq8Akkta_jHnEyg7GLZWl7Oqwq1W4HxA",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "roll-1.pptx",
+      "meta": {
+        "title": "2-RPL-AMI",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/slides-82-roll-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/slides/roll-2.pptx",
+      "content_hash": "sha512-hV9vYXoZliuRWJhP1XDKnUGIk_WAebitQ06CWdsfopvH04E2Bv_ZR6ZPpukDaqo49ORawBDgonyuxnNuw-iiDA",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "roll-2.pptx",
+      "meta": {
+        "title": "1-roll-intro",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/slides-82-roll-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/slides/roll-6.pptx",
+      "content_hash": "sha512-WJEqxb8dvRK7umWnvlQgmdyFVUpxlaRsn4FH7tyUqPLB-CyzGEAz7KtDLZLmodnvpaHJReY749aozLU1ngyegQ",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "roll-6.pptx",
+      "meta": {
+        "title": "3-RPL-P2P",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/slides-82-roll-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/slides/roll-4.ppt",
+      "content_hash": "sha512-5LTUTteP95uYGWw__GHYAUVPPNj-vo5U78PK-7AK9ZxhURZB2fQQjAhQykds-0SGPBUjTUU9e5BqeQ0miDpIfA",
+      "mediatype": "application/vnd.ms-powerpoint",
+      "filename": "roll-4.ppt",
+      "meta": {
+        "title": "5-RPL-Asym",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/slides-82-roll-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/slides/roll-5.pdf",
+      "content_hash": "sha512-nTdNPF-eboCzH1GkK6LI5zKIDCaO6rMDgGbLBwV9IJn8A_d9UKg98tI8O3mvsLtpxvXLYvSMjYNyyff_mNyOnQ",
+      "mediatype": "application/pdf",
+      "filename": "roll-5.pdf",
+      "meta": {
+        "title": "draft-goyal-roll-dis-modifications-00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/slides-82-roll-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "url": "https://www.ietf.org/proceedings/82/slides/roll-7.pptx",
+      "content_hash": "sha512-UxYl3dSZd6sKaqXZHIBNYgTCJyUzzHehKy9aeu4QqICoRuHP2W04nAgsqvWboV83d-LsKkOju_4EHr9dzvggBQ",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "roll-7.pptx",
+      "meta": {
+        "title": "4-RPL-industrial",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/82/materials/slides-82-roll-7"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/82/session/roll/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"ROLL Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-82-roll\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"ROLL Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:41:57.601801+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:41:57.601801+00:00",
+  "subject": "IETF 82 - ROLL Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:41:59.526108+00:00"
+}

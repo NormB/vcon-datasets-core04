@@ -1,0 +1,267 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6a8-4bba-8e1c-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 79, \"location\": \"Beijing, CN\", \"working_group\": \"mptcp\", \"session_id\": \"1695\", \"room\": \"Valley Ballroom A\", \"start_time\": \"2010-11-08T07:10:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:47:32.411367+00:00\", \"meeting_number\": 79, \"group_acronym\": \"mptcp\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:47:32.411452+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:47:32.411458+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:47:32.411461+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:47:32.411465+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:47:32.411468+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "url": "https://www.ietf.org/proceedings/79/agenda/mptcp.txt",
+      "content_hash": "sha512-NPdh5Jr-yBfEK_Ju8hPNxQ6fOZFhdLmR2TLV07dRwTCpP5iB80_Co9x0Uy-OKehUX6nvwQKk0OMZVEerLCKCaw",
+      "mediatype": "text/plain",
+      "filename": "mptcp.txt",
+      "meta": {
+        "title": "Agenda for MPTCP at IETF-79",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/79/materials/agenda-79-mptcp"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "url": "https://www.ietf.org/proceedings/79/minutes/mptcp.txt",
+      "content_hash": "sha512-n0DmtT3nzMM7BewKpSoG0ZOMNYgIw_3HMkqI1uimNTo1dRf64P0wX4hBCeQs5Y6KFiIKPHiVKUqlM1TVox9ExA",
+      "mediatype": "text/plain",
+      "filename": "mptcp.txt",
+      "meta": {
+        "title": "Minutes for MPTCP at IETF-79",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/79/materials/minutes-79-mptcp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-0\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP Architecture\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-1\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP API\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-2\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP Protocol\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-3\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Chair Slide\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-4\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Chair Slide for 2nd meeting\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-5\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Middlebox Survey\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-6\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Data Center Networking with MPTCP\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-7\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP threat\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "url": "https://www.ietf.org/proceedings/79/agenda/mptcp.txt",
+      "content_hash": "sha512-NPdh5Jr-yBfEK_Ju8hPNxQ6fOZFhdLmR2TLV07dRwTCpP5iB80_Co9x0Uy-OKehUX6nvwQKk0OMZVEerLCKCaw",
+      "mediatype": "text/plain",
+      "filename": "mptcp.txt",
+      "meta": {
+        "title": "Agenda for MPTCP at IETF-79",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/79/materials/agenda-79-mptcp"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "url": "https://www.ietf.org/proceedings/79/minutes/mptcp.txt",
+      "content_hash": "sha512-n0DmtT3nzMM7BewKpSoG0ZOMNYgIw_3HMkqI1uimNTo1dRf64P0wX4hBCeQs5Y6KFiIKPHiVKUqlM1TVox9ExA",
+      "mediatype": "text/plain",
+      "filename": "mptcp.txt",
+      "meta": {
+        "title": "Minutes for MPTCP at IETF-79",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/79/materials/minutes-79-mptcp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-0\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP Architecture\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-1\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP API\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-2\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP Protocol\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-3\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Chair Slide\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-4\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Chair Slide for 2nd meeting\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-5\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Middlebox Survey\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-6\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Data Center Networking with MPTCP\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/materials/slides-79-mptcp-7\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP threat\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/79/session/mptcp/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-79-mptcp\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MPTCP Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:47:32.410925+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:47:32.410925+00:00",
+  "subject": "IETF 79 - MPTCP Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:47:35.288126+00:00"
+}

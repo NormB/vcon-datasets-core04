@@ -1,0 +1,224 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6c2-b232-8ca7-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 66, \"location\": \"Montreal, CA\", \"working_group\": \"ipfix\", \"session_id\": \"154\", \"room\": \"Room 519B\", \"start_time\": \"2006-07-11T17:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:16:22.579154+00:00\", \"meeting_number\": 66, \"group_acronym\": \"ipfix\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:16:22.579230+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:16:22.579239+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:16:22.579243+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:16:22.579246+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:16:22.579248+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/agenda/ipfix.txt",
+      "content_hash": "sha512-jqt9ix_33A-2Ecrnl8OAjYMbWcRYGW8YPtvm8fpOuuHyVgC92qFdMii_kJzCLM9pixRKt3P4lRJj_84QKHulQA",
+      "mediatype": "text/plain",
+      "filename": "ipfix.txt",
+      "meta": {
+        "title": "Agenda for IPFIX at IETF-66",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/agenda-66-ipfix"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/minutes/ipfix.txt",
+      "content_hash": "sha512-47GrtaPiI0-3N8hEUDybarovOomcsmVdZj4P4NAHo1R-cojubKpowc3paO0-fVvoCU0tbyiIpq2sCp8-mLf9QA",
+      "mediatype": "text/plain",
+      "filename": "ipfix.txt",
+      "meta": {
+        "title": "Minutes for IPFIX at IETF-66",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/minutes-66-ipfix"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-0\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-66-ipfix-0.pdf\", \"title\": \"IPFIX WG Status\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-2\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-66-ipfix-2.pdf\", \"title\": \"IPFIX Configuration Data Model\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-3\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-66-ipfix-3.pdf\", \"title\": \"IPFIX MIB\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/slides/ipfix-4.pdf",
+      "content_hash": "sha512-6CiFCAHRQtEwlCbb4_25fX510pI2gLlOsGNbhVofJ0tkrDt958-Dah_60OcGTnKhDSzW0ljtRc4rN-BYnjvy8w",
+      "mediatype": "application/pdf",
+      "filename": "ipfix-4.pdf",
+      "meta": {
+        "title": "Bidirectional Flow Export",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/slides/ipfix-5.pdf",
+      "content_hash": "sha512-1GhvNHFF9n1gcYG9H3y5UiArTwuLct6lSzn9_h0ajgWEQMg4o28zwBzFKBORbYGe6eBj4050FipRZoYhZortuw",
+      "mediatype": "application/pdf",
+      "filename": "ipfix-5.pdf",
+      "meta": {
+        "title": "Current Draft Status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/slides/ipfix-6.pdf",
+      "content_hash": "sha512-rizY38JZHArpIDmSGohMNk5hucOTQgbnEcB2OYg2mDPwVUlmqonXBlh0qtVT2uDh-49bnvNBd9CPh4QbWlaexQ",
+      "mediatype": "application/pdf",
+      "filename": "ipfix-6.pdf",
+      "meta": {
+        "title": "Reducing Redundancy",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/slides/ipfix-7.pdf",
+      "content_hash": "sha512-y7DeDbXi_Y0ZvuJ6SOzvhj_xZ27pXrzT4rk6TxjM04_yMWRfcL7ASPd7BYQ2GjWY3kYr3SNifYOAI1TZweWKww",
+      "mediatype": "application/pdf",
+      "filename": "ipfix-7.pdf",
+      "meta": {
+        "title": "Implementation Guidelines",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-7"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/slides/ipfix-8.pdf",
+      "content_hash": "sha512-WuprfEKDlj2A7I4syg0hJuRjyGqmrWVXxgi6GBMQM3bPbHaxfhvkDlTjDpJI21j0QX7GcOzG1A_ymhluad1pbg",
+      "mediatype": "application/pdf",
+      "filename": "ipfix-8.pdf",
+      "meta": {
+        "title": "IPFIX Testing",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-8"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-9\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-66-ipfix-9.pdf\", \"title\": \"IPFIX Protocol\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-10\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-66-ipfix-10.pdf\", \"title\": \"IPFIX Applicability\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "url": "https://www.ietf.org/proceedings/66/slides/ipfix-11.pdf",
+      "content_hash": "sha512-FL6wc5tJN79Gyq6g_m9aoACVD8SG7PatKkGKzV_cmNVoY-2qEIbYmLQSIxWY6_gmDulKeVM84IWojPSszbVcLw",
+      "mediatype": "application/pdf",
+      "filename": "ipfix-11.pdf",
+      "meta": {
+        "title": "IPFIX File Format",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/66/materials/slides-66-ipfix-11"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/66/session/ipfix/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"IPFIX Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-66-ipfix\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"IPFIX Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:16:22.578823+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T16:16:22.578823+00:00",
+  "subject": "IETF 66 - IPFIX Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T16:16:24.951231+00:00"
+}

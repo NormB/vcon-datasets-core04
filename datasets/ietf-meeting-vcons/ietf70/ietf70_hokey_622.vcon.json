@@ -1,0 +1,179 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6b8-4e7e-8876-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 70, \"location\": \"Vancouver, CA\", \"working_group\": \"hokey\", \"session_id\": \"622\", \"room\": \"Cypress\", \"start_time\": \"2007-12-06T17:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:05:01.694635+00:00\", \"meeting_number\": 70, \"group_acronym\": \"hokey\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:01.694651+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:01.694653+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:01.694653+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:01.694654+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:01.694655+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/agenda/hokey.txt",
+      "content_hash": "sha512-JCqeCTeofjl0ffirpKBONQ_ihBCh6Gkf8PMAY_yWyMrrV5vYxEr3EOJ5YUoPleKTyZq9e39KT7XbXjw2cZvIzw",
+      "mediatype": "text/plain",
+      "filename": "hokey.txt",
+      "meta": {
+        "title": "Agenda for HOKEY at IETF-70",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/agenda-70-hokey"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/minutes/hokey.txt",
+      "content_hash": "sha512-kI1lxjtaDtIdw6gqeqA8Cz5TnL5k3xTQJXcU94VHKI52mlLIj78icMX7juQ7VxS7fE-8XbGGG58tHrMWR8k-2Q",
+      "mediatype": "text/plain",
+      "filename": "hokey.txt",
+      "meta": {
+        "title": "Minutes for HOKEY at IETF-70",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/minutes-70-hokey"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/hokey-0.pdf",
+      "content_hash": "sha512-dqmVXPJ7-C1_h4oT4A1iURTnBMZm05tP8cG038eTndA0kufb-mbsXP0f9cP49ozBqDIOgXLO79qrum9707mdsg",
+      "mediatype": "application/pdf",
+      "filename": "hokey-0.pdf",
+      "meta": {
+        "title": "Agenda, WG Status (chairs)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-hokey-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/hokey-1.pdf",
+      "content_hash": "sha512-8IgDqhZ5yv6YSoDBjQBVK-Ydkm9wYLUFT92Wvv3xUs_aRVEsSYKIIgirgnoUPd7RY5gXgEpAzz3ihTWx39pPNw",
+      "mediatype": "application/pdf",
+      "filename": "hokey-1.pdf",
+      "meta": {
+        "title": "Key Management Document (Ohba)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-hokey-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/hokey-2.pdf",
+      "content_hash": "sha512-XccG6HOBIdeSkMUyYURXP2Q6jWcVtTuIT0ufx0x8D2yEO5hwJRIzagMAAiCn0SiQYD5I0k8RJI9-T59XrPDG8A",
+      "mediatype": "application/pdf",
+      "filename": "hokey-2.pdf",
+      "meta": {
+        "title": "Pre-authentication Problem Statement (Ohba)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-hokey-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/hokey-3.pdf",
+      "content_hash": "sha512-domZiYfvfoMimPdA3aJz3Tvif4pk9R7zq0TggFfUBXBsU_vNkNsLvBkcGLRrPw0zhyp2XNSyuUpsLzXTgCFWAA",
+      "mediatype": "application/pdf",
+      "filename": "hokey-3.pdf",
+      "meta": {
+        "title": "Proxies and AAA Key Management (Housley)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-hokey-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/hokey-4.pdf",
+      "content_hash": "sha512-Zq7pF-O6owJSHpEmpwPozxG45UyTzM9SSKZw7ryFgr9MpNnZ9WLPol9oboSzSQiTxmolGpDARzIvBIzDK7YeRA",
+      "mediatype": "application/pdf",
+      "filename": "hokey-4.pdf",
+      "meta": {
+        "title": "EMSK Document, Domain Definition (Salowey)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-hokey-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/hokey-5.pdf",
+      "content_hash": "sha512-uEwuCDylEU2KPusrQKWJtFNvXlfNMA4Hoc30Z7NI1E7xeYypOWaNLxUZsd8QAldMzC5-hKz8locOx7alPd5qIg",
+      "mediatype": "application/pdf",
+      "filename": "hokey-5.pdf",
+      "meta": {
+        "title": "AAA Support for ERP (Dondeti)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-hokey-5"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/session/hokey/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"HOKEY Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-70-hokey\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"HOKEY Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:01.694554+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T16:05:01.694554+00:00",
+  "subject": "IETF 70 - HOKEY Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T16:05:03.447604+00:00"
+}

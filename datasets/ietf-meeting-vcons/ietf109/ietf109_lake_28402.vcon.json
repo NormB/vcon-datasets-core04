@@ -1,0 +1,212 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff37c-8330-8c08-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Mališa Vučinić",
+      "mailto": "malisa.vucinic@inria.fr",
+      "role": "chair"
+    },
+    {
+      "name": "Stephen Farrell",
+      "mailto": "stephen.farrell@cs.tcd.ie",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2020-11-16T05:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=00aOI69vlvo",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 109,
+        "working_group": "lake"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 109, \"location\": \"Online, TH\", \"working_group\": \"lake\", \"session_id\": \"28402\", \"room\": \"Room 6\", \"start_time\": \"2020-11-16T05:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:00:51.376867+00:00\", \"meeting_number\": 109, \"group_acronym\": \"lake\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:00:51.376883+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:00:51.376885+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:00:51.376886+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:00:51.376887+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:00:51.376889+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "url": "https://www.ietf.org/proceedings/109/agenda/agenda-109-lake-01.txt",
+      "content_hash": "sha512-KnqrIl1oo60KXLtIL7sMhpbE7cRYQOKEUX2aB3_vPBYhLodE-kODXuH7bS2ZprHRguubMypsIRwII-hngbUDPQ",
+      "mediatype": "text/plain",
+      "filename": "agenda-109-lake-01.txt",
+      "meta": {
+        "title": "Agenda IETF109: lake",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/agenda-109-lake"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-lake-edhoc/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Ephemeral Diffie-Hellman Over COSE (EDHOC)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "url": "https://www.ietf.org/proceedings/109/bluesheets/bluesheets-109-lake-202011161200-00.txt",
+      "content_hash": "sha512-RYWNlJg4n_mN91K-oT1mw4UflI5O_uh013FKVHnFXL_gg237DzGOICLFuEyqxV30e2W0Gl6mdsW125GXrEGbCA",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-109-lake-202011161200-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF109: lake : Mon 12:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/bluesheets-109-lake-202011161200"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "url": "https://www.ietf.org/proceedings/109/minutes/minutes-109-lake-00.txt",
+      "content_hash": "sha512-qAAxWBsnCYpOE_sN2mgCncwnOy3tAAybPaIpVCreYqD2ktJdMygIjK62Uo4f-3h8_UdaojRHpAPH7w5FwYmIoA",
+      "mediatype": "text/plain",
+      "filename": "minutes-109-lake-00.txt",
+      "meta": {
+        "title": "Minutes IETF109: lake",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/minutes-109-lake"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-lake-chair-slides-00.pdf",
+      "content_hash": "sha512-8fzPylrjbdtC8sjo3Zrt3PM8BBIAYu6Ffe34Tyd5DZqL3gh6_pC-ojEGy1DeOowbveqszPqM7VVm2DG8nhmh9A",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-lake-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-lake-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-lake-draft-ietf-lake-edhoc-02-01.pdf",
+      "content_hash": "sha512-hzIlm1t9ZUZVKJaMnAWnS4aQlmokSrcEJHT2wkDd5ziYKbw28AsWQsMudbYd-ck4L-kuGhCJtgtV6U8OY37yYg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-lake-draft-ietf-lake-edhoc-02-01.pdf",
+      "meta": {
+        "title": "draft-ietf-lake-edhoc-02",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-lake-draft-ietf-lake-edhoc-02"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-lake-interop-00.pdf",
+      "content_hash": "sha512-7uAx_KdhdgQLeE8hDncZEnnw2z_klLFJlApC3p6rcGkfIOF3KZuq_DMkc7E7hAoN2qoFeiW1tjw3f-CVSbupuw",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-lake-interop-00.pdf",
+      "meta": {
+        "title": "interop",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-lake-interop"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-lake-lake-related-work-at-ietf-109-00.pdf",
+      "content_hash": "sha512-nHVOvLZVDlGBlZjuHgxNoRt1FFYhf3XOxxcDSRQc1d98QT0umAgCX7uOhtu2qZ3d26bhlCZSgwFAF8RoziB4WQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-lake-lake-related-work-at-ietf-109-00.pdf",
+      "meta": {
+        "title": "LAKE related work at IETF 109",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-lake-lake-related-work-at-ietf-109"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/session/lake/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"LAKE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-109-lake\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"LAKE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:00:51.376778+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf109/ietf109_lake_28402.wtf.json",
+      "content_hash": "sha512-_N0lPKWcEsKxJoH2eNIpl85VSh4OOKh5m1nxN5r6FnJOhjwtpX5ACsM5nOGWOcI2ykaU6OGFmJeWDC0WNBIiFg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:00:51.376778+00:00",
+  "subject": "IETF 109 - LAKE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:48.099499+00:00"
+}

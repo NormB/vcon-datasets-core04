@@ -1,0 +1,273 @@
+{
+  "uuid": "019d3288-2cfc-8c49-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "a@ackl.io",
+      "name": "Alexander Pelov",
+      "role": "chair"
+    },
+    {
+      "mailto": "pthubert@cisco.com",
+      "name": "Pascal Thubert",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2022-07-27T17:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=UTwGyKOTdlk",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 114,
+        "working_group": "lpwan"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 114, \"location\": \"Philadelphia, US\", \"working_group\": \"lpwan\", \"session_id\": \"29561\", \"room\": \"Liberty B\", \"start_time\": \"2022-07-27T17:30:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:41:18.460885+00:00\", \"meeting_number\": 114, \"group_acronym\": \"lpwan\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:41:18.460905+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:41:18.460907+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:41:18.460908+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:41:18.460909+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:41:18.460910+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/agenda/agenda-114-lpwan-07.md",
+      "content_hash": "sha512-RuD9X3TQ-81_JsbIDqkKEKunMVZYGiEAD6yO-Y3r-ONU6cmGaiSSL60F6BWMVKBcqBGZdydjnib1DrfeyVcENQ",
+      "mediatype": "text/markdown",
+      "filename": "agenda-114-lpwan-07.md",
+      "meta": {
+        "title": "Agenda IETF114: lpwan",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/agenda-114-lpwan"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/chatlog/chatlog-114-lpwan-202207271330-00.json",
+      "content_hash": "sha512-wjJmgAiP1OQA1LfeAZprGrytdvkPDz7gKNLMAIv9wKvW_hYSNEB2DMG4XNIrSjgFahx1n5HgBjS0ST2JxV0hbg",
+      "mediatype": "application/json",
+      "filename": "chatlog-114-lpwan-202207271330-00.json",
+      "meta": {
+        "title": "Chat Log IETF114: lpwan: Wed 13:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/chatlog-114-lpwan-202207271330"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/bluesheets/bluesheets-114-lpwan-202207271330-00.txt",
+      "content_hash": "sha512-TEXpiz4Bn9P--CllXzjhYc4rit9zuqpo8-KxWdYFHSosbdjtFf7atUo8G3VU43ZWc1RGoIOA5V6-xap8dgbHPg",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-114-lpwan-202207271330-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF114: lpwan : Wed 13:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/bluesheets-114-lpwan-202207271330"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/minutes/minutes-114-lpwan-202207271330-00.md",
+      "content_hash": "sha512-NVfxMxRLhmmGgvhLxBhuUZfXwxehB-kHkwpMhoR4BWIwNX8AP1Svr9oQhpByukmeFMZgdkHtCKV2gehqQ95mzg",
+      "mediatype": "text/markdown",
+      "filename": "minutes-114-lpwan-202207271330-00.md",
+      "meta": {
+        "title": "Minutes IETF114: lpwan: Wed 13:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/minutes-114-lpwan-202207271330"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-main-00.pdf",
+      "content_hash": "sha512-FOSvOTExuJszHkst9U5DHfEIzqAE5vF-SVzJsWWTwI4iYVLnIFlm_TDXFSpa2TiT-mAn7hYWx6CINVzTkGkcFg",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-main-00.pdf",
+      "meta": {
+        "title": "main",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-main"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-schc-over-nbiot-00.pdf",
+      "content_hash": "sha512-Jgltl-E981u6_8hxSi5e1PIyddld4iVJWhk76veWgyBPfZOeYKmbFDqvShkgCbwC3u_fF2IFY_aRAMCXuIscVg",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-schc-over-nbiot-00.pdf",
+      "meta": {
+        "title": "SCHC over NBIoT",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-schc-over-nbiot"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-yang-data-model-v2-00.pdf",
+      "content_hash": "sha512-j3KB90l2Dt6pGXelHBmMWTwxHuowEy5uHxxESAAplzpqMFLMH1eq-Hf4ByKcCu1DAGvNeH1wpSWdjfhbJzu7kw",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-yang-data-model-v2-00.pdf",
+      "meta": {
+        "title": "YANG Data Model v2",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-yang-data-model-v2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-schc-compound-ack-presentation-00.pdf",
+      "content_hash": "sha512-Lo6Ow_vlTFb_YQGwbURLw6mD2uSxF2_6iRG7kcZnsKRLDVxaODfU1_q9_5I0TJtLdG22XTpcjN96Bwrio2qQaw",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-schc-compound-ack-presentation-00.pdf",
+      "meta": {
+        "title": "SCHC Compound ACK presentation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-schc-compound-ack-presentation"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-schc-over-sigfox-lpwan-presentation-00.pdf",
+      "content_hash": "sha512-Bnzy43e9sEpfDIbgynJV7j7CW3_HDl7jc8Wg_-nGh-S1nkbrBcqDFFD_-FvDrkAmgZFVq4tWKK0EDKhlgN7vaw",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-schc-over-sigfox-lpwan-presentation-00.pdf",
+      "meta": {
+        "title": "SCHC over Sigfox LPWAN presentation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-schc-over-sigfox-lpwan-presentation"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-ip-protocol-number-for-schc-00.pdf",
+      "content_hash": "sha512-G7I1ykOyDTtY2kLSOrYjqsov_Hb_L2rUEFvOAMJ1MpLKFNcUmzcPyU4M5sL29FM3wW841HJho24CraTxPNtoYA",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-ip-protocol-number-for-schc-00.pdf",
+      "meta": {
+        "title": "IP Protocol Number for SCHC",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-ip-protocol-number-for-schc"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-schc-architecture-00.pdf",
+      "content_hash": "sha512-lglRHi6pgKLT5IA4iq4JDXF4M0B9Ff6NSIoOt1mv2lfCi1nqg5AELsp_kBuEi590GlYQ3Yx7JWNT9JELOrubkw",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-schc-architecture-00.pdf",
+      "meta": {
+        "title": "SCHC Architecture",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-schc-architecture"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "url": "https://www.ietf.org/proceedings/114/slides/slides-114-lpwan-slides-template-00.pdf",
+      "content_hash": "sha512-dL2OJ3JgBHONsOfPiWOf-sG-e2AxYs6WR69rVhLctOlzIbVg2yURUzEgsoX2L4VZ7QxyNB6CMla3SaD_oD6rLg",
+      "mediatype": "application/pdf",
+      "filename": "slides-114-lpwan-slides-template-00.pdf",
+      "meta": {
+        "title": "Slides template",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/114/materials/slides-114-lpwan-slides-template"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/114/session/lpwan/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"LPWAN Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-114-lpwan\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"LPWAN Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:41:18.460793+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf114/ietf114_lpwan_29561.wtf.json",
+      "content_hash": "sha512-kaOvOw3u7R3OcKoSOYrHFZD4MMxoLVPhB2OOTwcsPVxPFgcB2FURd3wjrJXffTLcBqjKGsq3KNGjOgbufQ-n-Q",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:41:18.460793+00:00",
+  "subject": "IETF 114 - LPWAN Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:18:52.607605+00:00",
+  "vcon": "0.4.0"
+}

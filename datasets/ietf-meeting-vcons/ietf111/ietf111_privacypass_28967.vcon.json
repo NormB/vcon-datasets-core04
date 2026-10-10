@@ -1,0 +1,203 @@
+{
+  "uuid": "019d328c-a91a-8866-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "ietf@bemasc.net",
+      "name": "Benjamin M. Schwartz",
+      "role": "chair"
+    },
+    {
+      "mailto": "joe@salowey.net",
+      "name": "Joseph A. Salowey",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2021-07-26T21:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=3ng2JsM1gCM",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 111,
+        "working_group": "privacypass"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 111, \"location\": \"Online, US\", \"working_group\": \"privacypass\", \"session_id\": \"28967\", \"room\": \"Room 8\", \"start_time\": \"2021-07-26T21:30:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:46:12.379083+00:00\", \"meeting_number\": 111, \"group_acronym\": \"privacypass\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:12.379355+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:12.379366+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:12.379370+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:12.379373+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:12.379376+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "url": "https://www.ietf.org/proceedings/111/agenda/agenda-111-privacypass-00.md",
+      "content_hash": "sha512-CS4fNgnhKS3ZoFviAbAwmGkdetRWW-EP37AA-1hPhSeelmwAuTrIESv9gQSckU3LafIRSCGBz8R--uF7VWUNjw",
+      "mediatype": "text/markdown",
+      "filename": "agenda-111-privacypass-00.md",
+      "meta": {
+        "title": "Agenda IETF111: privacypass",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/111/materials/agenda-111-privacypass"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "url": "https://www.ietf.org/proceedings/111/bluesheets/bluesheets-111-privacypass-202107301430-00.txt",
+      "content_hash": "sha512-aAgtrH41Ifq2lyjLs1l7ps01qhWjKYwoHQu289blRw2k1GR8u-s0cyRJO6lLHs1AjfLLABVq0sm3DaHm1Dbu-A",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-111-privacypass-202107301430-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF111: privacypass : Fri 14:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/111/materials/bluesheets-111-privacypass-202107301430"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "url": "https://www.ietf.org/proceedings/111/minutes/minutes-111-privacypass-03.md",
+      "content_hash": "sha512-ugtX01vTnymwCwnBzURv9qS_BH5vbIbOIH1JGml4rcUdd6XNhcBl498QPgMVgVFM6YXgAJaC9P6VDSsHYsqFOg",
+      "mediatype": "text/markdown",
+      "filename": "minutes-111-privacypass-03.md",
+      "meta": {
+        "title": "Minutes IETF111: privacypass",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/111/materials/minutes-111-privacypass"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "url": "https://www.ietf.org/proceedings/111/slides/slides-111-privacypass-chair-slides-00.pdf",
+      "content_hash": "sha512-IakUvNjeGSHdvTxIhcnA0FFhZum5kfdmacMY8ODy090DJ6vA5LD7k0RjnbREJWCS_ROQJ2VQOCGARtioujRTfQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-111-privacypass-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/111/materials/slides-111-privacypass-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "url": "https://www.ietf.org/proceedings/111/slides/slides-111-privacypass-privacypass-updates-01.pdf",
+      "content_hash": "sha512-r5GBYmYe65KEi7jxL-Ed-72rGM8-qIS51nnWkCE3o3twR_mQa99ZnqHqh_xWkGJRQuIIsIM4Kr3L1lRGIVYUjg",
+      "mediatype": "application/pdf",
+      "filename": "slides-111-privacypass-privacypass-updates-01.pdf",
+      "meta": {
+        "title": "PrivacyPass Updates",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/111/materials/slides-111-privacypass-privacypass-updates"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "url": "https://www.ietf.org/proceedings/111/slides/slides-111-privacypass-summary-from-anonymous-credentials-meeting-00.pdf",
+      "content_hash": "sha512-LQb9gchKMtjFvBxyCkhBA1HG8vnSNoXLrrOwjHxahTArlHyKyYU8ZFEV6GjHOOQlZ1UawHfVTr9osLDsPJ5sKA",
+      "mediatype": "application/pdf",
+      "filename": "slides-111-privacypass-summary-from-anonymous-credentials-meeting-00.pdf",
+      "meta": {
+        "title": "Summary from  Anonymous Credentials Meeting",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/111/materials/slides-111-privacypass-summary-from-anonymous-credentials-meeting"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "url": "https://www.ietf.org/proceedings/111/slides/slides-111-privacypass-adding-public-metadata-01.pdf",
+      "content_hash": "sha512-6fqExKGqsLGab59RPWFFKHLvM2s8z_3O5i_76h0DbJbv5X-JplFOCk0AQ1nen1biLGnb_xoPTthf6D4gXGl90A",
+      "mediatype": "application/pdf",
+      "filename": "slides-111-privacypass-adding-public-metadata-01.pdf",
+      "meta": {
+        "title": "Adding public metadata",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/111/materials/slides-111-privacypass-adding-public-metadata"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/111/session/privacypass/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"PRIVACYPASS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-111-privacypass\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"PRIVACYPASS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:12.378578+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf111/ietf111_privacypass_28967.wtf.json",
+      "content_hash": "sha512-bEdrqUvqIxjj2Cr56QDBkx5Lp6nNbVjF0_avhQl33Q5VnOFcR-qW9529oQHoH20gZKG2REpDmNSCCr5Ge649uw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:46:12.378578+00:00",
+  "subject": "IETF 111 - PRIVACYPASS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T19:24:20.768800+00:00",
+  "vcon": "0.4.0"
+}

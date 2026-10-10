@@ -1,0 +1,435 @@
+{
+  "uuid": "019d328a-5b51-84b4-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Gorry Fairhurst",
+      "mailto": "gorry@erg.abdn.ac.uk",
+      "role": "chair"
+    },
+    {
+      "name": "David L. Black",
+      "mailto": "david.black@dell.com",
+      "role": "chair"
+    },
+    {
+      "name": "Wesley Eddy",
+      "mailto": "wes@mti-systems.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2022-03-21T12:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=wia5eZJf7HE",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 113,
+        "working_group": "tsvwg"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 113, \"location\": \"Vienna, AT\", \"working_group\": \"tsvwg\", \"session_id\": \"29380\", \"room\": \"Grand Park Hall 3\", \"start_time\": \"2022-03-21T12:00:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:43:41.393768+00:00\", \"meeting_number\": 113, \"group_acronym\": \"tsvwg\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:43:41.393835+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:43:41.393840+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:43:41.393843+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:43:41.393846+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:43:41.393849+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/agenda/agenda-113-tsvwg-07.txt",
+      "content_hash": "sha512-2VHaTq75U4-kD_F_P1O_mqC5BCiTa4nsjWPwDMcdA_H5Emva1ew1MsgXsiFKFLuDOwY92t7vj0hq7C2g9ghvJQ",
+      "mediatype": "text/plain",
+      "filename": "agenda-113-tsvwg-07.txt",
+      "meta": {
+        "title": "Agenda IETF113: tsvwg",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/agenda-113-tsvwg"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/bluesheets/bluesheets-113-tsvwg-202203211300-00.txt",
+      "content_hash": "sha512-2twPW7UDQIqmYhQADC3gh21eyUO3jsCyHMAWFLA-RR0JCtFfPAOGSunMJjRXyUEZPAHbgbB_Qp_POSebfKnRpg",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-113-tsvwg-202203211300-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF113: tsvwg : Mon 13:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/bluesheets-113-tsvwg-202203211300"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/minutes/minutes-113-tsvwg-202203211300-03.md",
+      "content_hash": "sha512-vgU5jXSO0_TcCfaZkkv3v7U8_5MDyz55-m-W1ENTp4fcQ-ADq164JXh2ll6Dyv1_g_rJ2tSc9hQQn-YZRzovXw",
+      "mediatype": "text/markdown",
+      "filename": "minutes-113-tsvwg-202203211300-03.md",
+      "meta": {
+        "title": "Minutes IETF113: tsvwg: Mon 13:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/minutes-113-tsvwg-202203211300"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/chatlog/chatlog-113-tsvwg-202203211300-00.json",
+      "content_hash": "sha512-liVy9QDoKjPKqExAsrMBdcfzT-4qU7MBZmAKIwGloR6ob-ZHlx7FS-IylD-Z7VQ7vsa3iBQSPzSq4uk20uWkkA",
+      "mediatype": "application/json",
+      "filename": "chatlog-113-tsvwg-202203211300-00.json",
+      "meta": {
+        "title": "Chat Log IETF113: tsvwg: Mon 13:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/chatlog-113-tsvwg-202203211300"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/agenda/agenda-113-tsvwg-07.txt",
+      "content_hash": "sha512-2VHaTq75U4-kD_F_P1O_mqC5BCiTa4nsjWPwDMcdA_H5Emva1ew1MsgXsiFKFLuDOwY92t7vj0hq7C2g9ghvJQ",
+      "mediatype": "text/plain",
+      "filename": "agenda-113-tsvwg-07.txt",
+      "meta": {
+        "title": "Agenda IETF113: tsvwg",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/agenda-113-tsvwg"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tsvwg-udp-options/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Transport Options for UDP\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tsvwg-dscp-considerations/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Considerations for Assigning a New Recommended Differentiated Services Code Point (DSCP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tsvwg-multipath-dccp/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DCCP Extensions for Multipath Operation with Multiple Addresses\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tsvwg-udp-options-dplpmtud/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Datagram PLPMTUD for UDP Options\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tsvwg-nqb/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"A Non-Queue-Building Per-Hop Behavior (NQB PHB) for Differentiated Services\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/minutes/minutes-113-tsvwg-202203251000-00.md",
+      "content_hash": "sha512-iPfA4g7szKcw1AzstT6CT_JESdjOkKWukRC_sXYfCtPaAw1bRiIXTg8Ukv2xvgwPCkf3Kzd5N2r2o-KIH_9z2Q",
+      "mediatype": "text/markdown",
+      "filename": "minutes-113-tsvwg-202203251000-00.md",
+      "meta": {
+        "title": "Minutes IETF113: tsvwg: Fri 10:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/minutes-113-tsvwg-202203251000"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/chatlog/chatlog-113-tsvwg-202203251000-00.json",
+      "content_hash": "sha512-lo4BvdHdtXDflUIP4leLHp-4PQGH9gF2Aar_QrvOI8LfII2iJuhFPbX7aW03HJc9yzyldPVpaHXg8fQPdyDXbA",
+      "mediatype": "application/json",
+      "filename": "chatlog-113-tsvwg-202203251000-00.json",
+      "meta": {
+        "title": "Chat Log IETF113: tsvwg: Fri 10:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/chatlog-113-tsvwg-202203251000"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-4-chairs-slides-00.pdf",
+      "content_hash": "sha512-kBTyMyhSt1ErYEHYYOZxfUCYyD4rL-w0InZBdiGN2HBWHrqS5nxOUED0bW-G5qFdZdYzG_IacjEnz4ke5UaTGQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-4-chairs-slides-00.pdf",
+      "meta": {
+        "title": "4. Chairs Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-4-chairs-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-sessa-1-tsvwg-chair-slides-00.pdf",
+      "content_hash": "sha512-sMIDg6MC1X8WBwZ9AOkjvqEXNubCqzFjSyqqpbneQV3uKcYpE5wQvesklJKggZABi7lxpBBZ0S55fheES1OuWQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-sessa-1-tsvwg-chair-slides-00.pdf",
+      "meta": {
+        "title": "1. TSVWG Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-sessa-1-tsvwg-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-41-announcements-00.pdf",
+      "content_hash": "sha512-IHbCVaTutcSU0xzySMWmrfis-7rt5lXN7iGEWhNmmbaQ9SWNDHBH6v1obA01pU-g4ViWBYh_A93iA3e0gYOWBQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-41-announcements-00.pdf",
+      "meta": {
+        "title": "4.1 Announcements",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-41-announcements"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-31-sctp-nat-support-00.pdf",
+      "content_hash": "sha512-w7OgDxizJQ1u4cTSvb6V8CNabu3-KfbCqOUnIdoXVcqhQFb1kI3LyMb8ICurQq--WrEDiG0_GkJIf98tsV23yg",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-31-sctp-nat-support-00.pdf",
+      "meta": {
+        "title": "3.1 SCTP NAT Support",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-31-sctp-nat-support"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-51-mp-dccp-01.pdf",
+      "content_hash": "sha512-FBvx2J6KPh7lymzRcLh_xM9Akuc4kPA590SJhT5W04TjcWUQ6EnPz6X0VDazZlaoHdy5Z8pzj3pPlRrdDInSqw",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-51-mp-dccp-01.pdf",
+      "meta": {
+        "title": "5.1 MP-DCCP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-51-mp-dccp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-sessa-dtls-over-sctp-rfc6083bis-00.pdf",
+      "content_hash": "sha512-GAfUsHP1Ikd6YxO4ApnMHOr8eL8QOeZ4-sloUelAkaPyeS5aVs1Al1xin3Ffzzli7svF6Zj9cJ2_C6ak_jbDeQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-sessa-dtls-over-sctp-rfc6083bis-00.pdf",
+      "meta": {
+        "title": "3.2 DTLS over SCTP - RFC6083.bis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-sessa-dtls-over-sctp-rfc6083bis"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-61-dscp-considerations-07.pdf",
+      "content_hash": "sha512-2HJL2GWrnA9YlJ9vnwPRElo_UiYiLXCEyZ4XiuXNhNq2GGOXUg50NxBPp4dHPXPVgZ_xPg_4SSHFjFbezwt_MA",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-61-dscp-considerations-07.pdf",
+      "meta": {
+        "title": "6.1 DSCP Considerations",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-61-dscp-considerations"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-33-greg-white-l4s-operational-guidance-00.pdf",
+      "content_hash": "sha512-vt2J7hKoHN0jsXVoboSaxxP0STujnehoHbv38sLbRcJLRkgsRw8_y5Bag7s7Wk4ta4ybuLFn5LzXMx948LlkFQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-33-greg-white-l4s-operational-guidance-00.pdf",
+      "meta": {
+        "title": "3.3 Greg White: L4S Operational Guidance",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-33-greg-white-l4s-operational-guidance"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-sessb-62-non-queue-building-nqb-traffic-00.pdf",
+      "content_hash": "sha512-oAT6Cy2ww-YyzXMCBhvOGBtXDZ3F9nUq7x2e0lQIpj9QBxROVVfFxrB4pMqXz6gxlGJpATfwdV3IcCuqutd7Jg",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-sessb-62-non-queue-building-nqb-traffic-00.pdf",
+      "meta": {
+        "title": "6.2 Non-Queue Building (NQB) Traffic",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-sessb-62-non-queue-building-nqb-traffic"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-61-dscp-considerations-07.pdf",
+      "content_hash": "sha512-2HJL2GWrnA9YlJ9vnwPRElo_UiYiLXCEyZ4XiuXNhNq2GGOXUg50NxBPp4dHPXPVgZ_xPg_4SSHFjFbezwt_MA",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-61-dscp-considerations-07.pdf",
+      "meta": {
+        "title": "6.1 DSCP Considerations",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-61-dscp-considerations"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-71-checksum-offload-00.pdf",
+      "content_hash": "sha512-eMKWR--rgPCiych6q18IhY4W_HvTieN2adFBdMuuICNigZzIWUgw6tiF4NanGLJhJFbodTRQLfviut9d3YsvPA",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-71-checksum-offload-00.pdf",
+      "meta": {
+        "title": "7.1  Checksum Offload",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-71-checksum-offload"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-72-udp-options-02.pdf",
+      "content_hash": "sha512-Q5ZyW7eZA5xv8lo8sz0P3Y5H0wOWtBeEHhr8tmBojTIdAwUuglV8DD_OHjheEQBmbcIHL4EkJ_pNDWUSeh2AqA",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-72-udp-options-02.pdf",
+      "meta": {
+        "title": "7.2 UDP Options",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-72-udp-options"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "url": "https://www.ietf.org/proceedings/113/slides/slides-113-tsvwg-73-dplpmtud-for-udp-options-02.pdf",
+      "content_hash": "sha512-ouga1-BIamA25ox4MpvFKM4oOA7jPc1BIfzxB68vubDLjdnljyX4qzrlKuXeFlQcK5qT3LibJi6jVNM6IyKhyg",
+      "mediatype": "application/pdf",
+      "filename": "slides-113-tsvwg-73-dplpmtud-for-udp-options-02.pdf",
+      "meta": {
+        "title": "7.3 DPLPMTUD for UDP Options",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/113/materials/slides-113-tsvwg-73-dplpmtud-for-udp-options"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/113/session/tsvwg/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TSVWG Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-113-tsvwg\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"TSVWG Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:43:41.393332+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf113/ietf113_tsvwg_29380.wtf.json",
+      "content_hash": "sha512-8g8D5zBxdJ2xLcQ5Vdizas0hDB2TCQA1yeK1v8NEpwFKODVM8XvG30u-TymIrWizwDiqU8Ac1eMcR5A1dqUWTw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:43:41.393332+00:00",
+  "subject": "IETF 113 - TSVWG Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:16:52.650524+00:00",
+  "vcon": "0.4.0"
+}

@@ -1,0 +1,323 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff384-d673-811e-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Lars Eggert",
+      "mailto": "lars@eggert.org",
+      "role": "chair"
+    },
+    {
+      "name": "Mark Nottingham",
+      "mailto": "mnot@mnot.net",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2019-11-18T05:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=_1JvmYnUPm4",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 106,
+        "working_group": "quic"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 106, \"location\": \"Singapore, SG\", \"working_group\": \"quic\", \"session_id\": \"27473\", \"room\": \"Padang\", \"start_time\": \"2019-11-18T05:30:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:09:56.979491+00:00\", \"meeting_number\": 106, \"group_acronym\": \"quic\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:09:56.979584+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:09:56.979591+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:09:56.979595+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:09:56.979597+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:09:56.979600+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/106/materials/minutes-106-quic\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Minutes IETF106: quic\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/bluesheets/bluesheets-106-quic-201911201000-00.pdf",
+      "content_hash": "sha512-3928doBt7SjUJqEpXGpXQ65e27YmOIgaYUUw-IWgwvA4UIhtinq6xDtW-kazq_JThv8aloY_eadPfK79HhkTlg",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-106-quic-201911201000-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF106: quic : Wed 10:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/bluesheets-106-quic-201911201000"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/106/materials/agenda-106-quic\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda IETF106: quic\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/106/materials/minutes-106-quic\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Minutes IETF106: quic\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/bluesheets/bluesheets-106-quic-201911191000-00.pdf",
+      "content_hash": "sha512-PQG5Y-6_q6pG04p_wNG3npDcnBZ6kqIrA0yt-6Jv8Lp-TcWTYSyOoBkLzQ9oiupTkDrYPKcFqQEYT-ZdQeMxXA",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-106-quic-201911191000-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF106: quic : Tue 10:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/bluesheets-106-quic-201911191000"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/106/materials/agenda-106-quic\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda IETF106: quic\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-alpn-00.pdf",
+      "content_hash": "sha512-ZhKqt8FCsDS6T5UB6aYA0g1awWPYe_aTLxzJdLoeRar7hUGTnCbJFCK171qw8KpixBbNxFkoG2cQICQA194nqg",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-alpn-00.pdf",
+      "meta": {
+        "title": "ALPN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-alpn"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-alpn-00.pdf",
+      "content_hash": "sha512-ZhKqt8FCsDS6T5UB6aYA0g1awWPYe_aTLxzJdLoeRar7hUGTnCbJFCK171qw8KpixBbNxFkoG2cQICQA194nqg",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-alpn-00.pdf",
+      "meta": {
+        "title": "ALPN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-alpn"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-quic-datagrams-00.pdf",
+      "content_hash": "sha512-dcxmoHwPv1dIelDgOuK3T0A0idJHnMEXKZxhTb4a79i7vkDI3-TfRb0ostyfjjH02jN4VJfd4-Z7yHzeBrY_hw",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-quic-datagrams-00.pdf",
+      "meta": {
+        "title": "QUIC Datagrams",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-quic-datagrams"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-quic-datagrams-00.pdf",
+      "content_hash": "sha512-dcxmoHwPv1dIelDgOuK3T0A0idJHnMEXKZxhTb4a79i7vkDI3-TfRb0ostyfjjH02jN4VJfd4-Z7yHzeBrY_hw",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-quic-datagrams-00.pdf",
+      "meta": {
+        "title": "QUIC Datagrams",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-quic-datagrams"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-sessa-discard-handshake-keys-00.pdf",
+      "content_hash": "sha512-zRDla-mlhl16d0fS5MpLNRJOIzfn6JQ21YJZIA2QTINZC0beRk3jpnJsBrK83Pe5VfS_ZJq2VkD756ySIKGUcg",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-sessa-discard-handshake-keys-00.pdf",
+      "meta": {
+        "title": "Discard Handshake Keys",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-sessa-discard-handshake-keys"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-version-negotiation-00.pdf",
+      "content_hash": "sha512-k_jDxViLbHND7IbYwXylEFWBAONbNahbPJ8cJbm5T2oGB4WgdHVMpM61x2swhic2wEPvc_FR5ZM7KOc0Mo0BhQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-version-negotiation-00.pdf",
+      "meta": {
+        "title": "Version Negotiation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-version-negotiation"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-version-negotiation-00.pdf",
+      "content_hash": "sha512-k_jDxViLbHND7IbYwXylEFWBAONbNahbPJ8cJbm5T2oGB4WgdHVMpM61x2swhic2wEPvc_FR5ZM7KOc0Mo0BhQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-version-negotiation-00.pdf",
+      "meta": {
+        "title": "Version Negotiation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-version-negotiation"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-quic-load-balancers-00.pdf",
+      "content_hash": "sha512-oSc-WaIM3gVAB_x-M-WaDWDHvVGEY2jWt34ujFe2h721z3dlXjsejkqjv-8hVhGZAO5EdOGuDQiybdcy9RQn7g",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-quic-load-balancers-00.pdf",
+      "meta": {
+        "title": "QUIC Load Balancers",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-quic-load-balancers"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-quic-interop-runner-00.pdf",
+      "content_hash": "sha512-nb4i6gqvQKJMFsh_ol_DiDgyOhVdaYLWv9qVjHSC4IHrV3-MgzidT8OVuMRnrEeKGoH1vdrM4uiOHtGXNVrPRw",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-quic-interop-runner-00.pdf",
+      "meta": {
+        "title": "QUIC Interop Runner",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-quic-interop-runner"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-quic-load-balancers-00.pdf",
+      "content_hash": "sha512-oSc-WaIM3gVAB_x-M-WaDWDHvVGEY2jWt34ujFe2h721z3dlXjsejkqjv-8hVhGZAO5EdOGuDQiybdcy9RQn7g",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-quic-load-balancers-00.pdf",
+      "meta": {
+        "title": "QUIC Load Balancers",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-quic-load-balancers"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "url": "https://www.ietf.org/proceedings/106/slides/slides-106-quic-quic-interop-runner-00.pdf",
+      "content_hash": "sha512-nb4i6gqvQKJMFsh_ol_DiDgyOhVdaYLWv9qVjHSC4IHrV3-MgzidT8OVuMRnrEeKGoH1vdrM4uiOHtGXNVrPRw",
+      "mediatype": "application/pdf",
+      "filename": "slides-106-quic-quic-interop-runner-00.pdf",
+      "meta": {
+        "title": "QUIC Interop Runner",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/106/materials/slides-106-quic-quic-interop-runner"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/106/session/quic/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"QUIC Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-106-quic\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"QUIC Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:09:56.979147+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf106/ietf106_quic_27473.wtf.json",
+      "content_hash": "sha512-s1D5PCw5zXTWEYTjkcH4cQ3xErmTgLl4tZVQ5xyXx-oRFQWfTWfuCXVxyV18b1jiJEIyr0j1sxnPpdMN2_o6XQ",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:09:56.979147+00:00",
+  "subject": "IETF 106 - QUIC Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:47.392799+00:00"
+}

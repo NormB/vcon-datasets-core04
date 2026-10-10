@@ -1,0 +1,118 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6ab-4537-8943-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 77, \"location\": \"Anaheim, US\", \"working_group\": \"eai\", \"session_id\": \"1440\", \"room\": \"Huntington\", \"start_time\": \"2010-03-23T00:40:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:50:47.351734+00:00\", \"meeting_number\": 77, \"group_acronym\": \"eai\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:50:47.351755+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:50:47.351756+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:50:47.351757+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:50:47.351758+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:50:47.351759+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "url": "https://www.ietf.org/proceedings/77/agenda/eai.txt",
+      "content_hash": "sha512-g4NJX480_ZjN6Dn7yMXhWA4Ujkgc2pRRmayMsQA3hE3nVNNvRrA1rlIk_tuY_a-Ta6dWCRE0z3cY-ej8FiyBYA",
+      "mediatype": "text/plain",
+      "filename": "eai.txt",
+      "meta": {
+        "title": "Agenda for EAI at IETF-77",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/77/materials/agenda-77-eai"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "url": "https://www.ietf.org/proceedings/77/minutes/eai.txt",
+      "content_hash": "sha512-af1iNHlrS7MZt09JBlE9okoNBDYmOStcSI_z2TW-m7sM-_4wqkDEkSWfkg9aYV_MBLPi_93d4zEcAJl6C_pYgA",
+      "mediatype": "text/plain",
+      "filename": "eai.txt",
+      "meta": {
+        "title": "Minutes for EAI at IETF-77",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/77/materials/minutes-77-eai"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "url": "https://www.ietf.org/proceedings/77/slides/eai-0.pdf",
+      "content_hash": "sha512-G-f6Eq8xTZco6eCcWVJd2YTZmoLHs8YfF44_d629nnmVu014C3yIqNn_KmoCcTIQ1MMVWJRfWgp05bbNf6M-DA",
+      "mediatype": "application/pdf",
+      "filename": "eai-0.pdf",
+      "meta": {
+        "title": "Chair's slide",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/77/materials/slides-77-eai-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/77/materials/slides-77-eai-1\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Downgrade Design Team Result\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/77/session/eai/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"EAI Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-77-eai\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"EAI Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:50:47.351611+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:50:47.351611+00:00",
+  "subject": "IETF 77 - EAI Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:50:48.915083+00:00"
+}

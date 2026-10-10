@@ -1,0 +1,259 @@
+{
+  "uuid": "019d328d-33b4-805a-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Daniel Migault",
+      "mailto": "daniel.migault@ericsson.com",
+      "role": "chair"
+    },
+    {
+      "name": "Loganaden Velvindron",
+      "mailto": "loganaden@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2021-03-08T12:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=UCljN_f3Dzk",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 110,
+        "working_group": "ace"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 110, \"location\": \"Online, CZ\", \"working_group\": \"ace\", \"session_id\": \"28622\", \"room\": \"Room 5\", \"start_time\": \"2021-03-08T12:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:46:47.860581+00:00\", \"meeting_number\": 110, \"group_acronym\": \"ace\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:47.860689+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:47.860693+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:47.860695+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:47.860698+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:46:47.860700+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/agenda/agenda-110-ace-04.txt",
+      "content_hash": "sha512-t0FTI6M2KUMUNsvX1hzL9tpEE65eKLbzVGyn8ORNddqkjPar17GDUvYVyvknerlT7sDXt3BwIEWJVSpVCwGlTg",
+      "mediatype": "text/plain",
+      "filename": "agenda-110-ace-04.txt",
+      "meta": {
+        "title": "Agenda IETF110: ace",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/agenda-110-ace"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/bluesheets/bluesheets-110-ace-202103121700-00.txt",
+      "content_hash": "sha512-raxVBC2RQj1FbQIut2i6jdNujOElOZXtEGXrQQts0meedQPH6eDjuOCLjjvxcFNZaoPeEfqBTW6RRhqKniky_Q",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-110-ace-202103121700-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF110: ace : Fri 17:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/bluesheets-110-ace-202103121700"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/minutes/minutes-110-ace-00.txt",
+      "content_hash": "sha512-_FcfBWqmXn7aDIUwRLOx04-RzQOzQwe8kFC-jeeePagDeMMZZFpDAvwS64gPYHgnv5pZOKV_xb3PhvXDUmk3Bw",
+      "mediatype": "text/plain",
+      "filename": "minutes-110-ace-00.txt",
+      "meta": {
+        "title": "Minutes IETF110: ace",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/minutes-110-ace"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-pub-sub-profile-for-authentication-and-authorization-for-constrained-environments-ace-00.pdf",
+      "content_hash": "sha512-K8Ev4C-y-rINgGLC2lIuQ1i9LN3IpML5ZnUuviETjOMUupnKG4NrB2yybcN1BM2NWqbSg4jrONY0Z3oQnXnu3w",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-pub-sub-profile-for-authentication-and-authorization-for-constrained-environments-ace-00.pdf",
+      "meta": {
+        "title": "Pub-Sub Profile for Authentication and Authorization for Constrained Environments (ACE)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-pub-sub-profile-for-authentication-and-authorization-for-constrained-environments-ace"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-ace-group-oscore-profile-00.pdf",
+      "content_hash": "sha512-SASSUDy2eaKCFdqDU0MAmyjUsy35ad9tGh0v0s6AW2UQV7gpkrD0ZMhKBOLjW6I_3tqCgrMWqgfDVnQPJHhA7w",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-ace-group-oscore-profile-00.pdf",
+      "meta": {
+        "title": "ace-group-oscore-profile",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-ace-group-oscore-profile"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-ace-key-groupcomm-00.pdf",
+      "content_hash": "sha512-_urYj295WuiKPB832NR3fAKroctOMtZCP2YwQ9nFodzf5bZhLK4VwZ_6rYH5mYtuq7TANOTYgxh0HIfZyPmzUw",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-ace-key-groupcomm-00.pdf",
+      "meta": {
+        "title": "ace-key-groupcomm",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-ace-key-groupcomm"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-ace-key-groupcomm-oscore-00.pdf",
+      "content_hash": "sha512-cnK-zptrC6rkwljDmVevxJMdYQ-I8kqtMRKAMUkn9XrLEnookEe0MFuJrC1cQTizAFpTCoqMnck2sLtPrdylYQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-ace-key-groupcomm-oscore-00.pdf",
+      "meta": {
+        "title": "ace-key-groupcomm-oscore",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-ace-key-groupcomm-oscore"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-ace-oscore-gm-admin-00.pdf",
+      "content_hash": "sha512-GyAbZ7q3X7vP4zGHbx_bjSn9nifVK4kInX6yU-S0AY54zHmkDW5VjxQyeQ3KjavQqEyPvkyUfatjY5sd49Z56g",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-ace-oscore-gm-admin-00.pdf",
+      "meta": {
+        "title": "ace-oscore-gm-admin",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-ace-oscore-gm-admin"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-ace-revoked-token-notification-00.pdf",
+      "content_hash": "sha512-z88b-58W_QAFnTWkKdyri3m8Xnbmy0B560x5xqSg0gMaHgc5VBau6-ooiDmEve9uGVADka5bhM6Mu4y06DunFg",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-ace-revoked-token-notification-00.pdf",
+      "meta": {
+        "title": "ace-revoked-token-notification",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-ace-revoked-token-notification"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-draft-ietf-ace-cmpv2-coap-transport-00.pdf",
+      "content_hash": "sha512-JrgEvT44MyFiO2JwNaZQcUSd-hT0CZ5WD2Ba10V7cwqigJd56YC9n-N47I9MabW8uNYWoO3oNqcBV_Vv4Ec_-w",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-draft-ietf-ace-cmpv2-coap-transport-00.pdf",
+      "meta": {
+        "title": "draft-ietf-ace-cmpv2-coap-transport",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-draft-ietf-ace-cmpv2-coap-transport"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-ace-draft-ietf-ace-wg-coap-eap-00-00.pdf",
+      "content_hash": "sha512-TqoNtRfhsbivGx2bL-GFmsO4PqyJhgrAOHi620Rn3mdY6G931l9r0aKsf84JbD5vG7J5U4JMq3pMggFs65ScMA",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-ace-draft-ietf-ace-wg-coap-eap-00-00.pdf",
+      "meta": {
+        "title": "draft-ietf-ace-wg-coap-eap-00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-ace-draft-ietf-ace-wg-coap-eap-00"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/110/session/ace/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"ACE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-110-ace\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"ACE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:46:47.860065+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf110/ietf110_ace_28622.wtf.json",
+      "content_hash": "sha512-rtmVlcVpmMO6BbWwFTcCxE1Jy4aXpVVBuNTPOp2WbfIURey5MrGGy_G3YDluuibdbCZMGboWbxGsJiCiIO0-2w",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:46:47.860065+00:00",
+  "subject": "IETF 110 - ACE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T19:22:49.709474+00:00",
+  "vcon": "0.4.0"
+}

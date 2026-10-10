@@ -1,0 +1,202 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff381-ee4c-8431-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "ietf@bemasc.net",
+      "name": "Benjamin M. Schwartz",
+      "role": "chair"
+    },
+    {
+      "mailto": "joe@salowey.net",
+      "name": "Joseph A. Salowey",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 107, \"location\": \"Virtual, CA\", \"working_group\": \"privacypass\", \"session_id\": \"27907\", \"room\": \"Virtual Track 1\", \"start_time\": \"2020-03-26T20:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:06:46.477086+00:00\", \"meeting_number\": 107, \"group_acronym\": \"privacypass\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:06:46.477154+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:06:46.477158+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:06:46.477160+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:06:46.477163+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:06:46.477165+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "url": "https://www.ietf.org/proceedings/107/minutes/minutes-107-privacypass-00.txt",
+      "content_hash": "sha512-RAEgh7JaKnOHg8khsBIjrik_WUf-lrRFsmFq1-CzPnwXoSSGKmj9J1i42EoWOAu3YfNmfmZuGnhpEuTPMVRS1w",
+      "mediatype": "text/plain",
+      "filename": "minutes-107-privacypass-00.txt",
+      "meta": {
+        "title": "Minutes IETF107: privacypass",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/107/materials/minutes-107-privacypass"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-davidson-pp-architecture/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Privacy Pass: Architectural Framework\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-svaldez-pp-http-api/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Privacy Pass: HTTP API\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "url": "https://www.ietf.org/proceedings/107/bluesheets/bluesheets-107-privacypass-202003262000-00.pdf",
+      "content_hash": "sha512-O7QhmewBkcotDA-EsKeI-TDBLUXNqehcAb58756vogDQ3AGlcb6Y4AwUOUKmnmMVriy6nbv34lqZ4v6q69GlZQ",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-107-privacypass-202003262000-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF107: privacypass : Thu 20:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/107/materials/bluesheets-107-privacypass-202003262000"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "url": "https://www.ietf.org/proceedings/107/agenda/agenda-107-privacypass-04.md",
+      "content_hash": "sha512-CVEYo7-QvJoaynfeD6Vs7Ret5cSraA8OqsEhTl8D9ekrFX7KDcUS09dYN-u5Abgyq8mpRjlzlbvbBHIE_UPGmQ",
+      "mediatype": "text/markdown",
+      "filename": "agenda-107-privacypass-04.md",
+      "meta": {
+        "title": "Agenda IETF107: privacypass",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/107/materials/agenda-107-privacypass"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-davidson-pp-protocol/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Privacy Pass: The Protocol\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "url": "https://www.ietf.org/proceedings/107/slides/slides-107-privacypass-chair-slides-00.pdf",
+      "content_hash": "sha512-wZhr9VtsU-BEMYLR2geGTRY6wmsrCroFKHTVdsv4Xq5khv0Kj5Axo_vnVLBkqLnjybl1gJDi3BgYuM1JjLsmRg",
+      "mediatype": "application/pdf",
+      "filename": "slides-107-privacypass-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/107/materials/slides-107-privacypass-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "url": "https://www.ietf.org/proceedings/107/slides/slides-107-privacypass-privacy-pass-use-cases-02.pdf",
+      "content_hash": "sha512-ejJGKwDu2Jgq07JqmTLfK0-6CPuiFLhYOlNsRqK4rn8O-wYZgeeDXM4tLEsl9REoK7_Ik4Ya3opgOUXOg9Ysvw",
+      "mediatype": "application/pdf",
+      "filename": "slides-107-privacypass-privacy-pass-use-cases-02.pdf",
+      "meta": {
+        "title": "Privacy-Pass Problem Statement and Use Cases",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/107/materials/slides-107-privacypass-privacy-pass-use-cases"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "url": "https://www.ietf.org/proceedings/107/slides/slides-107-privacypass-privacy-pass-ecosystem-00.pdf",
+      "content_hash": "sha512-wO0ojp-jlaIB6haVauXEQdKtNDnbXBXkA3kMoyYhDiJEK5Lz24azJ0UmU89Hv-N22ZImm1UK0HRgI728gpJc7A",
+      "mediatype": "application/pdf",
+      "filename": "slides-107-privacypass-privacy-pass-ecosystem-00.pdf",
+      "meta": {
+        "title": "Privacy-Pass Ecosystem",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/107/materials/slides-107-privacypass-privacy-pass-ecosystem"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "url": "https://www.ietf.org/proceedings/107/slides/slides-107-privacypass-privacy-pass-charter-01.pdf",
+      "content_hash": "sha512-KfD69S90oClg0aAj2y4xngtHC7qkVsqdfL-UH20IN6FkMGVrd3CDHoqBGihoRo9rhQHOUHZAw0U0H8NggFf_fA",
+      "mediatype": "application/pdf",
+      "filename": "slides-107-privacypass-privacy-pass-charter-01.pdf",
+      "meta": {
+        "title": "Privacy-Pass Charter",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/107/materials/slides-107-privacypass-privacy-pass-charter"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/107/session/privacypass/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"PRIVACYPASS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-107-privacypass\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"PRIVACYPASS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:06:46.476626+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T01:06:46.476626+00:00",
+  "subject": "IETF 107 - PRIVACYPASS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:06:48.476558+00:00"
+}

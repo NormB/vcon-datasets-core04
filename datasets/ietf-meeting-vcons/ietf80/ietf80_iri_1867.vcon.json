@@ -1,0 +1,123 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6a6-4498-8c00-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 80, \"location\": \"Prague, CZ\", \"working_group\": \"iri\", \"session_id\": \"1867\", \"room\": \"Karlin I\", \"start_time\": \"2011-03-30T07:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:45:19.513391+00:00\", \"meeting_number\": 80, \"group_acronym\": \"iri\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:19.513497+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:19.513503+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:19.513507+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:19.513511+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:19.513515+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "url": "https://www.ietf.org/proceedings/80/agenda/iri.txt",
+      "content_hash": "sha512-j9tiU-TW8ZAfHgzuJ6pG6XVeFvOOubM6Uo7ZRzqTOG_dieuFFaI2aP33k1AFAMsHwQwmRcRauce6jlSt8iNmrw",
+      "mediatype": "text/plain",
+      "filename": "iri.txt",
+      "meta": {
+        "title": "Agenda for IRI at IETF-80",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/agenda-80-iri"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/iri-0.pdf",
+      "content_hash": "sha512-BfeUlLzuZ94-Q37fABZv7rXdA8CuUpTiN8cwkr8A3YQMOhgrSONKz_VHKf_OWLIpmq3C4S2kQR0cOCNd6S1FmA",
+      "mediatype": "application/pdf",
+      "filename": "iri-0.pdf",
+      "meta": {
+        "title": "Chair Administrivia",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-iri-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/iri-3.pdf",
+      "content_hash": "sha512-jDpSSzPagNtc4_1TiXmcut5QGxt0sZDFluYUjZQehjUCQWJ2r79fhteyerTtghs7sYStxmaN6q3DMNhDZDognQ",
+      "mediatype": "application/pdf",
+      "filename": "iri-3.pdf",
+      "meta": {
+        "title": "RFC4395bis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-iri-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/iri-2.pdf",
+      "content_hash": "sha512-Cm5h9J0gTrJkJkj-ST0y07yYklg0d5YIjw09Zf5EEuFxPO8PObg1MWgJJMZZMNcBrO-NUhM90h8bfouHvQhMgA",
+      "mediatype": "application/pdf",
+      "filename": "iri-2.pdf",
+      "meta": {
+        "title": "RFC3987bis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-iri-2"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/80/session/iri/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"IRI Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-80-iri\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"IRI Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:19.512838+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:45:19.512838+00:00",
+  "subject": "IETF 80 - IRI Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:45:21.207347+00:00"
+}

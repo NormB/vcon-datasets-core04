@@ -1,0 +1,165 @@
+{
+  "uuid": "019d328d-81ad-8c4d-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Stephen Farrell",
+      "mailto": "stephen.farrell@cs.tcd.ie",
+      "role": "chair"
+    },
+    {
+      "name": "Barbara Stark",
+      "mailto": "bs7652@att.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 110, \"location\": \"Online, CZ\", \"working_group\": \"homenet\", \"session_id\": \"28712\", \"room\": \"Room 6\", \"start_time\": \"2021-03-08T12:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:47:07.822139+00:00\", \"meeting_number\": 110, \"group_acronym\": \"homenet\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:47:07.822191+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:47:07.822193+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:47:07.822194+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:47:07.822196+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:47:07.822197+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-homenet-front-end-naming-delegation/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Simple Provisioning of Public Names for Residential Networks\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "url": "https://www.ietf.org/proceedings/110/agenda/agenda-110-homenet-00.txt",
+      "content_hash": "sha512-6ODUq5Gfe53ZhKsblvvsY_YwNi-bpvC1mntit-L8pks-mi_1wfT4pb50bj3UJT52GARqg0DPXEaZLUtdp6_ecw",
+      "mediatype": "text/plain",
+      "filename": "agenda-110-homenet-00.txt",
+      "meta": {
+        "title": "Agenda IETF110: homenet",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/agenda-110-homenet"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-homenet-naming-architecture-dhc-options/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DHCPv6 Options for Home Network Naming Authority\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "url": "https://www.ietf.org/proceedings/110/minutes/minutes-110-homenet-00.md",
+      "content_hash": "sha512-9l65_nvtxGODBH3sHZII7-9aKnNvxmkYuhCYOjbdHxFuX9mUnWwwhdh7aVhQq9wJoEYiPkej_E_CcmF1aJ1vYQ",
+      "mediatype": "text/markdown",
+      "filename": "minutes-110-homenet-00.md",
+      "meta": {
+        "title": "Minutes IETF110: homenet",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/minutes-110-homenet"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-homenet-chair-slides-00.pdf",
+      "content_hash": "sha512-7q1_CP398YkfnE5GejpKmNMisgK42mywxujncHMRLpuzZbFokZTQ2CKHlbaE76CR1uF_rw7OqEnhfB5ko6vTog",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-homenet-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-homenet-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-homenet-combined-slides-00.pdf",
+      "content_hash": "sha512-GFTvpgj960i7-YPg6gN5lAeP2YfgUcJMY7LNzXCmmB8QoLIHq19BiJvgZop823rGxb9GKKCxLUNfNQv_LnELAg",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-homenet-combined-slides-00.pdf",
+      "meta": {
+        "title": "Combined Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-homenet-combined-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "url": "https://www.ietf.org/proceedings/110/slides/slides-110-homenet-doi-and-associated-dhcp-options-00.pdf",
+      "content_hash": "sha512-bFMPFnw8Emr-FCfW2XYrQgnuArIfl1nxhBBgHUTApDA70MorbCTNk0n_Mui0tPMD3cq-CkfAbtkQcCNVC0zi2g",
+      "mediatype": "application/pdf",
+      "filename": "slides-110-homenet-doi-and-associated-dhcp-options-00.pdf",
+      "meta": {
+        "title": "doi and associated  dhcp options",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/110/materials/slides-110-homenet-doi-and-associated-dhcp-options"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/110/session/homenet/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"HOMENET Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-110-homenet\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"HOMENET Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:47:07.821799+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-03-28T03:47:07.821799+00:00",
+  "subject": "IETF 110 - HOMENET Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-03-28T03:47:08.705657+00:00",
+  "vcon": "0.4.0"
+}

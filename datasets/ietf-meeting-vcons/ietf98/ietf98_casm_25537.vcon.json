@@ -1,0 +1,225 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff39e-ac39-87fb-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "marc.blanchet@viagenie.ca",
+      "name": "Marc Blanchet",
+      "role": "chair"
+    },
+    {
+      "mailto": "rdroms.ietf@gmail.com",
+      "name": "Ralph Droms",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2017-03-27T20:20:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=9R762gbsCWc&index=76&list=PLC86T-6ZTP5jo6kIuqdyeYYhsKv9sUwG1",
+      "duration": 5400,
+      "meta": {
+        "ietf_meeting": 98,
+        "working_group": "casm"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 98, \"location\": \"Chicago, US\", \"working_group\": \"casm\", \"session_id\": \"25537\", \"room\": \"Vevey 1/2\", \"start_time\": \"2017-03-27T20:20:00+00:00\", \"duration_seconds\": 5400}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:38:10.105708+00:00\", \"meeting_number\": 98, \"group_acronym\": \"casm\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:38:10.105738+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:38:10.105742+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:38:10.105744+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:38:10.105745+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:38:10.105746+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "url": "https://www.ietf.org/proceedings/98/agenda/agenda-98-casm-00.txt",
+      "content_hash": "sha512-7ZtMGKfmLJ3BSvu-UmXPAER8JQONrz4pVJnGTwn1SGa29zRIa98A6i-z3hfDkTIasgBIdaSKyZ79SKQxj1hLyw",
+      "mediatype": "text/plain",
+      "filename": "agenda-98-casm-00.txt",
+      "meta": {
+        "title": "Agenda IETF98: casm",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/98/materials/agenda-98-casm"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-kumar-casm-problem-and-use-cases/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Centralized Address Space Management(CASM) Problems and Use cases\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-kumar-casm-requirements-and-framework/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Centralized Address Space Management(CASM) Requirements and Framework\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-li-casm-address-pool-management-arch/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Interface to the Address Pool Management\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-xie-ps-centralized-address-management/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Problem statement for centralized address management\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "url": "https://www.ietf.org/proceedings/98/bluesheets/bluesheets-98-casm-201703271520-00.pdf",
+      "content_hash": "sha512-2Qbh0JHU8KkncjRsOHOWg1oPogf_WaK9G4K5FIHSK_JYDC3f8-af1fziyBkgW85-q6LQheP56RRKjf9Wxzx7vw",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-98-casm-201703271520-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF98: casm : Mon 15:20",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/98/materials/bluesheets-98-casm-201703271520"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "url": "https://www.ietf.org/proceedings/98/slides/slides-98-casm-chairs-slides-01.pdf",
+      "content_hash": "sha512-KIbpb9Dfj0R4W87DONY333FQ6QXtQDu4tt1fLQ7uP58pA6A-nhzLpMm-590qjcc2Ldt6w_yAsjoAfAC_E20Uww",
+      "mediatype": "application/pdf",
+      "filename": "slides-98-casm-chairs-slides-01.pdf",
+      "meta": {
+        "title": "Chair's slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/98/materials/slides-98-casm-chairs-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "url": "https://www.ietf.org/proceedings/98/slides/slides-98-casm-problem-statement-and-requirements-01.pdf",
+      "content_hash": "sha512-98PsCibh_ecancjDsc4AeKvm8lxtyuLOe_LEDwHyIg-bb5rhbasV7Z17LvU4rFSSg0jYjyR-HfAYoJPML3OaJQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-98-casm-problem-statement-and-requirements-01.pdf",
+      "meta": {
+        "title": "Use Cases",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/98/materials/slides-98-casm-problem-statement-and-requirements"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "url": "https://www.ietf.org/proceedings/98/slides/slides-98-casm-address-space-management-proposal-02.pdf",
+      "content_hash": "sha512-AMi1HYBnb2OYkfaqo3ut_kLJtFabksjczmekbUewQ7hiANujGDSyVc4aHAtpTuFc9vMWTMJoN_G3uuBGRIgL9w",
+      "mediatype": "application/pdf",
+      "filename": "slides-98-casm-address-space-management-proposal-02.pdf",
+      "meta": {
+        "title": "Address Space Management Proposal",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/98/materials/slides-98-casm-address-space-management-proposal"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "url": "https://www.ietf.org/proceedings/98/slides/slides-98-casm-architecture-02.pdf",
+      "content_hash": "sha512-LjM6dVBk1Kah81ItdxYbWUnyJCWqct3iUf383g3o-g9bw7pZCehnCT7QoefMsNXBQEM3KaGHWgO5485lCCpBDQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-98-casm-architecture-02.pdf",
+      "meta": {
+        "title": "Architecture",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/98/materials/slides-98-casm-architecture"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/98/session/casm/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"CASM Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-98-casm\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"CASM Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:38:10.105542+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf98/ietf98_casm_25537.wtf.json",
+      "content_hash": "sha512-drL395-PhXVBPMi7w6Vtu4CA4uWsZmj8GlZ1TOJWgHvD7tEOSR7MGq-9X6PL2_NcHL5ZOO1Hn4USaiVXZcJSCA",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:38:10.105542+00:00",
+  "subject": "IETF 98 - CASM Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-12T23:08:59.475415+00:00"
+}

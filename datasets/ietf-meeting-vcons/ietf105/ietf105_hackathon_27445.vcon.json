@@ -1,0 +1,157 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff387-2659-86f1-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Charles Eckel",
+      "mailto": "eckelcu@cisco.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2019-07-22T22:10:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=vlpBJJW-QWw",
+      "duration": 5400,
+      "meta": {
+        "ietf_meeting": 105,
+        "working_group": "hackathon"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 105, \"location\": \"Montreal, CA\", \"working_group\": \"hackathon\", \"session_id\": \"27445\", \"room\": \"Parc Mont-Royal\", \"start_time\": \"2019-07-22T22:10:00+00:00\", \"duration_seconds\": 5400}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:12:28.505595+00:00\", \"meeting_number\": 105, \"group_acronym\": \"hackathon\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:12:28.505614+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:12:28.505615+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:12:28.505617+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:12:28.505618+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:12:28.505619+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "url": "https://www.ietf.org/proceedings/105/agenda/agenda-105-hackathon-sessb-02.txt",
+      "content_hash": "sha512-GeW8RD_Qa__Wh08LOM0rcwkBZfyI3fqDuCCoytb9A6b-vMQ0gD0sZwyBrm1Fg6ilcivZ7Jbiy86Jk67aqS-mjg",
+      "mediatype": "text/plain",
+      "filename": "agenda-105-hackathon-sessb-02.txt",
+      "meta": {
+        "title": "Agenda IETF105: hackathon: Sat 08:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/agenda-105-hackathon-sessb"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "url": "https://www.ietf.org/proceedings/105/agenda/agenda-105-hackathon-sessa-01.txt",
+      "content_hash": "sha512-GeW8RD_Qa__Wh08LOM0rcwkBZfyI3fqDuCCoytb9A6b-vMQ0gD0sZwyBrm1Fg6ilcivZ7Jbiy86Jk67aqS-mjg",
+      "mediatype": "text/plain",
+      "filename": "agenda-105-hackathon-sessa-01.txt",
+      "meta": {
+        "title": "Agenda IETF105: hackathon: Sun 08:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/agenda-105-hackathon-sessa"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-hackathon-sessb-ietf-105-hackathon-kickoff-00.pdf",
+      "content_hash": "sha512-u_3Gpy9QOAStrP-dzBf5-KflSPOEeKputbVvlCWxiogF84r2jC_XG7vs-Abvkzrse0tTFx_YFnsH7Z18p4rr0g",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-hackathon-sessb-ietf-105-hackathon-kickoff-00.pdf",
+      "meta": {
+        "title": "IETF 105 Hackathon Kickoff",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-hackathon-sessb-ietf-105-hackathon-kickoff"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-hackathon-sessa-hackathon-project-results-presentations-00.pdf",
+      "content_hash": "sha512-Zs5MfxAoKg0lZCHJctMYM4iIl0dOLqiSheUGbp7uh70NACqa6LFia9Z0QqFFYkQzWx8RFnqXE1rT1d3KoMLvkA",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-hackathon-sessa-hackathon-project-results-presentations-00.pdf",
+      "meta": {
+        "title": "Hackathon project results presentations",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-hackathon-sessa-hackathon-project-results-presentations"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/105/session/hackathon/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"HACKATHON Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-105-hackathon\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"HACKATHON Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:12:28.505455+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf105/ietf105_hackathon_27445.wtf.json",
+      "content_hash": "sha512-A3wxPNEbiHfhPa54LAUQ9AOIFmXJ7ElPYXfC89DLRslQUfLe2PgSs0_FMH-QqJGax0t4oEOFfpKeE3YjA8G9lw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:12:28.505455+00:00",
+  "subject": "IETF 105 - HACKATHON Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:46.800110+00:00"
+}

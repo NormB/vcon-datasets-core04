@@ -1,0 +1,363 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff38c-13fb-8ec4-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "James Galvin",
+      "mailto": "galvin@elistx.com",
+      "role": "chair"
+    },
+    {
+      "name": "Antoin Verschuren",
+      "mailto": "ietf@antoin.nl",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2019-03-25T12:50:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=wwgcT1ANXbI",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 104,
+        "working_group": "regext"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 104, \"location\": \"Prague, CZ\", \"working_group\": \"regext\", \"session_id\": \"27078\", \"room\": \"Berlin/Brussels\", \"start_time\": \"2019-03-25T12:50:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:17:51.484218+00:00\", \"meeting_number\": 104, \"group_acronym\": \"regext\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:17:51.484257+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:17:51.484262+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:17:51.484264+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:17:51.484267+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:17:51.484269+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/minutes/minutes-104-regext-01.txt",
+      "content_hash": "sha512-YMlvtPJKRTtkFC3zvqdQE-Cqqg7KOklI4uskvK5-nPSH6f334QL5HId-3Jvgo-3JGo4Sa0CPlfcTyHezV5ruSA",
+      "mediatype": "text/plain",
+      "filename": "minutes-104-regext-01.txt",
+      "meta": {
+        "title": "Minutes IETF104: regext",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/minutes-104-regext"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-gould-regext-login-security/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Login Security Extension for the Extensible Provisioning Protocol (EPP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-harrison-regext-rdap-mirroring/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"RDAP Mirroring Protocol (RMP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-regext-bundling-registration/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Extensible Provisioning Protocol (EPP) Domain Name Mapping Extension for Strict Bundling Registration\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-regext-change-poll/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Change Poll Extension for the Extensible Provisioning Protocol (EPP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-regext-epp-fees/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Registry Fee Extension for the Extensible Provisioning Protocol (EPP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-regext-org/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Extensible Provisioning Protocol (EPP) Organization Mapping\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-regext-org-ext/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Organization Extension for the Extensible Provisioning Protocol (EPP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-regext-rdap-openid/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Federated Authentication for the Registration Data Access Protocol (RDAP) using OpenID Connect\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-regext-verificationcode/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Verification Code Extension for the Extensible Provisioning Protocol (EPP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-loffredo-regext-rdap-partial-response/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Registration Data Access Protocol (RDAP) Partial Response\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-loffredo-regext-rdap-reverse-search/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Registration Data Access Protocol (RDAP) Reverse search capabilities\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-loffredo-regext-rdap-sorting-and-paging/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Registration Data Access Protocol (RDAP) Query Parameters for Result Sorting and Paging\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-blanchet-regext-entityid2rdapserver/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Finding Additional Registration Data (RDAP) Service\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/bluesheets/bluesheets-104-regext-201903251350-00.pdf",
+      "content_hash": "sha512-aORmv78JgorvhQhIal9hdk1PE4kIBe4kbxoHvO_ul2-nfThP3hKZa95EubX0VWnttO0cq8UXx9PtCNqUoOV0hA",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-104-regext-201903251350-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF104: regext : Mon 13:50",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/bluesheets-104-regext-201903251350"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/agenda/agenda-104-regext-01.txt",
+      "content_hash": "sha512-cIwTXPloV7TpYAxji9_iRFb9ifo7I--JM4PBxS0vB2rCqVa37W51OhrFqPnbgHA35s-kifRLikoi_5JffL-zMA",
+      "mediatype": "text/plain",
+      "filename": "agenda-104-regext-01.txt",
+      "meta": {
+        "title": "Agenda IETF104: regext",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/agenda-104-regext"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/slides/slides-104-regext-chair-slides-00.pdf",
+      "content_hash": "sha512-dnKmYB5ZcgMglUXVBNjvFdRQITHQd7hcZoGDIV6-c19ldEym9os7X1_p7U5gTRhVCHa-PTeX_DT6W1F0Yetiag",
+      "mediatype": "application/pdf",
+      "filename": "slides-104-regext-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/slides-104-regext-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/slides/slides-104-regext-loffredo-rdap-sorting-and-paging-rdap-partial-response-rdap-reverse-search-00.pdf",
+      "content_hash": "sha512-baMzD12ZAvS76Ne6PL6HcdalJClYQ46Xrfhy0OXd72OrxOSfoHVXrQPmtXcxD2NEiP6m_NfqagsHdaNGeVq0oA",
+      "mediatype": "application/pdf",
+      "filename": "slides-104-regext-loffredo-rdap-sorting-and-paging-rdap-partial-response-rdap-reverse-search-00.pdf",
+      "meta": {
+        "title": "loffredo - rdap-sorting-and-paging - rdap-partial-response - rdap-reverse-search",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/slides-104-regext-loffredo-rdap-sorting-and-paging-rdap-partial-response-rdap-reverse-search"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/slides/slides-104-regext-hollenbeck-rdap-openid-00.pdf",
+      "content_hash": "sha512-FcH4M-cU-0SRV9LGJFOwrZHnovSTL5-Omp8UI-vPU4LsLRmqhyCN_XWoVrvgBVOdQf-zMEswS-jiNoC9coD9iA",
+      "mediatype": "application/pdf",
+      "filename": "slides-104-regext-hollenbeck-rdap-openid-00.pdf",
+      "meta": {
+        "title": "Hollenbeck - rdap-openid",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/slides-104-regext-hollenbeck-rdap-openid"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/slides/slides-104-regext-harrison-rdap-mirroring-00.pdf",
+      "content_hash": "sha512-_33bxVa_y0liEic8RJfoIROR7fY47jP_3ndIHrDw7sEoHB7hAdGMi0gLgUSiRShIfL25qgLa9Uy4yEzfKR4kHQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-104-regext-harrison-rdap-mirroring-00.pdf",
+      "meta": {
+        "title": "Harrison - rdap-mirroring",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/slides-104-regext-harrison-rdap-mirroring"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/slides/slides-104-regext-gould-login-security-00.pdf",
+      "content_hash": "sha512-DCpHJkMvCHCc-huakVSEKYlIPVuk6ZGzTZa3gdzu_IhVwq2uzHiabbvHVft2TsRlIFy9D0az8au7ziS-Y1-e6Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-104-regext-gould-login-security-00.pdf",
+      "meta": {
+        "title": "Gould - login-security",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/slides-104-regext-gould-login-security"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/slides/slides-104-regext-blanchet-rdap-00.pdf",
+      "content_hash": "sha512-V_7EPMQRvUyrNRerDGsrQkMmW890Gy_Wve6sgn8gRvQ4iH2JdRc_HFPkD7yP3KLlj2dkbbVkN45qOSqWG--Gmg",
+      "mediatype": "application/pdf",
+      "filename": "slides-104-regext-blanchet-rdap-00.pdf",
+      "meta": {
+        "title": "Blanchet - RDAP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/slides-104-regext-blanchet-rdap"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "url": "https://www.ietf.org/proceedings/104/slides/slides-104-regext-hollenbeck-aob-row-00.pdf",
+      "content_hash": "sha512-XlBJbAbh_fPR8JmltIW4PnogDY5rbKspOYgyDQgFo3yW2R6x1rjUN9F_bcEXee3kuy_ND2sxNmgBpSJJrcsRyw",
+      "mediatype": "application/pdf",
+      "filename": "slides-104-regext-hollenbeck-aob-row-00.pdf",
+      "meta": {
+        "title": "Hollenbeck - AOB - ROW",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/104/materials/slides-104-regext-hollenbeck-aob-row"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/104/session/regext/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"REGEXT Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-104-regext\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"REGEXT Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:17:51.483963+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf104/ietf104_regext_27078.wtf.json",
+      "content_hash": "sha512-XzJ-Y88Opxzygy-qsZqI-NUy2T9BapWkzXB5G2mNRzXK6_BhxUghnBa0mnAZErTY1BVCWZxB5PIsXTxkdb2_nw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:17:51.483963+00:00",
+  "subject": "IETF 104 - REGEXT Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:46.552949+00:00"
+}

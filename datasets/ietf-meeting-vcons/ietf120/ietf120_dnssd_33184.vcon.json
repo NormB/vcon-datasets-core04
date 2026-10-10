@@ -1,0 +1,254 @@
+{
+  "uuid": "019d327d-19f7-8d2f-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Chris Box",
+      "mailto": "chris.box.ietf@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "David Schinazi",
+      "mailto": "dschinazi.ietf@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-07-26T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=6OpdH9Ernu0",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 120,
+        "working_group": "dnssd"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 120, \"location\": \"Vancouver, CA\", \"working_group\": \"dnssd\", \"session_id\": \"33184\", \"room\": \"Georgia A\", \"start_time\": \"2024-07-26T00:00:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:29:12.696164+00:00\", \"meeting_number\": 120, \"group_acronym\": \"dnssd\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:29:12.696213+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:29:12.696217+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:29:12.696220+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:29:12.696223+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:29:12.696226+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/agenda/agenda-120-dnssd-02.md",
+      "content_hash": "sha512-K6qRpg2u-Wm8R93mCGmF8IUiGNtxhME62airVM6dhGDn9fsEuoiWtslgFbpZV9KuXOuoyiTZ_kNfj4-X9yyKjA",
+      "mediatype": "text/markdown",
+      "filename": "agenda-120-dnssd-02.md",
+      "meta": {
+        "title": "Agenda IETF120: dnssd",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/agenda-120-dnssd"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/minutes/minutes-120-dnssd-202407260000-00.md",
+      "content_hash": "sha512-QcCVaE99rvntKSgZMGZHRdOTl963G6T8MDhlc3XlWJcsmdumgYRCYMa9Hmx2mR8ApkswG_npFUqEkpdceguykQ",
+      "mediatype": "text/markdown",
+      "filename": "minutes-120-dnssd-202407260000-00.md",
+      "meta": {
+        "title": "Minutes IETF120: dnssd: Fri 00:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/minutes-120-dnssd-202407260000"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/chatlog/chatlog-120-dnssd-202407251700-00.json",
+      "content_hash": "sha512-KIqQr93jRgAbIFRbSucQwkngu4TMMdGaNOPLltoSxBZj_d30smg_L7qflHELMIHgJuaYXri76GGiZ52phfuRMw",
+      "mediatype": "application/json",
+      "filename": "chatlog-120-dnssd-202407251700-00.json",
+      "meta": {
+        "title": "Chat Log IETF120: dnssd: Thu 17:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/chatlog-120-dnssd-202407251700"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/120/materials/polls-120-dnssd-202407251700\", \"mimetype\": \"application/pdf\", \"filename\": \"polls-120-dnssd-202407251700.pdf\", \"title\": \"Polls IETF120: dnssd: Thu 17:00\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/bluesheets/bluesheets-120-dnssd-202407260000-04.txt",
+      "content_hash": "sha512-grSXIVHr4BOMaqVucZ8xUAN_VUuRAAxtCzqwi_zuKL9fNc7g3BLkJ3kRNgzyL8dvz18xIQMn5T1bNdKyvdDmYA",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-120-dnssd-202407260000-04.txt",
+      "meta": {
+        "title": "Bluesheets IETF120: dnssd : Fri 00:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/bluesheets-120-dnssd-202407260000"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-dnssd-chair-slides-00.pdf",
+      "content_hash": "sha512-pzHnJ47UopDo6NTAT4lzHbXj4wLNSmBWN8JPYkzStOuXkAsXwfTPBpIb1-mor6pxit7_9UqCo-6FalAM5xLO1g",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-dnssd-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-dnssd-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-dnssd-dnssd-advertising-proxy-status-update-01.pdf",
+      "content_hash": "sha512-zqDuXVkod5zU33qb6KN5FXNsv3Wqu4ePktGjRSecm_IJ-SWG0ZGxd6Oe2rVbTV7YOcWaxdMYKXCuV8dfxmx21Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-dnssd-dnssd-advertising-proxy-status-update-01.pdf",
+      "meta": {
+        "title": "DNSSD Advertising Proxy Status Update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-dnssd-dnssd-advertising-proxy-status-update"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-dnssd-srp-replication-status-update-01.pdf",
+      "content_hash": "sha512-SS5MlClrl6guA6Guu-VTsFb8ykbFFnFhw822XruwDa5eOUbdUxHw9lyySgU0P2faaFHF3Be_JyVTOt0IK_gWPQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-dnssd-srp-replication-status-update-01.pdf",
+      "meta": {
+        "title": "SRP Replication status update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-dnssd-srp-replication-status-update"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-dnssd-time-since-received-status-update-01.pdf",
+      "content_hash": "sha512-pLMbNrBVn-NumW02NEXIz1OnzqD0Bfvx_LkT33ICGFe7e0uw0-TqBL2IJsaA5Tl0izsF1Qp22BJrkK90NN-frA",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-dnssd-time-since-received-status-update-01.pdf",
+      "meta": {
+        "title": "Time Since Received status update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-dnssd-time-since-received-status-update"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-dnssd-dns-push-additional-records-01.pdf",
+      "content_hash": "sha512-gxwqELmtA-1vusMLS41sSTsaurWM6F22AB_AvxqzhkVRVsLfcP-_QA1CFXjX0vqsNGw7qra-DKnNWK5YppsswA",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-dnssd-dns-push-additional-records-01.pdf",
+      "meta": {
+        "title": "DNS Push Additional Records",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-dnssd-dns-push-additional-records"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-dnssd-srp-transport-problems-01.pdf",
+      "content_hash": "sha512-Fk_aNTJpxQBRhHdS8Cuchbu7_Qz7QAeahvyjwcVS6bYAMebW4Bypj9FJzM_uMxO_ytPPoHrdK087HRod8J-jag",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-dnssd-srp-transport-problems-01.pdf",
+      "meta": {
+        "title": "SRP transport problems",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-dnssd-srp-transport-problems"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/120/session/dnssd/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DNSSD Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-120-dnssd\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DNSSD Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:29:12.695883+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf120/ietf120_dnssd_33184.wtf.json",
+      "content_hash": "sha512-DnEV-PPx4odbpZDJNVd8lBn-vSGMA1ZsmDV1qIrWMwj8Vuay29A35Cv2dqFpABHGkCwKoMT1lqFk3550axDovw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:29:12.695883+00:00",
+  "subject": "IETF 120 - DNSSD Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:42:08.641014+00:00",
+  "vcon": "0.4.0"
+}

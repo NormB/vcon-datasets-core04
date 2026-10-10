@@ -1,0 +1,249 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6a1-1296-8f78-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Flemming Andreasen",
+      "mailto": "fandreas@cisco.com",
+      "role": "chair"
+    },
+    {
+      "name": "Miguel Angel García",
+      "mailto": "miguel.a.garcia@ericsson.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 83, \"location\": \"Paris, FR\", \"working_group\": \"mmusic\", \"session_id\": \"2166\", \"room\": \"243\", \"start_time\": \"2012-03-26T07:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:39:39.031411+00:00\", \"meeting_number\": 83, \"group_acronym\": \"mmusic\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:39:39.031493+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:39:39.031499+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:39:39.031503+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:39:39.031505+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:39:39.031508+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/83/materials/agenda-83-mmusic\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda for MMUSIC at IETF-83\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-0.pdf",
+      "content_hash": "sha512-q6b6L0b5aeamRZe717_9ItJtZcAmHXBC_BRZwtio34NX8IwuuTftlFS4I9nzXH_A4pRpNOT64oAryQDcUdiXQg",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-0.pdf",
+      "meta": {
+        "title": "RTSP Extension for Substream Control",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-1.pdf",
+      "content_hash": "sha512-88mM38g1is_CESzI1esAl2ha-Mw6nMM8PB6qMRCuAOX_jgG3Ktn04TIzbdl7zUJJH_fTPFacIDtf19L9XVt_Bw",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-1.pdf",
+      "meta": {
+        "title": "Security Descriptions Extension for Media Streams",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-2.pdf",
+      "content_hash": "sha512-jpiqdTWOBQYVGIVQ-YaYAAlxWxdYiM5DkAdt0ai7YmLwKxPElYAsaI22s0_C_tn5UyN8qihDk5XVThImRCRraQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-2.pdf",
+      "meta": {
+        "title": "Chairs slides - WG status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-3.pdf",
+      "content_hash": "sha512-hobqRjYg6AqDyzkHsuWYavTAgHTFIr0oQmXCDZdBjd11qoOWlsn8d7Z9-O5sSL9rRzdqRIofjRrwmEipQwtqxA",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-3.pdf",
+      "meta": {
+        "title": "Update on Candidate Address Selection for ICE",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-4.pdf",
+      "content_hash": "sha512-v-7A07CMyxGMnPg1jgeKQ3x4pcF1KIGJ6KhZvlxBxU6mPHGtjKPTevg9rEIcd4BGIdjmURqW_FAAfMQTvNADMQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-4.pdf",
+      "meta": {
+        "title": "Signalling Media Stream ID in the SDP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-5.pdf",
+      "content_hash": "sha512-aqwU91YH-tl_5oNLT_xPbBOMuNmFcmyAB_xT3RdfNGgHBVJyPE2RVfGommIxPh2gaoZx5fSNsaDZZYbrxnGWWQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-5.pdf",
+      "meta": {
+        "title": "SDP Media Capabilities",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-6.pdf",
+      "content_hash": "sha512-hwcnJ9zCbRPrEB6RCpCkzz1Q8FuSv0R4kiT2iQJTncW3OJaqn6RPDkNPh7lw_I3qqgXTix2UWv3aNgx3tBthpg",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-6.pdf",
+      "meta": {
+        "title": "An Extension to the Session Description Protocol (SDP) for Media Loopback",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-7.pdf",
+      "content_hash": "sha512-eebefTw5MYRDWjgP4bFKsLLA5f5w3waZ3nw91QG8BvAbm05iSI1HaOiscK-3Q3bIsqKidQFGtDWRTnn0Rpu7Qg",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-7.pdf",
+      "meta": {
+        "title": "Multipath RTP (MPRTP)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-7"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-8.pdf",
+      "content_hash": "sha512-PbpJnjhoKSIzwlQachQfDu8MBSDd4qut0wdlupuwRIIlqMZmTRZxJO4L3FFc0l07zUfZz1Effh5ZphNHMrABaw",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-8.pdf",
+      "meta": {
+        "title": "Multiplexing Negotiation Using SDP Port Numbers",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-8"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-9.pdf",
+      "content_hash": "sha512-on9MTjXAc-WRdnLhZxzTQGLpcoMgObujmpLc1oeTvoxx7aO5NKfPbvtN9cDm9BpbMZ8v8R1w6VqcGtBDG-S6Nw",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-9.pdf",
+      "meta": {
+        "title": "Latching: Hosted NAT Traversal (HNT) for Media in Real-Time Communication ",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-9"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "url": "https://www.ietf.org/proceedings/83/slides/slides-83-mmusic-10.pdf",
+      "content_hash": "sha512-UV9bzkxOkIfAYm5hNG6ZAXPZuNlEDo0oDchuOmXG4-rC6t6QQaAZpRWyPcdGSs9sL2oiS2XeFoDd7BSneK5zdw",
+      "mediatype": "application/pdf",
+      "filename": "slides-83-mmusic-10.pdf",
+      "meta": {
+        "title": "The SDP 'trafficclass' Attribute",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/83/materials/slides-83-mmusic-10"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/83/materials/minutes-83-mmusic\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Minutes for MMUSIC at IETF-83\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/83/session/mmusic/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MMUSIC Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-83-mmusic\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MMUSIC Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:39:39.031021+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:39:39.031021+00:00",
+  "subject": "IETF 83 - MMUSIC Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:39:41.342627+00:00"
+}

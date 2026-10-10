@@ -1,0 +1,263 @@
+{
+  "uuid": "019d327b-1187-8512-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Christian Amsüss",
+      "mailto": "christian@amsuess.com",
+      "role": "chair"
+    },
+    {
+      "name": "Barry Leiba",
+      "mailto": "barryleiba@computer.org",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-11-05T16:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=GMuQRILMOTE",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 121,
+        "working_group": "cbor"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 121, \"location\": \"Dublin, IE\", \"working_group\": \"cbor\", \"session_id\": \"33352\", \"room\": \"Liffey Hall 1\", \"start_time\": \"2024-11-05T16:30:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:26:59.464029+00:00\", \"meeting_number\": 121, \"group_acronym\": \"cbor\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:59.464059+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:59.464061+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:59.464062+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:59.464063+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:26:59.464073+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/agenda/agenda-121-cbor-01.txt",
+      "content_hash": "sha512-A2mCdhOJN0XMsLAR8SZDiM4JxQECeebY2mhejAYmGgh6gV3VeTkf1wWBYMvHnlN5g61CxwBXfImfbHHuBEnxZg",
+      "mediatype": "text/plain",
+      "filename": "agenda-121-cbor-01.txt",
+      "meta": {
+        "title": "Agenda IETF121: cbor",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/agenda-121-cbor"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-cbor-packed/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Packed CBOR\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-lenders-dns-cbor/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"A Concise Binary Object Representation (CBOR) of DNS Messages\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-cbor-edn-literals/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"CBOR Extended Diagnostic Notation (EDN)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-cbor-cddl-modules/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"CDDL Module Structure\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-cbor-cde/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"CBOR Common Deterministic Encoding (CDE)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/chatlog/chatlog-121-cbor-202411051800-00.json",
+      "content_hash": "sha512-csvfSjUX8CWY39OnSk5TMEgqvvTx8rqi7odilbedmFyPcIFvGAdHW4aMaZq3Zxk1yM_bhfu3Bxs0fjZltqdeJg",
+      "mediatype": "application/json",
+      "filename": "chatlog-121-cbor-202411051800-00.json",
+      "meta": {
+        "title": "Chat Log IETF121: cbor: Tue 18:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/chatlog-121-cbor-202411051800"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/minutes/minutes-121-cbor-202411051800-00.md",
+      "content_hash": "sha512-3MxcddM_x4G48C5Lzw8H2C9AxOqlfusr3_km2_-vPUDtHkzVTB9P1dD466ErbCasbWR4ZC_AaBqJDBL2R1BqYw",
+      "mediatype": "text/markdown",
+      "filename": "minutes-121-cbor-202411051800-00.md",
+      "meta": {
+        "title": "Minutes IETF121: cbor: Tue 18:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/minutes-121-cbor-202411051800"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/bluesheets/bluesheets-121-cbor-202411051800-00.txt",
+      "content_hash": "sha512-b1tChfVfXjh7_9uiqjDgDzym69g1nhyRgiCeN6AdLZlRuYXg2INNxlyx6ToUr5tv2h99P2rB1ZdiMP5edCIiag",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-121-cbor-202411051800-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF121: cbor : Tue 18:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/bluesheets-121-cbor-202411051800"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/slides/slides-121-cbor-a-concise-binary-object-representation-cbor-of-dns-messages-02.pdf",
+      "content_hash": "sha512-zlVqPJLnugmwC67QDPZG73chcpUgV_0EaVBrXa5FpVkW_1p8ijUdZMs90Cp3rEpqw-BVAVfAumeMRX8KBaXv0w",
+      "mediatype": "application/pdf",
+      "filename": "slides-121-cbor-a-concise-binary-object-representation-cbor-of-dns-messages-02.pdf",
+      "meta": {
+        "title": "A Concise Binary Object Representation (CBOR) of DNS Messages",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/slides-121-cbor-a-concise-binary-object-representation-cbor-of-dns-messages"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/slides/slides-121-cbor-comments-on-aldr-00.pdf",
+      "content_hash": "sha512-p4d3K6uhyQ8KY2QVRiGkkyZr4mM_PRwPTpzg5IY_rChn68iM6ESNDfr0QOkcCKZOAeq8M98cqZH5HGqv6aa9nQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-121-cbor-comments-on-aldr-00.pdf",
+      "meta": {
+        "title": "Comments on ALDR",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/slides-121-cbor-comments-on-aldr"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/slides/slides-121-cbor-chairs-slides-01.pdf",
+      "content_hash": "sha512-HS5v9FFO-OhDBq35Mz2cg8UE0KICJKx2AqybRdTQXxetb_W3L_FKlC1-d-88DM2lkjS9JeOqHevHwakcFhnqLQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-121-cbor-chairs-slides-01.pdf",
+      "meta": {
+        "title": "Chairs' slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/slides-121-cbor-chairs-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "url": "https://www.ietf.org/proceedings/121/slides/slides-121-cbor-carstens-slides-00.pdf",
+      "content_hash": "sha512-rwvvBOLaiA7mpEPvXLptZbLqe6ItyHqPPuREADIxygRCP5mFwEPV0D_7PpP9R0ZpWUHsteCa6M50mXNRZ6NjXg",
+      "mediatype": "application/pdf",
+      "filename": "slides-121-cbor-carstens-slides-00.pdf",
+      "meta": {
+        "title": "Carsten's slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/121/materials/slides-121-cbor-carstens-slides"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/121/session/cbor/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"CBOR Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-121-cbor\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"CBOR Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:26:59.463366+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf121/ietf121_cbor_33352.wtf.json",
+      "content_hash": "sha512-a9diLLSFRwtgVFuAm_dlS_ikWGP-vz_l3xbaS-y8x75nA9z32JLf-eCOm4z_ZHG3xSXTSD0635l-IEwZ0TlwEw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:26:59.463366+00:00",
+  "subject": "IETF 121 - CBOR Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:45:50.613295+00:00",
+  "vcon": "0.4.0"
+}

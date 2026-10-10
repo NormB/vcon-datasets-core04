@@ -1,0 +1,180 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6cc-7bac-8a6a-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Joe Hildebrand",
+      "mailto": "joe@cursive.net",
+      "role": "chair"
+    },
+    {
+      "name": "Shida Schubert",
+      "mailto": "shida.at.ietf@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2015-11-02T08:10:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=FLrdqIrAPRg",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 94,
+        "working_group": "webpush"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 94, \"location\": \"Yokohama, JP\", \"working_group\": \"webpush\", \"session_id\": \"24333\", \"room\": \"Room 413\", \"start_time\": \"2015-11-02T08:10:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:27:03.980791+00:00\", \"meeting_number\": 94, \"group_acronym\": \"webpush\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:27:03.980812+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:27:03.980814+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:27:03.980815+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:27:03.980816+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:27:03.980817+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/94/materials/agenda-94-webpush\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda for WEBPUSH at IETF-94\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/94/materials/slides-94-webpush-0\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-94-webpush-0.pdf\", \"title\": \"Core Draft\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-webpush-1.pdf",
+      "content_hash": "sha512-nKeuOGkC3WbpM4TDwJAYoQv1fmI3WEDdX0QDpyoXD8YfmNEBAeL1DZrcczZCpSgnAQzgrmUuDZayc75zbiqD0g",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-webpush-1.pdf",
+      "meta": {
+        "title": "Chair",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-webpush-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-webpush-2.pdf",
+      "content_hash": "sha512-jSkWVKVT4536lY-uCxqnYOC4mUJ5sUtvr8fM1XbvJzsCRQOUDvqW6cyNVqYYJ3pf5z2feKTlHZ3THJ9XwSaAaQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-webpush-2.pdf",
+      "meta": {
+        "title": "Subscription-less Webpush Framework",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-webpush-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-webpush-3.pdf",
+      "content_hash": "sha512-SuYq0ctw4IDs6JN930O4lrQJwM-K8GBwLPbSM3p7PtGEbtVrVOjzTzJfkW8s5Icj-_qLZYlr4pVAdXR2Shyefg",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-webpush-3.pdf",
+      "meta": {
+        "title": "Webpush Core",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-webpush-3"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "url": "https://www.ietf.org/proceedings/94/minutes/minutes-94-webpush.txt",
+      "content_hash": "sha512-Gg7u3pvgDl9ZCh6mAVsJEuMGGXaq0WpqdF_DXZpP5FK7T0aeuHRQRsfVotJu5sc-3xISmdD2y5xhLhRSxNQh0Q",
+      "mediatype": "text/plain",
+      "filename": "minutes-94-webpush.txt",
+      "meta": {
+        "title": "Minutes for WEBPUSH at IETF-94",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/minutes-94-webpush"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/94/session/webpush/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"WEBPUSH Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-94-webpush\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"WEBPUSH Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:27:03.980683+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf94/ietf94_webpush_24333.wtf.json",
+      "content_hash": "sha512-PVUHloPhJoBdDTCs8J-JNqQWa78_vvO-d4UrY6hdoUlcL-B-a88fcR5lWDfKS8ffWztKmVOoyJTxZ0fogNtzwg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T16:27:03.980683+00:00",
+  "subject": "IETF 94 - WEBPUSH Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-13T02:02:22.172983+00:00"
+}

@@ -1,0 +1,181 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6ac-fc01-8cf1-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 76, \"location\": \"Hiroshima, JP\", \"working_group\": \"dime\", \"session_id\": \"1373\", \"room\": \"Cattleya East\", \"start_time\": \"2009-11-09T00:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:52:39.682336+00:00\", \"meeting_number\": 76, \"group_acronym\": \"dime\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:39.682426+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:39.682434+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:39.682439+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:39.682444+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:39.682448+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "url": "https://www.ietf.org/proceedings/76/agenda/dime.txt",
+      "content_hash": "sha512-OBzqWrOzvQDT1QQeJ4vzjbhqJwk8dBHGBekXWIZQRGotYebz2EBvhPPUqC7_xNHPCnaFKuAKY4jckhXgLsgj-w",
+      "mediatype": "text/plain",
+      "filename": "dime.txt",
+      "meta": {
+        "title": "Agenda for DIME at IETF-76",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/76/materials/agenda-76-dime"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "url": "https://www.ietf.org/proceedings/76/minutes/dime.txt",
+      "content_hash": "sha512-A3q0tnYJtK0bFZcbZLOyS-2S6vgQW_2rbf8vUuZWeJ9NS0DlJr5y47Clxx6QeNahD2EjNS6NuL5gUKLeWNURMg",
+      "mediatype": "text/plain",
+      "filename": "dime.txt",
+      "meta": {
+        "title": "Minutes for DIME at IETF-76",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/76/materials/minutes-76-dime"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-0\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-0.pdf\", \"title\": \"NAI Routing\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-1\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-1.pdf\", \"title\": \"NAPTR\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-2\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-2.pdf\", \"title\": \"Parameter Query\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-3\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-3.pdf\", \"title\": \"ERP\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "url": "https://www.ietf.org/proceedings/76/slides/dime-4.pdf",
+      "content_hash": "sha512-j7G43Ia_YkASOrGy9hqe4MumL3uYKazkibe8ISUqt42yHka2-9NSvbzf7B2BNvnl137NU3LpWXJkGP6TtbsuZA",
+      "mediatype": "application/pdf",
+      "filename": "dime-4.pdf",
+      "meta": {
+        "title": "Real-Based Routing",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-5\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-5.pdf\", \"title\": \"NAT Control\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-6\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-6.pdf\", \"title\": \"AAA Support for PMIP6 mobility entities authorization and Discovery during localized routing\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-7\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-7.pdf\", \"title\": \"Key AVP\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dime-8\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dime-8.pdf\", \"title\": \"IKEv2 PSK\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/session/dime/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DIME Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-76-dime\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DIME Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:39.681866+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:52:39.681866+00:00",
+  "subject": "IETF 76 - DIME Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:52:41.764642+00:00"
+}

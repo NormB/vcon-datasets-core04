@@ -1,0 +1,189 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6c6-9d6f-848b-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "philip.eardley@bt.com",
+      "name": "Philip Eardley",
+      "role": "chair"
+    },
+    {
+      "mailto": "nsd.ietf@gmail.com",
+      "name": "Yoshifumi Nishida",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 86, \"location\": \"Orlando, US\", \"working_group\": \"mptcp\", \"session_id\": \"22538\", \"room\": \"Caribbean 6\", \"start_time\": \"2013-03-15T15:20:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:20:39.407729+00:00\", \"meeting_number\": 86, \"group_acronym\": \"mptcp\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:20:39.407789+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:20:39.407794+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:20:39.407796+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:20:39.407799+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:20:39.407802+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/agenda/agenda-86-mptcp.txt",
+      "content_hash": "sha512-To94bJMTOMgV682_ougWHsooJcIdMK2QmuuXeDUQHFgjJvv6hyb89H_AY7IVH0otPmqfFFePb85HCLx8AfFOhA",
+      "mediatype": "text/plain",
+      "filename": "agenda-86-mptcp.txt",
+      "meta": {
+        "title": "Agenda for MPTCP at IETF-86",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/agenda-86-mptcp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/slides/slides-86-mptcp-0.pdf",
+      "content_hash": "sha512-wnVBYxA1gUptrADLq5PX4GYqlAZE849bXMjobiLekyLImw0R3vjNCzGajTLcCDy-Ko9mNhLAjSNvcuSseM4HKg",
+      "mediatype": "application/pdf",
+      "filename": "slides-86-mptcp-0.pdf",
+      "meta": {
+        "title": "Multi-Path Time Synchronization",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/slides-86-mptcp-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/slides/slides-86-mptcp-1.pdf",
+      "content_hash": "sha512-RiBskwqRZMX8PY2olHf291gkwQEoTPiLGW3abi4PJykJghmTyfTuKk3c-qo1XZqe2xqI2jR0xC93q5hqrp4wJA",
+      "mediatype": "application/pdf",
+      "filename": "slides-86-mptcp-1.pdf",
+      "meta": {
+        "title": "Linux-mptpc-implementation-status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/slides-86-mptcp-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/slides/slides-86-mptcp-2.pdf",
+      "content_hash": "sha512-SGanei3HzL4eQSUwmeKc4kinXHL31Rst7AJwK7QauyqybbJrtrpE29jO_DVI46IhP_KJ2pWLEqSOdRfMrUp9VA",
+      "mediatype": "application/pdf",
+      "filename": "slides-86-mptcp-2.pdf",
+      "meta": {
+        "title": "IETF_86_MPTCP_CC-ramin",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/slides-86-mptcp-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/slides/slides-86-mptcp-3.pdf",
+      "content_hash": "sha512-rbdWeGQqbBbMWETDfMVHEKXiDyNjGuR43wu5aA59wbg-BcKZHT1f3EfI1RnBl52-veLm_AhKN7zo1shJyZDO6g",
+      "mediatype": "application/pdf",
+      "filename": "slides-86-mptcp-3.pdf",
+      "meta": {
+        "title": "Chairs-ietf-86",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/slides-86-mptcp-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/slides/slides-86-mptcp-4.pdf",
+      "content_hash": "sha512-1HaOJV7SdblOdw1t56Gex3MAYZu4AjkOg7Q70HznFjxiB4KrzLbI5PAPSwulluHdFg6FvpJvXDKkFrlenzLQUQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-86-mptcp-4.pdf",
+      "meta": {
+        "title": "TMPP for Both Two MPTCP-unaware Hosts",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/slides-86-mptcp-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/slides/slides-86-mptcp-5.pdf",
+      "content_hash": "sha512-1Olbivcc8_d4RrmXZTIuGo1ZLZU6ayNQFCmj9NWUuxbOpCWW3DmoGWcxoILbm51eK4gakP9ZSXOBxZ_2a8HYkA",
+      "mediatype": "application/pdf",
+      "filename": "slides-86-mptcp-5.pdf",
+      "meta": {
+        "title": "FreeBSD implementation update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/slides-86-mptcp-5"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "url": "https://www.ietf.org/proceedings/86/minutes/minutes-86-mptcp.txt",
+      "content_hash": "sha512-4xsQ5-KhnilZt2fnPlQa6eVpm2avNnskQdjaPhNzUG8uasI5IuhpZocP1ar3234izNz-JJb7V5gNoYvlkEWU-Q",
+      "mediatype": "text/plain",
+      "filename": "minutes-86-mptcp.txt",
+      "meta": {
+        "title": "Minutes for MPTCP at IETF-86",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/86/materials/minutes-86-mptcp"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/86/session/mptcp/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MPTCP Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-86-mptcp\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MPTCP Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:20:39.407332+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T16:20:39.407332+00:00",
+  "subject": "IETF 86 - MPTCP Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T16:20:41.269202+00:00"
+}

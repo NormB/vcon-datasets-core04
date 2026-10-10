@@ -1,0 +1,84 @@
+{
+  "datasets": {
+    "ietf-meeting-vcons": {
+      "applied": {
+        "attachment-mediatype": 57781
+      },
+      "changed_containers": 8181,
+      "commit": "b919f24dd29c0419f356c4b1133220c18de3a9ef",
+      "containers": 8181,
+      "findings_after": {
+        "/dialog/* dependencies: dependencies {\"url\": [\"content_hash\"]}": 4079
+      },
+      "findings_before": {
+        "/attachments/* required: 'mediatype' is a required property": 8181,
+        "/dialog/* dependencies: dependencies {\"url\": [\"content_hash\"]}": 4079
+      },
+      "index_errors": {
+        "attachment-dialog-index": 4102,
+        "dialog-party-index": 463
+      },
+      "license": "BSD-3-Clause",
+      "tree_sha256": "2732157c81ff63f177f7974552401c34d9c0c1291ea23118512e6cb2b30768e5",
+      "unhashed_url_hosts": {
+        "www.ietf.org": 425,
+        "www.youtube.com": 3161,
+        "youtu.be": 400,
+        "youtube.com": 93
+      },
+      "unresolved": {},
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons",
+      "valid_after": 4102,
+      "valid_before": 0,
+      "valid_with_index_errors": 4102
+    },
+    "vcon-dataset-city-of-newport-ri": {
+      "applied": {
+        "attachment-mediatype": 230
+      },
+      "changed_containers": 115,
+      "commit": "1a999e1de306f9b565e4832a5de356395beb8aed",
+      "containers": 115,
+      "findings_after": {
+        "/dialog/* dependencies: dependencies {\"url\": [\"content_hash\"]}": 115
+      },
+      "findings_before": {
+        "/attachments/* required: 'mediatype' is a required property": 115,
+        "/dialog/* dependencies: dependencies {\"url\": [\"content_hash\"]}": 115
+      },
+      "index_errors": {},
+      "license": "BSD-3-Clause",
+      "tree_sha256": "a54be4a21d66947ba2258c21b532607cf13b357b6793d226d4c06620eb0e5f25",
+      "unhashed_url_hosts": {
+        "cityofnewport.granicus.com": 115
+      },
+      "unresolved": {},
+      "url": "https://github.com/vcon-dev/vcon-dataset-city-of-newport-ri",
+      "valid_after": 0,
+      "valid_before": 0,
+      "valid_with_index_errors": 0
+    },
+    "vcon-supreme-court-arguments": {
+      "applied": {
+        "attachment-mediatype": 34012
+      },
+      "changed_containers": 8503,
+      "commit": "061d5a87976fc4246d360e27f67326995d5f0128",
+      "containers": 8503,
+      "findings_after": {},
+      "findings_before": {
+        "/attachments/* required: 'mediatype' is a required property": 8503
+      },
+      "index_errors": {},
+      "license": "MIT",
+      "tree_sha256": "907c42f048def068549db0b7229664c1aa1346e41f38fc84570c4e2f8de1278b",
+      "unhashed_url_hosts": {},
+      "unresolved": {},
+      "url": "https://github.com/vcon-dev/vcon-supreme-court-arguments",
+      "valid_after": 8503,
+      "valid_before": 0,
+      "valid_with_index_errors": 0
+    }
+  },
+  "schema_sha256": "b3c1ae28041dea304c978a0e9e04da18253fa58517ad3472a6adf1167c01a8d9"
+}

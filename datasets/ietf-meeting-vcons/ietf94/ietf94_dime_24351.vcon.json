@@ -1,0 +1,203 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6ca-455a-8849-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "jouni.nospam@gmail.com",
+      "name": "Jouni Korhonen",
+      "role": "chair"
+    },
+    {
+      "mailto": "lionel.morand@huawei.com",
+      "name": "Lionel Morand",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2015-11-03T04:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=HIugn5tCEhI",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 94,
+        "working_group": "dime"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 94, \"location\": \"Yokohama, JP\", \"working_group\": \"dime\", \"session_id\": \"24351\", \"room\": \"Room 301\", \"start_time\": \"2015-11-03T04:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:24:39.002862+00:00\", \"meeting_number\": 94, \"group_acronym\": \"dime\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:24:39.002906+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:24:39.002910+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:24:39.002912+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:24:39.002915+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:24:39.002917+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "url": "https://www.ietf.org/proceedings/94/agenda/agenda-94-dime.txt",
+      "content_hash": "sha512-SXbS8f0HixxfzvhuMrsjlhG21vGmHqj-SqPSzIUb3GjXi6mDtp15TuL9Zj53oViYJJanPEJ4Ysy7nY4LFLgCBw",
+      "mediatype": "text/plain",
+      "filename": "agenda-94-dime.txt",
+      "meta": {
+        "title": "Agenda for DIME at IETF-94",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/agenda-94-dime"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-dime-0.pdf",
+      "content_hash": "sha512-4-0ZNEbhU2vJCYefawkSxEHuCRMOotO2MkEivVg3ODNBJa1Zr23CnCfbp9Bferj6SLsNcBWK3JIkqXjvKARxnA",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-dime-0.pdf",
+      "meta": {
+        "title": "Agenda and Main Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-dime-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-dime-1.pdf",
+      "content_hash": "sha512-FSkCbfZTF9RG-m2plstBu7Gu3J8zKxjXTF-LF_JYKETVcNL9CjaUd7BskPI8E6qUZdN4samoBs2abu989SwQpg",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-dime-1.pdf",
+      "meta": {
+        "title": "Diameter Request Message Priority",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-dime-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-dime-2.pdf",
+      "content_hash": "sha512-uO1ABbBoaDPs2o51ZL_lVj_00ENDcOhqCr2lI1Ofntah13pabu2B1ecyqhlQuC1QzLTI3WHcD3vVtneSx8lu9w",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-dime-2.pdf",
+      "meta": {
+        "title": "Diameter Load Control",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-dime-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-dime-3.pdf",
+      "content_hash": "sha512-F93pVPk2fC5fqj6dh8R4iTofJZuub6NEVI3NRGCn_sYyqx8Yn7tq9OeMFWoTQrF9kpAU2SBRSCMGund8cIVVFg",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-dime-3.pdf",
+      "meta": {
+        "title": "Agent Overload",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-dime-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-dime-4.pdf",
+      "content_hash": "sha512-70fWS_luA2sa9FY44KrNV_DJvHMW8kRmkwn5WRrDchHefbwDjHe9aZM2IPGO-ExwUdiaL0eM7k8qOQZBOnreeg",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-dime-4.pdf",
+      "meta": {
+        "title": "Rate Control",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-dime-4"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "url": "https://www.ietf.org/proceedings/94/minutes/minutes-94-dime.txt",
+      "content_hash": "sha512-tRqfVUyWpSkPz_PWhGmPP1iuvazeAn3m8Nm77O75JJFPdVUOkW_cbhlYnAhHsKQVcCp1zL3crTIqFzdURcntbA",
+      "mediatype": "text/plain",
+      "filename": "minutes-94-dime.txt",
+      "meta": {
+        "title": "Minutes for DIME at IETF-94",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/minutes-94-dime"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/94/session/dime/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DIME Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-94-dime\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DIME Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:24:39.002596+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf94/ietf94_dime_24351.wtf.json",
+      "content_hash": "sha512-Ei1BqT-c2G692cCV2368EjeC54b6VdepiEdwD17gw7WoZxMIZUX4jIqXui4Bp55_mQsC5wS8VwZBjlAfYHj2nw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T16:24:39.002596+00:00",
+  "subject": "IETF 94 - DIME Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-13T00:21:26.104721+00:00"
+}

@@ -1,0 +1,221 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6a6-69d3-892f-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 80, \"location\": \"Prague, CZ\", \"working_group\": \"mext\", \"session_id\": \"1836\", \"room\": \"Congress Hall II\", \"start_time\": \"2011-04-01T11:00:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:45:29.043682+00:00\", \"meeting_number\": 80, \"group_acronym\": \"mext\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:29.043700+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:29.043702+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:29.043704+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:29.043705+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:45:29.043706+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/agenda/mext.txt",
+      "content_hash": "sha512-tHcPlXW3M1KstUJAO-crbcQxclwDKrxB68zwpUe38ahPUjJYp4-GzFIM5zBTPFnZPyAfzVv0XgrL3iIuCgPDXA",
+      "mediatype": "text/plain",
+      "filename": "mext.txt",
+      "meta": {
+        "title": "Agenda for MEXT at IETF-80",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/agenda-80-mext"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/minutes/mext.txt",
+      "content_hash": "sha512-FviwRiWxZEMrLteiRB1KY2pgWo-74cShya5h2beY_2VLw-SV0kzbEQ1kgr7uns6PEiMUO3oCZBw9oipnGHnQEQ",
+      "mediatype": "text/plain",
+      "filename": "mext.txt",
+      "meta": {
+        "title": "Minutes for MEXT at IETF-80",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/minutes-80-mext"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-0.ppt",
+      "content_hash": "sha512-UJZ3cpIKXSD5OgCK6-M69wveXrX5cs3b29Lotll9ZDy9x9nDlGITdDY9QZ8eopQpvmvjMkPQ601G2zxDKhvn-g",
+      "mediatype": "application/vnd.ms-powerpoint",
+      "filename": "mext-0.ppt",
+      "meta": {
+        "title": "Mobile IPv6 Route Optimization without Home Agent",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-1.pptx",
+      "content_hash": "sha512-P-OyTmCCZF6oOdEvC1bwpzqg4aiLjzxxRn2a8KoVgT3emdL2C1ZVRKCvmHIKm-co8RiCaHVxO_BMjkdAjfjO4Q",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "mext-1.pptx",
+      "meta": {
+        "title": "Transport Layer Security-based Mobile IPv6 Security  Framework for MN  Node to HA Communication",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-2.pptx",
+      "content_hash": "sha512-hDRJG8VKWoLf5DH_gBLr0EGdRErikuWP121wVJmm-2h_K5mrZSCsa3p3bk92vv2wlS7cFXpVkBC92LgxzcL9Rg",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "mext-2.pptx",
+      "meta": {
+        "title": "A IPv6 Distributed Client Mobility Management approach  using existing mechanisms",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-3.pptx",
+      "content_hash": "sha512-XqKoxQLeTQ1Uu_bC2ycdxFhuK5LMvtrGi2rpPoDFShgTwAwbXSRUpvNQL4ZsypQiINTCFl6YHB01s9sstXLLJA",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "mext-3.pptx",
+      "meta": {
+        "title": "Distributed Deployment of Mobile IPv6",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-4.pdf",
+      "content_hash": "sha512-az4WVaVN_0luj-BcpMAt7MFsUINF8FHGkS8vhHgAdXPpGm6TmsbhN2VZunkPIVg0oBNnRb8QUdT11GvjphyRdw",
+      "mediatype": "application/pdf",
+      "filename": "mext-4.pdf",
+      "meta": {
+        "title": "Security On Demand for Mobile IPv6 and Dual-stack  Mobile IPv6",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-5.pdf",
+      "content_hash": "sha512-az4WVaVN_0luj-BcpMAt7MFsUINF8FHGkS8vhHgAdXPpGm6TmsbhN2VZunkPIVg0oBNnRb8QUdT11GvjphyRdw",
+      "mediatype": "application/pdf",
+      "filename": "mext-5.pdf",
+      "meta": {
+        "title": "Negotiation of security protocol for Mobile IPv6  operation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-6.pdf",
+      "content_hash": "sha512-37kg1oKWrCGM4WxeyA1USxSIzCY0y7t-V2vZEf0kaEqSdfhnrwywZ8UcJ_bfKzTIjNzsym8x-PPce2fn7MruMg",
+      "mediatype": "application/pdf",
+      "filename": "mext-6.pdf",
+      "meta": {
+        "title": "Approaches to Distributed mobility management using  Mobile IPv6 and its extensions",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-8.pdf",
+      "content_hash": "sha512-8pSBmDUBzS6nGXa83LEd2qAktfM_EVPYs31X4td9mkI92VMlG0MMZmsb8O77tmXGsC9KSdDb1IW2Ptp-G4KwCg",
+      "mediatype": "application/pdf",
+      "filename": "mext-8.pdf",
+      "meta": {
+        "title": "Distributed Mobility Management Traffic analysis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-8"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "url": "https://www.ietf.org/proceedings/80/slides/mext-10.pptx",
+      "content_hash": "sha512-2vmdAkYWjjHYdP3ySaQeWoqlgEomXLU-3gLK9Gkc5o3UPDYDU6PW281yQz3G71CgyVaW53EwrFfCeQXS4HHCgg",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "mext-10.pptx",
+      "meta": {
+        "title": "Home Agent as Security Appliance",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/80/materials/slides-80-mext-10"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/80/session/mext/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MEXT Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-80-mext\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MEXT Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:45:29.043610+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:45:29.043610+00:00",
+  "subject": "IETF 80 - MEXT Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:45:31.221735+00:00"
+}

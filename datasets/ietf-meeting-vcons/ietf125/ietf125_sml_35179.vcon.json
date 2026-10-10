@@ -1,0 +1,160 @@
+{
+  "uuid": "019d3274-5747-8897-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "alexey.melnikov@isode.com",
+      "name": "Alexey Melnikov",
+      "role": "chair"
+    },
+    {
+      "mailto": "arnt@gulbrandsen.priv.no",
+      "name": "Arnt Gulbrandsen",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-17T01:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://youtu.be/TzMhBBr8ge8",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 125,
+        "working_group": "sml"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 125, \"location\": \"Shenzhen, CN\", \"working_group\": \"sml\", \"session_id\": \"35179\", \"room\": \"Guangdong\", \"start_time\": \"2026-03-17T01:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:19:38.567803+00:00\", \"meeting_number\": 125, \"group_acronym\": \"sml\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.567867+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.567871+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.567874+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.567876+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:38.567893+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "url": "https://www.ietf.org/proceedings/125/agenda/agenda-125-sml-00.txt",
+      "content_hash": "sha512-dNq0CebOexc1c20_WETSRSJpckcCCF3EGv0-dbrN6XVypO9-oHKHSKwJsyTGtph7cLsFMi8fvvcR5LCPmbNeag",
+      "mediatype": "text/plain",
+      "filename": "agenda-125-sml-00.txt",
+      "meta": {
+        "title": "Agenda IETF125: sml",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/agenda-125-sml"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "url": "https://www.ietf.org/proceedings/125/chatlog/chatlog-125-sml-202603171400-00.json",
+      "content_hash": "sha512-HefyN85GMj2H4Q_Ng02VLdF4X4--1kOMlh810vGBQa5WvwdkmCRr0Tmp_e8vIEXsiUlaesAI1dMF9bnIKM8XwA",
+      "mediatype": "application/json",
+      "filename": "chatlog-125-sml-202603171400-00.json",
+      "meta": {
+        "title": "Chat Log IETF125: sml: Tue 14:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/chatlog-125-sml-202603171400"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sml-chairs-slides-00.pdf",
+      "content_hash": "sha512-69aSTeU5fhqXSBX2w_4cU0o09ydB9sRxkQpkoShAQS33642_wV2AjQkbdii1-3i6iNWGgIz4LtvgQF5WrDEVjg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sml-chairs-slides-00.pdf",
+      "meta": {
+        "title": "Chairs' slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sml-chairs-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-sml-structured-quoted-content-01.pdf",
+      "content_hash": "sha512-DvSUaKLRuuEFtIEvceZmYAodbMhGgb97buDMxvHXQ_ekF-ZCuzeSjt126lpGFbPMHAvszgYaOgeND7fhQ9HMrw",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-sml-structured-quoted-content-01.pdf",
+      "meta": {
+        "title": "Structured Quoted Content",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-sml-structured-quoted-content"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/125/session/sml/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"SML Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-125-sml\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"SML Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:38.567564+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "whisper",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf125/ietf125_sml_35179.wtf.json",
+      "content_hash": "sha512-DZ41jinF_ySWvSIHlHbUQajWLOfJLAKr-QzqxsQLgXacigYjXNv0mDeO3BbfNJQk7oJgs3_RRR_RmLHI-Ma4rw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:19:38.567564+00:00",
+  "subject": "IETF 125 - SML Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-03-30T22:49:59.264637+00:00",
+  "vcon": "0.4.0"
+}

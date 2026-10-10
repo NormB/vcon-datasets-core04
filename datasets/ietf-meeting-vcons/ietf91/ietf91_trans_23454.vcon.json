@@ -1,0 +1,240 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6d6-beed-85a9-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "melinda.shore@gmail.com",
+      "name": "Melinda Shore",
+      "role": "chair"
+    },
+    {
+      "mailto": "paul@nohats.ca",
+      "name": "Paul Wouters",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2014-11-10T19:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://www.ietf.org/audio/ietf91/ietf91-hibiscus-20141110-1520-pm2.mp3",
+      "duration": 9000,
+      "meta": {
+        "ietf_meeting": 91,
+        "working_group": "trans"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 91, \"location\": \"Honolulu, US\", \"working_group\": \"trans\", \"session_id\": \"23454\", \"room\": \"Hibiscus\", \"start_time\": \"2014-11-10T19:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:38:16.557907+00:00\", \"meeting_number\": 91, \"group_acronym\": \"trans\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:38:16.557976+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:38:16.557983+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:38:16.557986+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:38:16.557989+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:38:16.557992+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/agenda/agenda-91-trans.txt",
+      "content_hash": "sha512-es5OwpKkXuhoijAzIf4u6FpO8ZAf4yFGy8L0pOx_5y9ylyUwwVDNwNTnw41DXj0oqYkyp4ilnjMw52lD1qZOJw",
+      "mediatype": "text/plain",
+      "filename": "agenda-91-trans.txt",
+      "meta": {
+        "title": "Agenda for TRANS at IETF-91",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/agenda-91-trans"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/slides/slides-91-trans-0.pdf",
+      "content_hash": "sha512-0N8CEPk98z_Tq4oKnblPzxawiw7MMwdxqPxPZ8EA7WC4rLOOi_Aswm9PtaQljv_ohcN_vKuK8qhTRDcDCVFLew",
+      "mediatype": "application/pdf",
+      "filename": "slides-91-trans-0.pdf",
+      "meta": {
+        "title": "Zhangdacheng (Dacheng)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-1\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-91-trans-1.pdf\", \"title\": \"Zhangdacheng (Dacheng)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/slides/slides-91-trans-2.pdf",
+      "content_hash": "sha512-eFdCjcEy0YMj1f6N2FVZCp5LzBUS11KwcA8djza0tiP-trsr3UyZLabUJDj5yS5GoisgFF3TMgNur71HvtZMQQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-91-trans-2.pdf",
+      "meta": {
+        "title": "ct-for-binaries",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/slides/slides-91-trans-3.pdf",
+      "content_hash": "sha512-3o8DGl-aqvSl8IT9UDk-BFmsWvsJ9Mom-pt8bZzR9q0ZJS4XvOpMUNAdZWqKFgOdmYx_Gb-URz-S82yjS3tqow",
+      "mediatype": "application/pdf",
+      "filename": "slides-91-trans-3.pdf",
+      "meta": {
+        "title": "ct-for-dnssec",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/slides/slides-91-trans-4.pdf",
+      "content_hash": "sha512-6q85tGib9Qr8NIbo1FHn56wWlvFH3LHdmrbQW8BWIapjAbDaz5_DSugbGAwh93LPpy6XzmN0LcU8V7OVdYNyJw",
+      "mediatype": "application/pdf",
+      "filename": "slides-91-trans-4.pdf",
+      "meta": {
+        "title": "ct-update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/slides/slides-91-trans-5.pdf",
+      "content_hash": "sha512-9p3P_1GjEGMWy4gM4qjJULkOENSQYZnuDjn65EiSBaj-jev1B5p-zDoWoSLaGFoAG2kn8XWUM1VKTObT3o4O_Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-91-trans-5.pdf",
+      "meta": {
+        "title": "ct-tickets",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/slides/slides-91-trans-6.pdf",
+      "content_hash": "sha512-muhTiFEyQ-RP2i41vsrn0X4ynDjX1HellpWTTrnod-h6IJL6s_TBEvdM18ff1OQFlwBL0X4JZnOIJ1Nl5arCuw",
+      "mediatype": "application/pdf",
+      "filename": "slides-91-trans-6.pdf",
+      "meta": {
+        "title": "ct-compressed-crls",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/slides/slides-91-trans-7.pdf",
+      "content_hash": "sha512-P48im0dfJoQNifkHMdhXRSrgX9HT7WUB5zBQxZTtD_DDAEfHaFzOGtL9voNrjr-_CgeF4ALQWv2isiMRqAguTQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-91-trans-7.pdf",
+      "meta": {
+        "title": "ct-gossip",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/slides-91-trans-7"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "url": "https://www.ietf.org/proceedings/91/minutes/minutes-91-trans.txt",
+      "content_hash": "sha512-xqeqLnk42fUwojjdtxNItxvvbn9cyvDdh3LSnBgG-l89KUST8QpyUwrlstNHF81EwuPOKev7fqmzFT2zTjAh2w",
+      "mediatype": "text/plain",
+      "filename": "minutes-91-trans.txt",
+      "meta": {
+        "title": "Minutes for TRANS at IETF-91",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/91/materials/minutes-91-trans"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/91/session/trans/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TRANS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-91-trans\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"TRANS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:38:16.557468+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf91/ietf91_trans_23454.wtf.json",
+      "content_hash": "sha512-5AJ1sKA-r0cCEIla-5Y0ySCu4OmrZuXREWU-Q0iHNjKUUySlz9NGvbfwd_xuHSjTw_4Hu-ncCZdVXk4cH2eMGQ",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T16:38:16.557468+00:00",
+  "subject": "IETF 91 - TRANS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-13T00:13:22.097625+00:00"
+}

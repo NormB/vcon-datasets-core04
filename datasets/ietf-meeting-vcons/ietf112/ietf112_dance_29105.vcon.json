@@ -1,0 +1,231 @@
+{
+  "uuid": "019d328a-e191-89fb-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Wes Hardaker",
+      "mailto": "ietf@hardakers.net",
+      "role": "chair"
+    },
+    {
+      "name": "Paul Wouters",
+      "mailto": "paul.wouters@aiven.io",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2021-11-08T12:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=r3ndST4T2MA",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 112,
+        "working_group": "dance"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 112, \"location\": \"Online, ES\", \"working_group\": \"dance\", \"session_id\": \"29105\", \"room\": \"Room 6\", \"start_time\": \"2021-11-08T12:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:44:15.761988+00:00\", \"meeting_number\": 112, \"group_acronym\": \"dance\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:44:15.762011+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:44:15.762013+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:44:15.762014+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:44:15.762015+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:44:15.762018+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/agenda/agenda-112-dance-05.md",
+      "content_hash": "sha512-7kyhZ6QHY_LrX219Hu0sHknDqWF31xgvUOnVYKxCbFu1UxGnSNbeoFvqdfKA2s5sZQfIGLiZOEwzkgjGNBmM1w",
+      "mediatype": "text/markdown",
+      "filename": "agenda-112-dance-05.md",
+      "meta": {
+        "title": "Agenda IETF112: dance",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/agenda-112-dance"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/bluesheets/bluesheets-112-dance-202111121200-00.txt",
+      "content_hash": "sha512-b4zTB-o7KPLUo9CGTx18e7GmUa26Tko1fauzVPFeqoVX21n-xIgB7Y0n3XPOi0CI92g9grAngHWWwp7hs4tcHQ",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-112-dance-202111121200-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF112: dance : Fri 12:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/bluesheets-112-dance-202111121200"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/minutes/minutes-112-dance-00.md",
+      "content_hash": "sha512-BNlGlMo61vms2umkCU5XU9ZOxphHzCuZtbXeoxy6w5fYWdMCq92dFh0KQ6EjC9Yhfg7hRXtpUoljysf0w7JKuQ",
+      "mediatype": "text/markdown",
+      "filename": "minutes-112-dance-00.md",
+      "meta": {
+        "title": "Minutes IETF112: dance",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/minutes-112-dance"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/slides/slides-112-dance-chair-slides-00.pdf",
+      "content_hash": "sha512-sezUOa5z1yeHrjF4gD34lSVTJr-HDw_WheY4_BopB4gbdUEg1MkiQpxcnNWKidhio2KbWc7I1eHzUfKi_eY8iw",
+      "mediatype": "application/pdf",
+      "filename": "slides-112-dance-chair-slides-00.pdf",
+      "meta": {
+        "title": "Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/slides-112-dance-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/slides/slides-112-dance-use-cases-for-dane-and-bidirectional-tls-authentication-in-the-dns-00.pdf",
+      "content_hash": "sha512-SgQjOlc0t7DIoCPCq5lexnfd6bhV9nVk5PIyDJ0e5SQ6vl8EDyW_LJGyePIxpw0WmBD7foABjwMP64H16kjkZw",
+      "mediatype": "application/pdf",
+      "filename": "slides-112-dance-use-cases-for-dane-and-bidirectional-tls-authentication-in-the-dns-00.pdf",
+      "meta": {
+        "title": "Use cases for DANE and bidirectional TLS authentication in the DNS",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/slides-112-dance-use-cases-for-dane-and-bidirectional-tls-authentication-in-the-dns"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/slides/slides-112-dance-dance-eap-tls-00.pdf",
+      "content_hash": "sha512-fhXdTrJwGLNmr7GtuCXHO6V8K_kOUkiKxBNGNxYqoNuORUUhBGYP4QmZot9TnL1AESaOXvcPcXZ9gLIOccZfxw",
+      "mediatype": "application/pdf",
+      "filename": "slides-112-dance-dance-eap-tls-00.pdf",
+      "meta": {
+        "title": "DANCE EAP-TLS",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/slides-112-dance-dance-eap-tls"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/slides/slides-112-dance-dance-https-00.pdf",
+      "content_hash": "sha512-gj02SbfB7HGUlfxxs7EVcnuUhXzJPzEYbPgrOe87hquo9zCcKFNbRFGJCmpc6r4ZKj547Rj4Cky0vvvSHv0dWg",
+      "mediatype": "application/pdf",
+      "filename": "slides-112-dance-dance-https-00.pdf",
+      "meta": {
+        "title": "DANCE HTTPS",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/slides-112-dance-dance-https"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/slides/slides-112-dance-dane-tls-client-authentication-00.pdf",
+      "content_hash": "sha512-B0yjthAJw7qbZ16K8dAZO94qNFh5_GPjULz0Ar-kqv3KC4NzZdeferyLF7Gxe3WgGzdsNjch6kPgFcTWfvIikQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-112-dance-dane-tls-client-authentication-00.pdf",
+      "meta": {
+        "title": "DANE TLS Client Authentication",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/slides-112-dance-dane-tls-client-authentication"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "url": "https://www.ietf.org/proceedings/112/slides/slides-112-dance-dance-architecture-01.pdf",
+      "content_hash": "sha512-egHkR-kyaJi9bC7JtSTHNCHvHtmpWQBCEsj3wV4Q52BZ6MlAaqNcWqNQNvKR0WRkuVCk_uMrf1Sm6W8yT2iUag",
+      "mediatype": "application/pdf",
+      "filename": "slides-112-dance-dance-architecture-01.pdf",
+      "meta": {
+        "title": "DANCE - Architecture",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/112/materials/slides-112-dance-dance-architecture"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/112/session/dance/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DANCE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-112-dance\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DANCE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:44:15.761654+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf112/ietf112_dance_29105.wtf.json",
+      "content_hash": "sha512-Uq7P11fyy6dSyHxcAIkQ1NdXi4RBnWZGrjvs8aJ9Q9_X0jHWqUrqNnJOOtlC1-4Jx2X3TQdKg6iBNMibULoVMA",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:44:15.761654+00:00",
+  "subject": "IETF 112 - DANCE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:11:11.305227+00:00",
+  "vcon": "0.4.0"
+}

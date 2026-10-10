@@ -1,0 +1,189 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff696-184a-8b0e-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Kathleen Moriarty",
+      "mailto": "Kathleen.Moriarty@emc.com",
+      "role": "chair"
+    },
+    {
+      "name": "Brian Trammell",
+      "mailto": "trammell@tik.ee.ethz.ch",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 89, \"location\": \"London, GB\", \"working_group\": \"mile\", \"session_id\": \"23037\", \"room\": \"Park Suite\", \"start_time\": \"2014-03-04T14:20:00+00:00\", \"duration_seconds\": 5400}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:27:39.594824+00:00\", \"meeting_number\": 89, \"group_acronym\": \"mile\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:27:39.594847+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:27:39.594850+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:27:39.594851+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:27:39.594853+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:27:39.594855+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/agenda/agenda-89-mile.txt",
+      "content_hash": "sha512-sefqXF8Iw6VX6ubx2XfQrJ_D1sp2jPxFSnETQBTOR3wAWLaVQrwZ9-i_FaYGSbzYZaQIsbgmhx1WGiO2tYHhrA",
+      "mediatype": "text/plain",
+      "filename": "agenda-89-mile.txt",
+      "meta": {
+        "title": "Agenda for MILE at IETF-89",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/agenda-89-mile"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/slides/slides-89-mile-0.pdf",
+      "content_hash": "sha512-acAxhxxlixBRmkhDd5o2eSlOFrIErqqPZCsnT3vqKALqNNWK5S15FEZs9ONGnqA9wVsCf7YSzgEj0gIpb-EG3Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-89-mile-0.pdf",
+      "meta": {
+        "title": "Introduction, Status, Agenda",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/slides-89-mile-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/slides/slides-89-mile-1.pdf",
+      "content_hash": "sha512-YntNyZprrWL-OuZLuk8BwcfNpt-QsSzGeB45I9I6L8t16WdWXwtnrUQSBNw2i6X2-vM78IxbIHj-XSm7QqNVuA",
+      "mediatype": "application/pdf",
+      "filename": "slides-89-mile-1.pdf",
+      "meta": {
+        "title": "IODEF Experiment",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/slides-89-mile-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/slides/slides-89-mile-2.pdf",
+      "content_hash": "sha512-wJYYgR8kHUabBCTXaIUzfNrEXyifGJ4j2mtkOBvtuPneovydXFgfQwCi9F4GIkSrf6jQ1CThDZEoUxS26dSaUw",
+      "mediatype": "application/pdf",
+      "filename": "slides-89-mile-2.pdf",
+      "meta": {
+        "title": "PLASMA Protected IODEF",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/slides-89-mile-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/slides/slides-89-mile-3.pdf",
+      "content_hash": "sha512-NkBjVkNlo_zZyXFyC_BMEzJC-Oz-k-TF5oFkLjmiBl11_5Omf6XhJjx3HCmFOCtrbwIfQjQYjxNozjcy-CUshg",
+      "mediatype": "application/pdf",
+      "filename": "slides-89-mile-3.pdf",
+      "meta": {
+        "title": "RFC5070-bis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/slides-89-mile-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/slides/slides-89-mile-4.pdf",
+      "content_hash": "sha512-O2I_gkNdgru2jHIUPZVxfJQCfY0DiZ7st5U8sYKGNF3nlA515IJmMVl_wpwAZXI3xfxw9pCRJViQxUK_0MebGw",
+      "mediatype": "application/pdf",
+      "filename": "slides-89-mile-4.pdf",
+      "meta": {
+        "title": "MILE, JSON, and JOSE",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/slides-89-mile-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/slides/slides-89-mile-5.pdf",
+      "content_hash": "sha512-oq5O3yVAImL364EdwpHq2ZD_aTK2JI5r1AKwm-GeJKSd5lHcpcyV21nUDFTLpya9caLukVIvf9RiEa0CjyGFJw",
+      "mediatype": "application/pdf",
+      "filename": "slides-89-mile-5.pdf",
+      "meta": {
+        "title": "IODEF for Cyber-Physical Systems",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/slides-89-mile-5"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "url": "https://www.ietf.org/proceedings/89/minutes/minutes-89-mile.txt",
+      "content_hash": "sha512-x4rkbTaPyUpO8pw3zoZ-IciDgy_6A3G3ckWaySdK5mumeLQw8daaKC-EhqedulCFWsKMei0aeIcLGMTveHmjwg",
+      "mediatype": "text/plain",
+      "filename": "minutes-89-mile.txt",
+      "meta": {
+        "title": "Minutes for MILE at IETF-89",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/89/materials/minutes-89-mile"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/89/session/mile/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MILE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-89-mile\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MILE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:27:39.594712+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:27:39.594712+00:00",
+  "subject": "IETF 89 - MILE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:27:41.396131+00:00"
+}

@@ -1,0 +1,145 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6af-6ba3-85d2-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 75, \"location\": \"Stockholm, SE\", \"working_group\": \"roll\", \"session_id\": \"1202\", \"room\": \"Congresshall C\", \"start_time\": \"2009-07-28T13:20:00+00:00\", \"duration_seconds\": 6000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:55:19.331549+00:00\", \"meeting_number\": 75, \"group_acronym\": \"roll\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:55:19.331580+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:55:19.331583+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:55:19.331584+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:55:19.331586+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:55:19.331587+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "url": "https://www.ietf.org/proceedings/75/agenda/roll.txt",
+      "content_hash": "sha512-NQg9SkfGrrQwSgstELUBVOAhHgVuxBdIEyACf735XNmUjf9gkXt8OOitFebpBBsR-M-aHAftbGrUP8yKYymQiQ",
+      "mediatype": "text/plain",
+      "filename": "roll.txt",
+      "meta": {
+        "title": "Agenda for ROLL at IETF-75",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/75/materials/agenda-75-roll"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "url": "https://www.ietf.org/proceedings/75/minutes/roll.txt",
+      "content_hash": "sha512-3JxzgcebRNPNy2KqvqgpK_I6KHnqbNpm4bUQU0NUipfXyWBBn00NFnyO-KicwSx3-QX9L6DGOjMFiWHXoI3JJw",
+      "mediatype": "text/plain",
+      "filename": "roll.txt",
+      "meta": {
+        "title": "Minutes for ROLL at IETF-75",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/75/materials/minutes-75-roll"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/75/materials/slides-75-roll-0\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-75-roll-0.pdf\", \"title\": \"1+2- ROLL WG Meeting IETF 75\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/75/materials/slides-75-roll-1\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-75-roll-1.pdf\", \"title\": \"4-1 RPL Walkthrough\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/75/materials/slides-75-roll-2\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-75-roll-2.pdf\", \"title\": \"4-2 RPL Slides FAQ\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "url": "https://www.ietf.org/proceedings/75/slides/roll-3.pdf",
+      "content_hash": "sha512-nAvhGwzcEQSJHy1fyXHz8EmEReHYEvBedbwtm3WaAkFb--bWhbFU9sPfxxBXac2xRMLmYx8VrMpctF4GkAFMhQ",
+      "mediatype": "application/pdf",
+      "filename": "roll-3.pdf",
+      "meta": {
+        "title": "3- DADR",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/75/materials/slides-75-roll-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/75/materials/slides-75-roll-4\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-75-roll-4.pdf\", \"title\": \"6- Security Framework\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/75/session/roll/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"ROLL Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-75-roll\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"ROLL Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:55:19.331409+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:55:19.331409+00:00",
+  "subject": "IETF 75 - ROLL Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:55:21.179273+00:00"
+}

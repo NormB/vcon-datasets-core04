@@ -1,0 +1,441 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff69a-a68b-847e-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "marc.blanchet@viagenie.ca",
+      "name": "Marc Blanchet",
+      "role": "chair"
+    },
+    {
+      "mailto": "wesgeorge@puck.nether.net",
+      "name": "Wesley George",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 87, \"location\": \"Berlin, DE\", \"working_group\": \"sunset4\", \"session_id\": \"22679\", \"room\": \"Bellevue\", \"start_time\": \"2013-07-31T13:10:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:32:38.155457+00:00\", \"meeting_number\": 87, \"group_acronym\": \"sunset4\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:32:38.155484+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:32:38.155488+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:32:38.155489+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:32:38.155490+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:32:38.155491+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-0.pdf",
+      "content_hash": "sha512-f-gL0ifR70f7EEeI0Dduo02w8gi7Zx1i_LBLHCCZvUQwPHTLjS_RQbjREF-ZyHU6dnARoBmb8ps_HpEYZBPotQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-0.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 Joint Meeting",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-0"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/agenda/agenda-87-sunset4.txt",
+      "content_hash": "sha512-g-Zqpo1d3QY-r8b-Ar7-H0So0N4KcgNYfosP1ar5xVpjXBxrMw2M3P_fPHghpLggnEgMJI93OGUPJM7WPg7_qQ",
+      "mediatype": "text/plain",
+      "filename": "agenda-87-sunset4.txt",
+      "meta": {
+        "title": "Agenda for SUNSET4 at IETF-87",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/agenda-87-sunset4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-1.pdf",
+      "content_hash": "sha512-zGHKE94h0j2ZTCIaVwo36EZvrvY1dD2pYddHIPztallkEDHpxwvLE8PXj8KB-IDQ8zZixXuKxdHy_slyIDyqlA",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-1.pdf",
+      "meta": {
+        "title": "Discourage IPv4 Proxy-ARP for everything on IPv6-only networks",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-2.pdf",
+      "content_hash": "sha512-dc1WlGHQ3eRWl3j7xlcDQH1amH66Jw6y0qWjgJVR9e10cO2DZWe6srf0vr31E1d6CLhRWS5kDLj8jyS8QVpqkw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-2.pdf",
+      "meta": {
+        "title": "SIP over IPv6",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-3.pdf",
+      "content_hash": "sha512-yFQmHmG3i-RwNELZsNApHB1dibKfCqbbQhpAm53AJysTKlOSq8qZ7k-2mZgoGO36tMhw_XYLXFZFaLT7kVXmsw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-3.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 DHCPv4 over DHCPv6",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-4.pdf",
+      "content_hash": "sha512-UnFe1TIeOM6Sd1S4RZoUqhfL2RRBsDvDgYfRK54-dWuK7-ghhxw_VaUPHA-D106zOdqQvpirjcnjnNYYinZZJg",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-4.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 DHCPv6 Dynamic Reconfigure",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-5.pdf",
+      "content_hash": "sha512-Z2Y85-Qf8wnNKU4Y_cysd-EcnJemCULS4lC7dT8MVRc1EwLyXcFM4xVefWynggm32Y9s--knC4ETqXvoMSIWjw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-5.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 Provisioning IPv4 Configuration over IPv6 Only Networks",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-6.pdf",
+      "content_hash": "sha512-q8K3Ih39ttT0CDBubC_IU9gYK4Vzsi9zIkKLYRUhnWh2QEq4EatQzCAq58eBNrdMJz-CRPiK8eUSy9xI2ky98g",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-6.pdf",
+      "meta": {
+        "title": "Sunset4 Gap Analysis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-7.pdf",
+      "content_hash": "sha512-xrTJhLkChfE0t5iad_cIB1tjYdrSei767UMXZDGjKr688jGTabOS5SyMsoFFzbxlV5dtPa1jFRgKMgYPcGDKhg",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-7.pdf",
+      "meta": {
+        "title": "Sunset4 Chairs Slides - Agenda",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-7"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-8.pdf",
+      "content_hash": "sha512-XnAp_Q_KQ-65OkdsrYTfkioWfGPVo43M0docLfHsFdttwz-FmrnGPKRjXqFR6IkRYsDRjxjyzLV6_e5OooMU0g",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-8.pdf",
+      "meta": {
+        "title": "DNS A Record filtering",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-8"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-9.pdf",
+      "content_hash": "sha512-0UEiqW3poeG9Y4l78xx1C5jCFS2lkTIohl5xTB3tbs-Pxk7BiJPMesqXyyjeQVaF8PvdtBbvY2tjth3nWa-Kvw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-9.pdf",
+      "meta": {
+        "title": "Analysis of NAT64 Port Allocation Method",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-9"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-10.pdf",
+      "content_hash": "sha512-nl45sxjTCVQZbAsYYZg_IjpMEe8TuJiA9nysm1BWab7BPjwFh-MpO3oSgb55sp2L3kmR8P8EnHmSCSn1WbFl3g",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-10.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 Turning off IPv4 using DHCP/RA",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-10"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/minutes/minutes-87-sunset4.txt",
+      "content_hash": "sha512-3XcTWEe1Sd7_-RKBMBWXQShPhomehbTNs7v0vCI4rt6TqC19gVM0KA4Eje5jkM6k1Jb2TJ2LNp2BIoAIaEqUoQ",
+      "mediatype": "text/plain",
+      "filename": "minutes-87-sunset4.txt",
+      "meta": {
+        "title": "Minutes for SUNSET4 at IETF-87",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/minutes-87-sunset4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-0.pdf",
+      "content_hash": "sha512-f-gL0ifR70f7EEeI0Dduo02w8gi7Zx1i_LBLHCCZvUQwPHTLjS_RQbjREF-ZyHU6dnARoBmb8ps_HpEYZBPotQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-0.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 Joint Meeting",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-0"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/agenda/agenda-87-sunset4.txt",
+      "content_hash": "sha512-g-Zqpo1d3QY-r8b-Ar7-H0So0N4KcgNYfosP1ar5xVpjXBxrMw2M3P_fPHghpLggnEgMJI93OGUPJM7WPg7_qQ",
+      "mediatype": "text/plain",
+      "filename": "agenda-87-sunset4.txt",
+      "meta": {
+        "title": "Agenda for SUNSET4 at IETF-87",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/agenda-87-sunset4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-1.pdf",
+      "content_hash": "sha512-zGHKE94h0j2ZTCIaVwo36EZvrvY1dD2pYddHIPztallkEDHpxwvLE8PXj8KB-IDQ8zZixXuKxdHy_slyIDyqlA",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-1.pdf",
+      "meta": {
+        "title": "Discourage IPv4 Proxy-ARP for everything on IPv6-only networks",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-2.pdf",
+      "content_hash": "sha512-dc1WlGHQ3eRWl3j7xlcDQH1amH66Jw6y0qWjgJVR9e10cO2DZWe6srf0vr31E1d6CLhRWS5kDLj8jyS8QVpqkw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-2.pdf",
+      "meta": {
+        "title": "SIP over IPv6",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-3.pdf",
+      "content_hash": "sha512-yFQmHmG3i-RwNELZsNApHB1dibKfCqbbQhpAm53AJysTKlOSq8qZ7k-2mZgoGO36tMhw_XYLXFZFaLT7kVXmsw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-3.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 DHCPv4 over DHCPv6",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-4.pdf",
+      "content_hash": "sha512-UnFe1TIeOM6Sd1S4RZoUqhfL2RRBsDvDgYfRK54-dWuK7-ghhxw_VaUPHA-D106zOdqQvpirjcnjnNYYinZZJg",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-4.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 DHCPv6 Dynamic Reconfigure",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-5.pdf",
+      "content_hash": "sha512-Z2Y85-Qf8wnNKU4Y_cysd-EcnJemCULS4lC7dT8MVRc1EwLyXcFM4xVefWynggm32Y9s--knC4ETqXvoMSIWjw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-5.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 Provisioning IPv4 Configuration over IPv6 Only Networks",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-6.pdf",
+      "content_hash": "sha512-q8K3Ih39ttT0CDBubC_IU9gYK4Vzsi9zIkKLYRUhnWh2QEq4EatQzCAq58eBNrdMJz-CRPiK8eUSy9xI2ky98g",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-6.pdf",
+      "meta": {
+        "title": "Sunset4 Gap Analysis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-7.pdf",
+      "content_hash": "sha512-xrTJhLkChfE0t5iad_cIB1tjYdrSei767UMXZDGjKr688jGTabOS5SyMsoFFzbxlV5dtPa1jFRgKMgYPcGDKhg",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-7.pdf",
+      "meta": {
+        "title": "Sunset4 Chairs Slides - Agenda",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-7"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-8.pdf",
+      "content_hash": "sha512-XnAp_Q_KQ-65OkdsrYTfkioWfGPVo43M0docLfHsFdttwz-FmrnGPKRjXqFR6IkRYsDRjxjyzLV6_e5OooMU0g",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-8.pdf",
+      "meta": {
+        "title": "DNS A Record filtering",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-8"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-9.pdf",
+      "content_hash": "sha512-0UEiqW3poeG9Y4l78xx1C5jCFS2lkTIohl5xTB3tbs-Pxk7BiJPMesqXyyjeQVaF8PvdtBbvY2tjth3nWa-Kvw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-9.pdf",
+      "meta": {
+        "title": "Analysis of NAT64 Port Allocation Method",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-9"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-sunset4-10.pdf",
+      "content_hash": "sha512-nl45sxjTCVQZbAsYYZg_IjpMEe8TuJiA9nysm1BWab7BPjwFh-MpO3oSgb55sp2L3kmR8P8EnHmSCSn1WbFl3g",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-sunset4-10.pdf",
+      "meta": {
+        "title": "DHC-Sunset4 Turning off IPv4 using DHCP/RA",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-sunset4-10"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "url": "https://www.ietf.org/proceedings/87/minutes/minutes-87-sunset4.txt",
+      "content_hash": "sha512-3XcTWEe1Sd7_-RKBMBWXQShPhomehbTNs7v0vCI4rt6TqC19gVM0KA4Eje5jkM6k1Jb2TJ2LNp2BIoAIaEqUoQ",
+      "mediatype": "text/plain",
+      "filename": "minutes-87-sunset4.txt",
+      "meta": {
+        "title": "Minutes for SUNSET4 at IETF-87",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/minutes-87-sunset4"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/87/session/sunset4/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"SUNSET4 Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-87-sunset4\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"SUNSET4 Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:32:38.155321+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:32:38.155321+00:00",
+  "subject": "IETF 87 - SUNSET4 Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:32:41.087866+00:00"
+}

@@ -1,0 +1,280 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff3a9-826e-8041-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "jouni.nospam@gmail.com",
+      "name": "Jouni Korhonen",
+      "role": "chair"
+    },
+    {
+      "mailto": "lionel.morand@huawei.com",
+      "name": "Lionel Morand",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2016-04-04T20:40:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=TNa9WqrURAQ",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 95,
+        "working_group": "dime"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 95, \"location\": \"Buenos Aires, AR\", \"working_group\": \"dime\", \"session_id\": \"24722\", \"room\": \"Pacifico A\", \"start_time\": \"2016-04-04T20:40:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:50:00.302401+00:00\", \"meeting_number\": 95, \"group_acronym\": \"dime\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:50:00.302448+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:50:00.302452+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:50:00.302454+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:50:00.302456+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:50:00.302458+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/slides/slides-95-dime-0.pdf",
+      "content_hash": "sha512-5FzdBL0d1tj6IeXl20OWvR4qENBBgoiH9p_yzL_qT0lcSY6oBZJ4sJKsWatopfe1DR13_TZWFAerEylAVKYGlQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-95-dime-0.pdf",
+      "meta": {
+        "title": "e2e-security",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/slides-95-dime-0"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/agenda/agenda-95-dime.txt",
+      "content_hash": "sha512-ZNGcaSxLLuXOdwACFP20M4bkwyUwJnDJPNQglmTRMzO5ivttHjU_JYNGZGtl5L6dRWc6xKkajCN-UNdXo6oVcw",
+      "mediatype": "text/plain",
+      "filename": "agenda-95-dime.txt",
+      "meta": {
+        "title": "Agenda for DIME at IETF-95",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/agenda-95-dime"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-dime-group-signaling/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Diameter Group Signaling\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/minutes/minutes-95-dime.txt",
+      "content_hash": "sha512-RTUzy0TQ7PLg-GL3Zp1hyRuCjP9XzGo1UiOvMGTF3KOYz_v8VriUJdZR5NIlcRnenoWSdAswIRuvbA_4q9Ijrw",
+      "mediatype": "text/plain",
+      "filename": "minutes-95-dime.txt",
+      "meta": {
+        "title": "Minutes for DIME at IETF-95",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/minutes-95-dime"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/bluesheets/bluesheets-95-dime-01.pdf",
+      "content_hash": "sha512-Nh8UIvR5NvsE7KBC2clCrz0sbUW2gHU7j2g3gD5nHpiFFijqs9KhqKjq1ZU76L5EHmAJgYnoNdTue04lMkAqbg",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-95-dime-01.pdf",
+      "meta": {
+        "title": "Bluesheets IETF95 : dime : Fri 10:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/bluesheets-95-dime-01"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-dime-agent-overload/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Diameter Agent Overload and the Peer Overload Report\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-dime-doic-rate-control/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Diameter Overload Rate Control\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-dime-load/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Diameter Load Information Conveyance\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-korhonen-dime-e2e-security/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Diameter AVP Level Security: Keyed Message Digests, Digital Signatures, and Encryption\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-dime-drmp/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Diameter Routing Message Priority\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/slides/slides-95-dime-1.pdf",
+      "content_hash": "sha512-MmNy4YvdsLt-7T8xGwsoYz2KTaOHYCmhlFFuU6Dqm9NnzWlEVDaByEAfwJ0SjjgGMlM1ASypteV2OdD85mlhIw",
+      "mediatype": "application/pdf",
+      "filename": "slides-95-dime-1.pdf",
+      "meta": {
+        "title": "Protocol errors, 'E' bit and answer command CCF grammar",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/slides-95-dime-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/95/materials/slides-95-dime-2\", \"mimetype\": \"application/vnd.ms-powerpoint\", \"filename\": null, \"title\": \"Protocol errors, 'E' bit and answer command CCF grammar\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/slides/slides-95-dime-3.pdf",
+      "content_hash": "sha512-Z4zkwXPxrGJ1HEfo2TUwyi50VpXl-kOzOgYT1zk4vAoJ2pAF3gQq_F7pjKhtAFV56pABt3jynqX4SJ7PZWEpeA",
+      "mediatype": "application/pdf",
+      "filename": "slides-95-dime-3.pdf",
+      "meta": {
+        "title": "Diameter Overload Related Drafts",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/slides-95-dime-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/slides/slides-95-dime-4.pdf",
+      "content_hash": "sha512-gnaL0TeQHxsyGQ8ZzmXAPYi88RHjpTEltShUulsbi5x48fAu_BHr9Ca1pdz8aZlPsTF4gZE5vNSzNq-Jq479lA",
+      "mediatype": "application/pdf",
+      "filename": "slides-95-dime-4.pdf",
+      "meta": {
+        "title": "Agenda & Status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/slides-95-dime-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "url": "https://www.ietf.org/proceedings/95/slides/slides-95-dime-5.pdf",
+      "content_hash": "sha512-4OVNuQoAXISHb4dlS48EWHE8Z8Qhtk9rRGc6bMRd6_uUA1GE2hCJmHPU9ga8DDH96HUCkA6F-b09wrYDWWL79A",
+      "mediatype": "application/pdf",
+      "filename": "slides-95-dime-5.pdf",
+      "meta": {
+        "title": "Diameter Group Signaling",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/95/materials/slides-95-dime-5"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/95/session/dime/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DIME Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-95-dime\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DIME Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:50:00.302096+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf95/ietf95_dime_24722.wtf.json",
+      "content_hash": "sha512-SXzwi3oJNq6zTXOQW_4kvV6BJ5XWQk8cPQjheb2qmahcI9HRVbZ2c8y13IkALuy9m-KvBrh_kXWVU_oksSwcjw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:50:00.302096+00:00",
+  "subject": "IETF 95 - DIME Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-12T18:27:36.466290+00:00"
+}

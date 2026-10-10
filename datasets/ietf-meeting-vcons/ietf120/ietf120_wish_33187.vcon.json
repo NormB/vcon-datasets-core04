@@ -1,0 +1,235 @@
+{
+  "uuid": "019d327e-4a9d-8e9f-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "sean+ietf@sn3rd.com",
+      "name": "Sean Turner",
+      "role": "chair"
+    },
+    {
+      "mailto": "ietf@ohlmeier.org",
+      "name": "Nils Ohlmeier",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2024-07-23T00:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=AbZaDePvoC4",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 120,
+        "working_group": "wish"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 120, \"location\": \"Vancouver, CA\", \"working_group\": \"wish\", \"session_id\": \"33187\", \"room\": \"Georgia A\", \"start_time\": \"2024-07-23T00:30:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:30:30.686070+00:00\", \"meeting_number\": 120, \"group_acronym\": \"wish\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:30:30.686096+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:30:30.686098+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:30:30.686100+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:30:30.686101+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:30:30.686102+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/agenda/agenda-120-wish-01.md",
+      "content_hash": "sha512-FjO5bDRfrdVSMkjeCaJifZW1zyu4Oo960FdBSRjdzLuUZSXMbDnB0paZ1mm_854boQEEfZSOS1RuKgCpbGNCSg",
+      "mediatype": "text/markdown",
+      "filename": "agenda-120-wish-01.md",
+      "meta": {
+        "title": "Agenda IETF120: wish",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/agenda-120-wish"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-wish-whip/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"WebRTC-HTTP ingestion protocol (WHIP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-wish-whep/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"WebRTC-HTTP Egress Protocol (WHEP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/chatlog/chatlog-120-wish-202407231730-00.json",
+      "content_hash": "sha512-ej_ee6ULOpwexRb65els8bYax06KKpSEX5jrdb9zF7zjgdDZM-vOwp30y1TD-2-pU2wCqWHDb2IM2hct2j3sag",
+      "mediatype": "application/json",
+      "filename": "chatlog-120-wish-202407231730-00.json",
+      "meta": {
+        "title": "Chat Log IETF120: wish: Tue 17:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/chatlog-120-wish-202407231730"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/minutes/minutes-120-wish-202407240030-00.md",
+      "content_hash": "sha512-DL_539kEVODPHEHkZTJ210O303eOgrHIyOKW3X_c4vB8Ha8cma-uQjyf0XybTC-tS8uopyqIaZ1w0w1BbuXz_g",
+      "mediatype": "text/markdown",
+      "filename": "minutes-120-wish-202407240030-00.md",
+      "meta": {
+        "title": "Minutes IETF120: wish: Wed 00:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/minutes-120-wish-202407240030"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/bluesheets/bluesheets-120-wish-202407240030-04.txt",
+      "content_hash": "sha512-cXFp0JkLWiHUMdRrzyA8Gg4z7qrxsVmCcTlCMFMl-dCrW70vDsbfifu-EbxccmFPgn3jx-kY6FQ-Cpnvx-j6KQ",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-120-wish-202407240030-04.txt",
+      "meta": {
+        "title": "Bluesheets IETF120: wish : Wed 00:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/bluesheets-120-wish-202407240030"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-wish-chairs-intro-00.pdf",
+      "content_hash": "sha512-BNey2zDejEs8-9984U8kQwPp9gvgzWD-BuDco-3QIhW56ztqAyvFBXelvhtID0K-3rMFKLNXRHcYhNK_DhV8SQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-wish-chairs-intro-00.pdf",
+      "meta": {
+        "title": "Chairs' Intro",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-wish-chairs-intro"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-wish-draft-ietf-wish-whip-15-00.pdf",
+      "content_hash": "sha512-LWAg351ytIezmtJV2M9le1hkLrEC8S9Ai4DgwP5Uyjzsb9WgrktQbg4IAQrhk7Rv7-SO0-1NBy7ucUaawA7XAQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-wish-draft-ietf-wish-whip-15-00.pdf",
+      "meta": {
+        "title": "draft-ietf-wish-whip-15",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-wish-draft-ietf-wish-whip-15"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-wish-draft-ietf-wish-whep-02-00.pdf",
+      "content_hash": "sha512-CjwsfM92r3oIVVppN8nXZVN6_Th_jqV0rvLs7WCmnT4SMAtgSiZ3OaE6187EQ1XQ260uUN0uvJhkbVfaZP7mLw",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-wish-draft-ietf-wish-whep-02-00.pdf",
+      "meta": {
+        "title": "draft-ietf-wish-whep-02",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-wish-draft-ietf-wish-whep-02"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "url": "https://www.ietf.org/proceedings/120/slides/slides-120-wish-whep-reconnect-event-proposal-00.pdf",
+      "content_hash": "sha512-IqdqyjGyR3GBo4Bm7uGKzkRy4KwC8V0TEH9jY0jVPfH9gfuGEWYm9KNOAJ-X1ISDBdgyOzhGW9NdlDZ-0aFo9A",
+      "mediatype": "application/pdf",
+      "filename": "slides-120-wish-whep-reconnect-event-proposal-00.pdf",
+      "meta": {
+        "title": "WHEP ‘Reconnect event’ Proposal",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/120/materials/slides-120-wish-whep-reconnect-event-proposal"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/120/session/wish/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"WISH Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-120-wish\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"WISH Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:30:30.685952+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf120/ietf120_wish_33187.wtf.json",
+      "content_hash": "sha512-1CK7FA4NcgAlri2KI4yHannbsxQxxjOLLnW2Fiqm3Rqu9IMrJFJyfgkYhomo3D23TIBmMz-SoihMfXoIoZYilg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:30:30.685952+00:00",
+  "subject": "IETF 120 - WISH Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:45:22.377821+00:00",
+  "vcon": "0.4.0"
+}

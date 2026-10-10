@@ -1,0 +1,230 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff386-604e-86c8-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "d3e3e3@gmail.com",
+      "name": "Donald E. Eastlake 3rd",
+      "role": "chair"
+    },
+    {
+      "mailto": "russ@riw.us",
+      "name": "Russ White",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2019-07-24T19:50:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=8p4gIsuVS2U",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 105,
+        "working_group": "babel"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 105, \"location\": \"Montreal, CA\", \"working_group\": \"babel\", \"session_id\": \"27228\", \"room\": \"Notre Dame\", \"start_time\": \"2019-07-24T19:50:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:11:37.806635+00:00\", \"meeting_number\": 105, \"group_acronym\": \"babel\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:11:37.806667+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:11:37.806669+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:11:37.806671+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:11:37.806673+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:11:37.806674+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/agenda/agenda-105-babel-04.txt",
+      "content_hash": "sha512-3mojCIgLGKeeUhEy4tuVAZQCUqWLPIAAJB8o4AGYifpG4NfggA5Cycfd2XSBFvixoAk_mhYOicRPx7VDQ-x5-Q",
+      "mediatype": "text/plain",
+      "filename": "agenda-105-babel-04.txt",
+      "meta": {
+        "title": "Agenda IETF105: babel",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/agenda-105-babel"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/bluesheets/bluesheets-105-babel-201907241550-00.pdf",
+      "content_hash": "sha512-DoPBzdBFBYXHyG7PinGshNVYJOZOoGVoF5Cn8vbDR6lRCLEQuiGrLMcQfKF9tTdgLaGjM9oHH5xZ4UZZA4hGyw",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-105-babel-201907241550-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF105: babel : Wed 15:50",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/bluesheets-105-babel-201907241550"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/minutes/minutes-105-babel-00.txt",
+      "content_hash": "sha512-4QpOcAXrxjx0-c9YIxJpAIkATqLSmWAM4FjrOVSj2oijAGBbu-21c50zEcHCbTUTESwR6WPkAS3e0M8AXQAsSw",
+      "mediatype": "text/plain",
+      "filename": "minutes-105-babel-00.txt",
+      "meta": {
+        "title": "Minutes IETF105: babel",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/minutes-105-babel"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-babel-information-model/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Babel Information Model\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-babel-yang-model/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"YANG Data Model for Babel\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-babel-rtt-extension/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Delay-based Metric Extension for the Babel Routing Protocol\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-babel-babel-06.pdf",
+      "content_hash": "sha512-zZmRvU7u3ULZ6PygVxjStxcOKBV4VVgVLIFpIQGBqBws32pdmt99IkUEXNrGLJ6KWtZXiN9Qqo6ceipISSL-Jg",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-babel-babel-06.pdf",
+      "meta": {
+        "title": "Babel",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-babel-babel"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-babel-babel-information-model-00.pdf",
+      "content_hash": "sha512-3Ao97VUSy-lQsBDCtjmRKU03FhKRWsfCDGOmtZQwg7XPg7YzA_iLoiOXCFp5jnkapTRC9pHANmB7Yz4nkGqmUA",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-babel-babel-information-model-00.pdf",
+      "meta": {
+        "title": "Babel Information Model",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-babel-babel-information-model"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-babel-babel-yang-model-00.pdf",
+      "content_hash": "sha512-yzEJYc1TZsXIJXKkxmccdR-I0GJDP5V1tUZmCYHT-YU3lgEy8DZqJpU3g32B_w1PDCes6QxoBnTptJIZ5AnbNA",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-babel-babel-yang-model-00.pdf",
+      "meta": {
+        "title": "Babel Yang Model",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-babel-babel-yang-model"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-babel-delay-based-metric-extension-for-the-babel-protocol-00.pdf",
+      "content_hash": "sha512-MOJcKEoJL7O9fWJqacZKksQAGt5RwLu17YcTj9FtfZS0uulBGOfyTaUzj88wZvkR-76f8e8kUG5htEqrsxy0xA",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-babel-delay-based-metric-extension-for-the-babel-protocol-00.pdf",
+      "meta": {
+        "title": "Delay-based Metric Extension for the Babel Protocol",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-babel-delay-based-metric-extension-for-the-babel-protocol"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/105/session/babel/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"BABEL Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-105-babel\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"BABEL Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:11:37.806471+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf105/ietf105_babel_27228.wtf.json",
+      "content_hash": "sha512-5qPQivR1ojKn-XqOxkxSMLU-zcQtTfI98xnuBCcBhCcLIT5QASmbxj0qpkdblsgT4PE0brNCMjWceC9f6JnlZg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:11:37.806471+00:00",
+  "subject": "IETF 105 - BABEL Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:46.716962+00:00"
+}

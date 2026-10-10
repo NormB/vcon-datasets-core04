@@ -1,0 +1,245 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff37e-da5f-8f2b-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Rick Taylor",
+      "mailto": "rick@tropicalstormsoftware.com",
+      "role": "chair"
+    },
+    {
+      "name": "Marc Blanchet",
+      "mailto": "marc.blanchet@viagenie.ca",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2020-07-27T11:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://youtube.com/watch?v=Wg7lSRtgOlc",
+      "duration": 6000,
+      "meta": {
+        "ietf_meeting": 108,
+        "working_group": "dtn"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 108, \"location\": \"Online, ES\", \"working_group\": \"dtn\", \"session_id\": \"28205\", \"room\": \"Room 6\", \"start_time\": \"2020-07-27T11:00:00+00:00\", \"duration_seconds\": 6000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:03:24.768071+00:00\", \"meeting_number\": 108, \"group_acronym\": \"dtn\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:03:24.768089+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:03:24.768091+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:03:24.768093+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:03:24.768094+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:03:24.768095+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/agenda/agenda-108-dtn-03.txt",
+      "content_hash": "sha512-AIc8MQdh0Xxd4-f0bPtEuz08ruXA7GpMpRG646PkZ9V4LfPQ_RvdyJ9dp-l9nqK_ycuuUeNW0sKi_79pPHfvWw",
+      "mediatype": "text/plain",
+      "filename": "agenda-108-dtn-03.txt",
+      "meta": {
+        "title": "Agenda IETF108: dtn",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/agenda-108-dtn"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/bluesheets/bluesheets-108-dtn-202007271100-01.txt",
+      "content_hash": "sha512-lYmXhj2Vg72kZ12i3QHh_bHZ8qo9GYLOsOLUWTUvedWF3-kElGjbkbJ8o_4z35VJNOt1YyVgbKhn6wRCnJhBeQ",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-108-dtn-202007271100-01.txt",
+      "meta": {
+        "title": "Bluesheets IETF108: dtn : Mon 11:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/bluesheets-108-dtn-202007271100"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/minutes/minutes-108-dtn-00.txt",
+      "content_hash": "sha512-XU4PXtm0OZUBaVtSHx_yqAGvZ-S1DhngFK6EMO8APNLaNEZPmvaXbA5t1uLPqGkvAPDwRRzmCaXoTZ3IyHreiw",
+      "mediatype": "text/plain",
+      "filename": "minutes-108-dtn-00.txt",
+      "meta": {
+        "title": "Minutes IETF108: dtn",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/minutes-108-dtn"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/slides/slides-108-dtn-chairs-slides-00.pdf",
+      "content_hash": "sha512-V0D-E5zypY4yMJ2xVx5-rVHv18l3xqEJWx3aReP0QTMF22JBqDCe4_zvZVTZISOF7I6E6PoN5VXQXf7cY9fBjQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-108-dtn-chairs-slides-00.pdf",
+      "meta": {
+        "title": "Chairs Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/slides-108-dtn-chairs-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/slides/slides-108-dtn-bpbis-draft-status-00.pdf",
+      "content_hash": "sha512-UoZSUJB_vfslOIBwubVFUr3bxsDJ3mBPSvhiGJmbu1cJ0KPvDOwyaPMVgppsiBtDNJurfnQKwedPs7oCcYhkrQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-108-dtn-bpbis-draft-status-00.pdf",
+      "meta": {
+        "title": "BPbis Draft Status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/slides-108-dtn-bpbis-draft-status"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/slides/slides-108-dtn-bpsec-updates-00.pdf",
+      "content_hash": "sha512-eHGNxhahGw8U_JcIRBeIgd9vDQI3M04W5OYdv4Lfq-PZU4rmZ-MFzJh2hL1nA4JOWWmLlao3QqaAwgK49YFs-A",
+      "mediatype": "application/pdf",
+      "filename": "slides-108-dtn-bpsec-updates-00.pdf",
+      "meta": {
+        "title": "BPSec updates",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/slides-108-dtn-bpsec-updates"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/slides/slides-108-dtn-tcpclv4-status-00.pdf",
+      "content_hash": "sha512-oIfJv6u_m33R-0oxwLutSgRw4c0ByLKDJoxDf8zP6TzujqJimcGGk17A_8aYHJZrlInddYesIHhitpB-oDcDRA",
+      "mediatype": "application/pdf",
+      "filename": "slides-108-dtn-tcpclv4-status-00.pdf",
+      "meta": {
+        "title": "TCPCLv4 Status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/slides-108-dtn-tcpclv4-status"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/slides/slides-108-dtn-bpsec-cose-contexts-00.pdf",
+      "content_hash": "sha512-Jvt8VFXETs376NiEfwOZsdIjvceu5_W0sFAcpkB6Oo1HHB2ScLL9JEUbsmEBtF9D_cSkmGri74Mq9Cwp5R1cvw",
+      "mediatype": "application/pdf",
+      "filename": "slides-108-dtn-bpsec-cose-contexts-00.pdf",
+      "meta": {
+        "title": "BPSec COSE Contexts",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/slides-108-dtn-bpsec-cose-contexts"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/slides/slides-108-dtn-acme-dtn-node-id-validation-00.pdf",
+      "content_hash": "sha512-qzRK62SwrCnm1kgZTidS5SbXPlcU5T_NdVewUIt3JuVvZQ5M9YQU1T3a2oUBEsV3MeNHJ9XeyEP7bfN09FjIfg",
+      "mediatype": "application/pdf",
+      "filename": "slides-108-dtn-acme-dtn-node-id-validation-00.pdf",
+      "meta": {
+        "title": "ACME DTN Node ID Validation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/slides-108-dtn-acme-dtn-node-id-validation"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "url": "https://www.ietf.org/proceedings/108/slides/slides-108-dtn-dtn-neighbor-discovery-00.pdf",
+      "content_hash": "sha512-wd6YlJYmRwbuthIQsJn7LbT1QQCjk7B-OxNpMgp3kwzbGpssFkRb49Fhd9pfZ3Y0AUJKNpaojOspQXP7LnxEyQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-108-dtn-dtn-neighbor-discovery-00.pdf",
+      "meta": {
+        "title": "DTN Neighbor Discovery",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/108/materials/slides-108-dtn-dtn-neighbor-discovery"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/108/session/dtn/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DTN Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-108-dtn\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DTN Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:03:24.767975+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf108/ietf108_dtn_28205.wtf.json",
+      "content_hash": "sha512-71VEX6arysMGW0jq1UAOpWvx7WWj0u2DW1TdJUEKvoyiWp_c79KfWj4rHSrb88gY2PGkLV4LKfSpgmCfG3fDjw",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:03:24.767975+00:00",
+  "subject": "IETF 108 - DTN Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:47.663757+00:00"
+}

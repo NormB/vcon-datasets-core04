@@ -1,0 +1,347 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff37d-47c9-82b4-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Chris Bowers",
+      "mailto": "chrisbowers.ietf@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "Jeff Tantsura",
+      "mailto": "jefftant.ietf@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2020-11-17T05:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=CsYQeGKFw3s",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 109,
+        "working_group": "rtgwg"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 109, \"location\": \"Online, TH\", \"working_group\": \"rtgwg\", \"session_id\": \"28427\", \"room\": \"Room 8\", \"start_time\": \"2020-11-17T05:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:01:41.705307+00:00\", \"meeting_number\": 109, \"group_acronym\": \"rtgwg\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:41.705327+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:41.705329+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:41.705331+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:41.705332+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:41.705335+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/minutes/minutes-109-rtgwg-00.txt",
+      "content_hash": "sha512-u0ndVrz5H5xmFCa7irmlzBWdCmBbgO3KwuF6_0n6G7NmFpTzGbmbH9caJteMsnGXjX0ee1deMW9UrPcLPcdWVg",
+      "mediatype": "text/plain",
+      "filename": "minutes-109-rtgwg-00.txt",
+      "meta": {
+        "title": "Minutes IETF109: rtgwg",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/minutes-109-rtgwg"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/bluesheets/bluesheets-109-rtgwg-202011171200-00.txt",
+      "content_hash": "sha512-K6DygZ08-J1HvF-vqNA6xxw-248G4uSl5N-Hn9zFQGFjjAXr-fP26KqkBCsG23_ozVvwdDoG4oCcpMg-PxXHiw",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-109-rtgwg-202011171200-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF109: rtgwg : Tue 12:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/bluesheets-109-rtgwg-202011171200"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/minutes/minutes-109-rtgwg-00.txt",
+      "content_hash": "sha512-u0ndVrz5H5xmFCa7irmlzBWdCmBbgO3KwuF6_0n6G7NmFpTzGbmbH9caJteMsnGXjX0ee1deMW9UrPcLPcdWVg",
+      "mediatype": "text/plain",
+      "filename": "minutes-109-rtgwg-00.txt",
+      "meta": {
+        "title": "Minutes IETF109: rtgwg",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/minutes-109-rtgwg"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/materials/agenda-109-rtgwg-sessb\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda IETF109: rtgwg: Wed 14:30\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/bluesheets/bluesheets-109-rtgwg-202011181430-00.txt",
+      "content_hash": "sha512-roe-l16eJz9Y07nSFjYyoiiUYiYFvzWc7gD4Efwgcz5k-Oo-ooOT9VvOprMce789x0rxC-XvI8Y3J-9cqYVs0Q",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-109-rtgwg-202011181430-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF109: rtgwg : Wed 14:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/bluesheets-109-rtgwg-202011181430"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/materials/agenda-109-rtgwg-sessa\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda IETF109: rtgwg: Tue 12:00\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-10-rtgwg-status-109-00.pdf",
+      "content_hash": "sha512-e4xU9RudDNpWe2uvnf0s7hSB0KF8cT4nDX_BNwB3dI_A18tKNaHwzC0vg-GDIdruxJx64rvD9WDH80GyRMhzhw",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-10-rtgwg-status-109-00.pdf",
+      "meta": {
+        "title": "10-RTGWG-Status-109",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-10-rtgwg-status-109"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessb-21-pap-00.pdf",
+      "content_hash": "sha512-VGi0qHFCyp_83GXMx59uXXI6eSvTESiLYRye0OCLXpi71N-EMn8yopDhxpjgg_ZuzG8Jyv12c7QViCESnUV-1g",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessb-21-pap-00.pdf",
+      "meta": {
+        "title": "21-PAP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessb-21-pap"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-11-multi-level-configuration-00.pdf",
+      "content_hash": "sha512-ZuqcX62TbzgTtuiqLNn73UfI5rq8WQy1mBSacI6Gp89EIA6eg2IltZkGzBS6jfEm5ct7uqJylEsTIXZEzQ6kSg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-11-multi-level-configuration-00.pdf",
+      "meta": {
+        "title": "11-multi-level-configuration",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-11-multi-level-configuration"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessb-22-grasp-overview-00.pdf",
+      "content_hash": "sha512-7zEsI9lPXEh0YB88fMc7UU02KH8mgpqRLVitcJ4yw4zG_f_1KCW4YXvH4JjD6CumcmhKdVid3LQ_VwRCet4Lcg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessb-22-grasp-overview-00.pdf",
+      "meta": {
+        "title": "22-GRASP-Overview",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessb-22-grasp-overview"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessb-23-xbgp-00.pdf",
+      "content_hash": "sha512-kLmq7XQcbqivLUgiuIiTov7Xro4XmVtkaWlHSEbBq30_MUyAiFqeV0QAaD3HPFMJ6t0yg1GzXIPa9U0iDHrJaw",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessb-23-xbgp-00.pdf",
+      "meta": {
+        "title": "23-xbgp",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessb-23-xbgp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-13-sr-midpoint-protection-00.pdf",
+      "content_hash": "sha512-oLHJL6hGhfCkTRYeX7zgSuhKo958wTEXanpyrfVgV9Jsz_GKI6f7ngrgeZoTOlnbkQrEjSRrhV2KEA26MfrjCA",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-13-sr-midpoint-protection-00.pdf",
+      "meta": {
+        "title": "13-SR-Midpoint-Protection",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-13-sr-midpoint-protection"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-14-anycast-egress-protection-00.pdf",
+      "content_hash": "sha512-N1UPEeMKXbEeTQshe2JOG8A2VIDfWyRuvAMAJ8QHf25wnuaVM8LB1AsXt3kZhgEAPYkoOgUl2pDeoIR15dJODQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-14-anycast-egress-protection-00.pdf",
+      "meta": {
+        "title": "14-Anycast-Egress-Protection",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-14-anycast-egress-protection"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-12-cfn-dyncast-02.pdf",
+      "content_hash": "sha512-jb20PrP8MnfizXoHRRxtU7IJp78ndFazYirEdyye55Is7uYa-6wxpMnDpA4zBQde9Taph2Cllfot3-KwUgeIfg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-12-cfn-dyncast-02.pdf",
+      "meta": {
+        "title": "15-CFN-Dyncast",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-12-cfn-dyncast"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-16-precise-transport-network-00.pdf",
+      "content_hash": "sha512-VwBQFdOXh6t6jFmSuakv1WM27cXdA-TiX1NSLaERuaaVOOpXvJ2t2sOnVdL8AafVqe-TVCaenFawbPwBvsh9Tg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-16-precise-transport-network-00.pdf",
+      "meta": {
+        "title": "16-Precise-Transport-Network",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-16-precise-transport-network"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-17-rtgwg-p2mp-bfd-vrrp-00.pdf",
+      "content_hash": "sha512-eZ5zsTpxAyKNwsqsCx1_aJMSADA0CsYFVYiCxro3IPWiqejvH-KNIga1YI7YoBMOVAcG42gTMqzm1MQWesHwLQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-17-rtgwg-p2mp-bfd-vrrp-00.pdf",
+      "meta": {
+        "title": "17-RTGWG-p2mp-BFD-VRRP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-17-rtgwg-p2mp-bfd-vrrp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-18-rtgwg-micro-bfd-00.pdf",
+      "content_hash": "sha512-jDXMF2E2qSmPANni1kFuJd8AG-A5IHN7Ex6_oFPT0dEZXSW_7wjVWUhKTZFKyVMJEyBjUtpnC8Gy-_v4MNJfvw",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-18-rtgwg-micro-bfd-00.pdf",
+      "meta": {
+        "title": "18-RTGWG-Micro-BFD",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-18-rtgwg-micro-bfd"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-rtgwg-sessa-19-mcd-extension-tn-00.pdf",
+      "content_hash": "sha512-5D_UIQjosyg3KMCz56zCCdLEKmbi4FJmIVl0j-G6wfWqYvflBuiQYKrM5urg0e8gU4DGmixvM6mPp5jjUoTroQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-rtgwg-sessa-19-mcd-extension-tn-00.pdf",
+      "meta": {
+        "title": "19-mcd-extension-tn",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-rtgwg-sessa-19-mcd-extension-tn"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/session/rtgwg/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"RTGWG Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-109-rtgwg\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"RTGWG Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:41.705204+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf109/ietf109_rtgwg_28427.wtf.json",
+      "content_hash": "sha512-x4GRYBtOi4t8DepaW8vm07koleGHCLWrhmQXeBpAEMUp6pKF69hmfNmTcC0zYuRIQVJExwmaOHTFglT4AMMBxg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:01:41.705204+00:00",
+  "subject": "IETF 109 - RTGWG Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:48.256779+00:00"
+}

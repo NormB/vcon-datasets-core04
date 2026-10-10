@@ -1,0 +1,216 @@
+{
+  "uuid": "019d3273-f4fb-81a1-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "jie.dong@huawei.com",
+      "name": "Jie Dong",
+      "role": "chair"
+    },
+    {
+      "mailto": "acee.ietf@gmail.com",
+      "name": "Acee Lindem",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-16T03:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://youtu.be/k9uDze33Rdg",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 125,
+        "working_group": "lsvr"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 125, \"location\": \"Shenzhen, CN\", \"working_group\": \"lsvr\", \"session_id\": \"35226\", \"room\": \"Grand Ballroom 1\", \"start_time\": \"2026-03-16T03:30:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:19:13.403358+00:00\", \"meeting_number\": 125, \"group_acronym\": \"lsvr\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:13.403382+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:13.403384+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:13.403385+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:13.403386+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:13.403387+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/agenda/agenda-125-lsvr-00.txt",
+      "content_hash": "sha512-tFp-vFH0ey8LbfzBbRV3L4T5uIjie3r_W_GB2qGrzN6hewk_0rsOSPOWxvMU2l85mA865vjqdD41kcJ0cMytrw",
+      "mediatype": "text/plain",
+      "filename": "agenda-125-lsvr-00.txt",
+      "meta": {
+        "title": "Agenda IETF125: lsvr",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/agenda-125-lsvr"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/chatlog/chatlog-125-lsvr-202603191130-00.json",
+      "content_hash": "sha512-5OfyVDNpupoAMrDY41eLS02knc5OlmiFtckiJxkg9hBjMWOAdP7iPY4qXiyUQ0RVhTRJvfTIIxEtouqWeqLmyw",
+      "mediatype": "application/json",
+      "filename": "chatlog-125-lsvr-202603191130-00.json",
+      "meta": {
+        "title": "Chat Log IETF125: lsvr: Thu 11:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/chatlog-125-lsvr-202603191130"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-lsvr-0-lsvr-wg-status-02.pdf",
+      "content_hash": "sha512-SnJLz61MzMsLvbYlURviCHdUhjZuebEI1DO3HHvvYYBa68XOc1J4lm0fN2JkugjlUsXWLUelHpdCn-fSwJ6QNA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-lsvr-0-lsvr-wg-status-02.pdf",
+      "meta": {
+        "title": "0. LSVR WG Status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-lsvr-0-lsvr-wg-status"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-lsvr-a-yang-model-for-bgp-ls-bgp-ls-vpn-and-bgp-ls-spf-00.pdf",
+      "content_hash": "sha512-JDpFrOJlLSIQkKdOZYk0RroaK3gLoKNFegJpOlcljrMgMJ3u6z6fu4qUU2Vvx1NW1Okf558AzvKZPD4-ThxkCQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-lsvr-a-yang-model-for-bgp-ls-bgp-ls-vpn-and-bgp-ls-spf-00.pdf",
+      "meta": {
+        "title": "1. A YANG Model for BGP-LS, BGP-LS-VPN, and BGP-LS-SPF",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-lsvr-a-yang-model-for-bgp-ls-bgp-ls-vpn-and-bgp-ls-spf"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-lsvr-2-l3dl-l3nd-00.pdf",
+      "content_hash": "sha512-ZKR8cCXoedl3u8I0MOX30bl0ePoCo__IjwwuvqbeBD1CQdaKipM6xyvGuor8rnp78HI0VIMy81HJ9SPZlPBitw",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-lsvr-2-l3dl-l3nd-00.pdf",
+      "meta": {
+        "title": "2. L3DL & L3ND",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-lsvr-2-l3dl-l3nd"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-lsvr-l3dl-and-l3nd-straw-man-direction-04.pdf",
+      "content_hash": "sha512-7eF9qeOZygOMZJY5zjJESPS_0oO8Zd8Kj7czCcZmZH_pKCHMo8TIDgOq1Ys4fYHAzYdddOZVm7vORNzOjYHTaQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-lsvr-l3dl-and-l3nd-straw-man-direction-04.pdf",
+      "meta": {
+        "title": "2.1. L3DL and L3ND Straw man Direction",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-lsvr-l3dl-and-l3nd-straw-man-direction"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-lsvr-03-applying-bgp-ls-segment-routing-over-ipv6srv6-extensions-to-bgp-ls-spf-00.pdf",
+      "content_hash": "sha512-3aHmm5rMOVKKe3UBy9HIRBMc5RpLpwQoNorfNfkZOGwRM26eCDQ4D0vMbwT1x6nlrnKtd0LbKSFatTzij0QNdA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-lsvr-03-applying-bgp-ls-segment-routing-over-ipv6srv6-extensions-to-bgp-ls-spf-00.pdf",
+      "meta": {
+        "title": "3. Applying BGP-LS Segment Routing over IPv6(SRv6) Extensions to BGP-LS-SPF",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-lsvr-03-applying-bgp-ls-segment-routing-over-ipv6srv6-extensions-to-bgp-ls-spf"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-lsvr-bgp-ls-spf-extensions-for-srv6-policy-state-synchronization-00.pdf",
+      "content_hash": "sha512-nPaLVi_jgZJfMoqIpxRDvmbwZLUXax9cyY9gJ_F39ThMRh5DVn-HcuOyX5IFwP1o_xFJ4beg-KL1dLgSCMquOg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-lsvr-bgp-ls-spf-extensions-for-srv6-policy-state-synchronization-00.pdf",
+      "meta": {
+        "title": "4. BGP-LS-SPF Extensions for SRv6 Policy State Synchronization",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-lsvr-bgp-ls-spf-extensions-for-srv6-policy-state-synchronization"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/125/session/lsvr/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"LSVR Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-125-lsvr\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"LSVR Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:13.403129+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "whisper",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf125/ietf125_lsvr_35226.wtf.json",
+      "content_hash": "sha512-kcC5IIqrskgHgmF-R65XhHW0aSYCfs8MtwfQQ9p-SS5EeC_E8YWUkUCnfotbbPSeMGbo_EPUqHiXH6J7iFwGyQ",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:19:13.403129+00:00",
+  "subject": "IETF 125 - LSVR Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-03-30T22:22:57.929170+00:00",
+  "vcon": "0.4.0"
+}

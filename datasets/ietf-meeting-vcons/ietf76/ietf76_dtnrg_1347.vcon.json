@@ -1,0 +1,172 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6ad-093a-831a-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 76, \"location\": \"Hiroshima, JP\", \"working_group\": \"dtnrg\", \"session_id\": \"1347\", \"room\": \"Cattleya West\", \"start_time\": \"2009-11-13T00:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:52:43.066999+00:00\", \"meeting_number\": 76, \"group_acronym\": \"dtnrg\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:43.067132+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:43.067141+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:43.067146+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:43.067150+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:52:43.067157+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/agenda-76-dtnrg\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda for DTNRG at IETF-76\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/minutes-76-dtnrg\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Minutes for DTNRG at IETF-76\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-3\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dtnrg-3.pdf\", \"title\": \"DTN as enabler\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-0\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dtnrg-0.pdf\", \"title\": \"Introduction\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-1\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dtnrg-1.pdf\", \"title\": \"DTN Time Synch\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-2\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dtnrg-2.pdf\", \"title\": \"PEAR\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-4\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-76-dtnrg-4.pdf\", \"title\": \"N4C @ extremecom\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "url": "https://www.ietf.org/proceedings/76/slides/DTNRG-5.pdf",
+      "content_hash": "sha512-NSif2kB6_I5UcaKaIcv9ABxs9_vmA95S6nIlszYbTUmfgSPVPXAtdvmrVDYWl51dF_j84RtvWq-6pv7JCA1LDw",
+      "mediatype": "application/pdf",
+      "filename": "DTNRG-5.pdf",
+      "meta": {
+        "title": "DTN2 update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "url": "https://www.ietf.org/proceedings/76/slides/DTNRG-6.pdf",
+      "content_hash": "sha512-Yc66g0LpshLfUE5I0snk8G0e7mBzc4PT4pFfp3vPfqLsCDc7EG0uO14AMR63eNROGXxdM5owvmEqFGFI2LtVKw",
+      "mediatype": "application/pdf",
+      "filename": "DTNRG-6.pdf",
+      "meta": {
+        "title": "DTN Usability Project",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "url": "https://www.ietf.org/proceedings/76/slides/DTNRG-7.pdf",
+      "content_hash": "sha512-Harl11H0kYcXNks6TMfAdrBqDKp1zG4gFjt3tdln7_2xvC-98PD-EUraNqMFxu_2L3Is2IiBtKmUNuYheRfYvA",
+      "mediatype": "application/pdf",
+      "filename": "DTNRG-7.pdf",
+      "meta": {
+        "title": "dtn:find uri",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/76/materials/slides-76-dtnrg-7"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/76/session/dtnrg/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DTNRG Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-76-dtnrg\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DTNRG Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:52:43.066403+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:52:43.066403+00:00",
+  "subject": "IETF 76 - DTNRG Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:52:45.078769+00:00"
+}

@@ -1,0 +1,254 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6d2-aed5-8093-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Daniel King",
+      "mailto": "d.king@lancaster.ac.uk",
+      "role": "chair"
+    },
+    {
+      "name": "David Meyer",
+      "mailto": "dmm@1-4-5.net",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2015-03-25T14:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://www.ietf.org/audio/ietf92/ietf92-international-20150326-1520-pm2.mp3",
+      "duration": 9000,
+      "meta": {
+        "ietf_meeting": 92,
+        "working_group": "sdnrg"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 92, \"location\": \"Dallas, US\", \"working_group\": \"sdnrg\", \"session_id\": \"23647\", \"room\": \"International\", \"start_time\": \"2015-03-25T14:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:33:50.293299+00:00\", \"meeting_number\": 92, \"group_acronym\": \"sdnrg\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:33:50.293386+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:33:50.293391+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:33:50.293394+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:33:50.293396+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:33:50.293399+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/agenda/agenda-92-sdnrg.txt",
+      "content_hash": "sha512-savqEyUTPCL1XRENdttWUV8szzvruFsWDDh_UZmT0-QyPQsgVT-WAxdyi2FVt7635wCmufxjd73H2waeeGYxnw",
+      "mediatype": "text/plain",
+      "filename": "agenda-92-sdnrg.txt",
+      "meta": {
+        "title": "Agenda for SDNRG at IETF-92",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/agenda-92-sdnrg"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-0.pdf",
+      "content_hash": "sha512-e5fG0BZRlEvxxqC_IAmpO6VPpgT8GaH7C5YQEKXAbLKbDeJLRHjNOHCN6bEJyifYi6P5k8eawmo-_M4NRGNYZw",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-0.pdf",
+      "meta": {
+        "title": "Applicability of Machine Learning to SDN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-1.pdf",
+      "content_hash": "sha512-ydGOelUDr80aysoZC5HEZ0g9kx66aiI9TUU8asJyXWBI2KihdtE7lnQd4DqSTeW17qYzM3sYWI5TjvYkdgiAkA",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-1.pdf",
+      "meta": {
+        "title": "An Over-The-Top SDN Architecture for Mobile Nodes and Home Routers",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-2.pdf",
+      "content_hash": "sha512-ATr9taSn2cxlchpHPhQghcYS2fABl98RcgDqM0qD-yCHZYEzgRjojJ2IrL3xawnqGUilcDwvLnwvVwJzq6FEgA",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-2.pdf",
+      "meta": {
+        "title": "SDN Controller Requirements  ",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-3.pdf",
+      "content_hash": "sha512-ry9UAPwxEEWBOErmjPe1hCirRlX6va_mjrorPosCREMuAReIVi3o_0PQlKpz39lQrbnxMIaU_Uuw-c5Qzjdzdg",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-3.pdf",
+      "meta": {
+        "title": "Inter-SDN in Seamless MPLS for Mobile Backhaul",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-4.pdf",
+      "content_hash": "sha512-zIXqsrMdL8JlJAp7mzJRk3HAHsdnStzSwSHivN6-7wWviyKCl2tu2UVAu-ZotOYd2-uhULrQ4Gv-gY7nrDWBgQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-4.pdf",
+      "meta": {
+        "title": "Scalable Software-Defined Monitoring",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-5.pdf",
+      "content_hash": "sha512-4ijgNxfI5ANOtSSxYTJDt_RvnJ4bzJ-iSq7FmA6MdvuF9x-brdI4N8Wbr54k9A5ESc6frUhFzIKWk_-S1R3SuQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-5.pdf",
+      "meta": {
+        "title": "Network Configuration Web API for Bandwidth Reservation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-6.pdf",
+      "content_hash": "sha512-yhwknaAkfwCW43qYSTSW0cBkEVLxHGMVvyYhRxhvYRF1ckyJZQ_aG4RxDM-Dx0zshY-xXVHq5N8QQgttuag5lQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-6.pdf",
+      "meta": {
+        "title": "SDN RG State of the Nation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-7.pdf",
+      "content_hash": "sha512-blJ8VDxbhr4oJ0D55_X-y_HGdrGDmGthN5Xe5T5j8gpfO18yrGHX3WZ8JoyjHg_OGTFcyY5Qc6GKPTUydzrW5A",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-7.pdf",
+      "meta": {
+        "title": "Cooperating Layered Architecture for SDN",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-7"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "url": "https://www.ietf.org/proceedings/92/slides/slides-92-sdnrg-8.pdf",
+      "content_hash": "sha512-lt-27k_cs32g74k61tZkT3b7tmrUc4BuHYhclo9830H2xCf320jnJm_cSjYSGH0JnCZb0-qJaDdvV3e7oFKGhw",
+      "mediatype": "application/pdf",
+      "filename": "slides-92-sdnrg-8.pdf",
+      "meta": {
+        "title": "Administriva",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/92/materials/slides-92-sdnrg-8"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/92/materials/minutes-92-sdnrg\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Minutes for SDNRG at IETF-92\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/92/session/sdnrg/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"SDNRG Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-92-sdnrg\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"SDNRG Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:33:50.293070+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf92/ietf92_sdnrg_23647.wtf.json",
+      "content_hash": "sha512-L_lpMoUNICWkzS-dNmz98rFDhcmg3RXDZv4bc2puTPr9Vz0N20TLkVF3uJqti1iVDmfYXsd1X-JmqcObYzjMTg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T16:33:50.293070+00:00",
+  "subject": "IETF 92 - SDNRG Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-13T02:33:35.240797+00:00"
+}

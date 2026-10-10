@@ -1,0 +1,232 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff38f-3369-88bc-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Shivan Kaul Sahib",
+      "mailto": "ssahib@salesforce.com",
+      "role": "chair"
+    },
+    {
+      "name": "Sara Dickinson",
+      "mailto": "sara@sinodun.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2018-11-06T04:20:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=hO7ittqkFJ0",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 103,
+        "working_group": "pearg"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 103, \"location\": \"Bangkok, TH\", \"working_group\": \"pearg\", \"session_id\": \"26785\", \"room\": \"Chitlada 2\", \"start_time\": \"2018-11-06T04:20:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:21:16.137723+00:00\", \"meeting_number\": 103, \"group_acronym\": \"pearg\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:21:16.137747+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:21:16.137749+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:21:16.137751+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:21:16.137752+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:21:16.137753+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/agenda/agenda-103-pearg-03.txt",
+      "content_hash": "sha512-SMiMS19pJVS7OQZwf3xbwtLcDqHzwUZKydsNc2bXZa1FZqdB9gJ09rCmB2pZ6NH7KH2tvv6r-27rwWpzNQxO0g",
+      "mediatype": "text/plain",
+      "filename": "agenda-103-pearg-03.txt",
+      "meta": {
+        "title": "Agenda IETF103: pearg",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/agenda-103-pearg"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/minutes/minutes-103-pearg-00.txt",
+      "content_hash": "sha512-oRcGT5Yqeqs178D5K4texookQ_A6P0gPTJX6PlASECyNUZFo7ovSw1cX2fNUxDnAZcOPhrsd_P7ekcnO6F2plQ",
+      "mediatype": "text/plain",
+      "filename": "minutes-103-pearg-00.txt",
+      "meta": {
+        "title": "Minutes IETF103: pearg",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/minutes-103-pearg"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/bluesheets/bluesheets-103-pearg-201811071540-00.pdf",
+      "content_hash": "sha512-rmpu4bFEpS37nlPxgp4ExlO-pTCWizrJIGcCAinIFtJq0rIk5CpX7VVkzRZeufZQKpAMWviQsk9_FYcNEQdAjg",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-103-pearg-201811071540-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF103: pearg : Wed 15:40",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/bluesheets-103-pearg-201811071540"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/slides/slides-103-pearg-chair-slides-01.pdf",
+      "content_hash": "sha512-t4ZqjvPxD5cYg4TfHnexxuK14uKpgzz4h5CYizxgZxKJ3jF0xno9FBQ8p_qwgSIlFpJ8ccnFbVTrXxdudEltYg",
+      "mediatype": "application/pdf",
+      "filename": "slides-103-pearg-chair-slides-01.pdf",
+      "meta": {
+        "title": "Chair-slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/slides-103-pearg-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/slides/slides-103-pearg-privacybadger-slides-01.pdf",
+      "content_hash": "sha512-YCi-4SqKZKF4UpoEXox-aTtoeaBUn7KqvEhIB3thesSiwiQJ0V7gWp3iwDDg1jAvhh5JKvxbckni6FXHWMAXiA",
+      "mediatype": "application/pdf",
+      "filename": "slides-103-pearg-privacybadger-slides-01.pdf",
+      "meta": {
+        "title": "PrivacyBadger-slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/slides-103-pearg-privacybadger-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/slides/slides-103-pearg-otrv4-slides-01.pdf",
+      "content_hash": "sha512-3vDmhAem9FSPQZzN1Pzs95Q6snNA0_rokienujtMJYgqvogWwPGxTZqZYXiY5Zh4V3GibQ9wZhLPKoOWTSkLEg",
+      "mediatype": "application/pdf",
+      "filename": "slides-103-pearg-otrv4-slides-01.pdf",
+      "meta": {
+        "title": "OTRv4-slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/slides-103-pearg-otrv4-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/slides/slides-103-pearg-pt-slides-01.pdf",
+      "content_hash": "sha512-4IM9FGhwPGwBp0p64HfwXRQPesk7Fn9Cqyt4o4pn4eii3YCLCrEu1XkYxo01F5HEJsAQ9eJ8DRqxHDEQ4dpspg",
+      "mediatype": "application/pdf",
+      "filename": "slides-103-pearg-pt-slides-01.pdf",
+      "meta": {
+        "title": "PT-slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/slides-103-pearg-pt-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/slides/slides-103-pearg-batterystatus-slides-01.pdf",
+      "content_hash": "sha512-wMvU4YwhFME0s3rRKvj3vLDd_h_LGz8tNNwIC2DnsVmNNwYK_bK9ssTSeSwfoBU_eNxrhbEnN0zJFowAe291nw",
+      "mediatype": "application/pdf",
+      "filename": "slides-103-pearg-batterystatus-slides-01.pdf",
+      "meta": {
+        "title": "BatteryStatus-slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/slides-103-pearg-batterystatus-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "url": "https://www.ietf.org/proceedings/103/slides/slides-103-pearg-privacybadger4-3-slides-00.pdf",
+      "content_hash": "sha512-_2nVU6SiaD0j-8Kh0mY6xry0hTqf5pa6NyVuHI3BiD3plzuzJSgAsekfrRNF4Gm-0hAA8H9UACh_phzoJkn6DA",
+      "mediatype": "application/pdf",
+      "filename": "slides-103-pearg-privacybadger4-3-slides-00.pdf",
+      "meta": {
+        "title": "PrivacyBadger4_3-slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/103/materials/slides-103-pearg-privacybadger4-3-slides"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/103/session/pearg/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"PEARG Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-103-pearg\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"PEARG Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:21:16.137586+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf103/ietf103_pearg_26785.wtf.json",
+      "content_hash": "sha512-_0FrZUKgbAkIzQVJ8gaJey23kjCbLkjhiF_Fb6LIuJYbl1713FcOOkUss-Vhj_i6vSlvnGyevuG6M058fRFLCg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:21:16.137586+00:00",
+  "subject": "IETF 103 - PEARG Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:46.110788+00:00"
+}

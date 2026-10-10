@@ -1,0 +1,249 @@
+{
+  "uuid": "019d3274-4caf-8f95-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Joel M. Halpern",
+      "mailto": "jmh@joelhalpern.com",
+      "role": "chair"
+    },
+    {
+      "name": "Aijun Wang",
+      "mailto": "wangaijun@tsinghua.org.cn",
+      "role": "chair"
+    },
+    {
+      "name": "Ron Bonica",
+      "mailto": "rbonica@juniper.net",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-19T03:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://youtu.be/PcewC9NYpXk",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 125,
+        "working_group": "savnet"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 125, \"location\": \"Shenzhen, CN\", \"working_group\": \"savnet\", \"session_id\": \"35319\", \"room\": \"Grand Ballroom 1\", \"start_time\": \"2026-03-19T03:30:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:19:35.856245+00:00\", \"meeting_number\": 125, \"group_acronym\": \"savnet\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:35.856307+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:35.856312+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:35.856314+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:35.856316+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:35.856319+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/agenda/agenda-125-savnet-00.txt",
+      "content_hash": "sha512-F0gxuMkBuzJIcvwHQIdE9b4_Zc5r-hewON847A3Y94_7u-odC6buQuNk1UxsCqcrRCWebF3qc95vcSdTeR2EtA",
+      "mediatype": "text/plain",
+      "filename": "agenda-125-savnet-00.txt",
+      "meta": {
+        "title": "Agenda IETF125: savnet",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/agenda-125-savnet"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/chatlog/chatlog-125-savnet-202603191130-00.json",
+      "content_hash": "sha512-fgCRqh0o8fKfgE8IwactISoktpL1Kf0tv84bUemdQniJIt9y1bwQKURaVLYizi2VOn9s0hqsNioIo3sneEvUDg",
+      "mediatype": "application/json",
+      "filename": "chatlog-125-savnet-202603191130-00.json",
+      "meta": {
+        "title": "Chat Log IETF125: savnet: Thu 11:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/chatlog-125-savnet-202603191130"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-0-chair-slides-00.pdf",
+      "content_hash": "sha512-Z22d0GMl3YBRjCrznDeccN_v8bUBJcjWtFjs2b_BmVsyyqRlX9LKBXcEva8VMHD2oYv22zCeVjRnc3wPqU55zA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-0-chair-slides-00.pdf",
+      "meta": {
+        "title": "0. Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-0-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-intra-domain-savnet-problem-statement-00.pdf",
+      "content_hash": "sha512-wtbTKr11ltgdEE0bfC6u3addXUu6S-6BbiZElqVYomqXQTBsGrNtfQ95zG1IF_YM_0nCbl5334XQlfK5zgxE5g",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-intra-domain-savnet-problem-statement-00.pdf",
+      "meta": {
+        "title": "Intra-domain SAVNET Problem Statement",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-intra-domain-savnet-problem-statement"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-considerations-on-authoritative-information-for-source-address-validation-01.pdf",
+      "content_hash": "sha512-P6j2QAUetA5JCUdt1jTOjMNnbjln4xuxYEWbnk6U_XhYyqQYiMjKSWH8IKXOWnGSRcpUCt2EUYrlBU0CzjldbA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-considerations-on-authoritative-information-for-source-address-validation-01.pdf",
+      "meta": {
+        "title": "Considerations on Authoritative Information for Source Address Validation",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-considerations-on-authoritative-information-for-source-address-validation"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-traffic-origin-authorizations-toas-01.pdf",
+      "content_hash": "sha512-3gepggzFwP5U18qmpEctW1IOu--ZUM8iC1FVMlo37wLkU1Rbz-3mk6rW2v-zXrRUscBsrh_GXmqyiUGOHb2IqA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-traffic-origin-authorizations-toas-01.pdf",
+      "meta": {
+        "title": "Traffic Origin Authorizations (TOAs)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-traffic-origin-authorizations-toas"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-source-address-validation-deployment-status-00.pdf",
+      "content_hash": "sha512-HmtDG5O-JJgXYoeWh9_-RlmbSosUPAvDCIOx7bVmvYjMqvCwwkewc8XYzFn7CFtrnzEFroo5ERDAqMXrtIqsSQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-source-address-validation-deployment-status-00.pdf",
+      "meta": {
+        "title": "Source Address Validation Deployment Status",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-source-address-validation-deployment-status"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-analysis-of-toa-vs-roa-for-prefixes-not-announced-in-bgp-but-used-for-source-addresses-00.pdf",
+      "content_hash": "sha512-PYVpj7sbulkpVOmL9gIjQ_UimzkAMhWBNGSC-442FWuQG18mAk-hDJ8NAZFYuGwZRje9ZiR192mX1VO3mMAZug",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-analysis-of-toa-vs-roa-for-prefixes-not-announced-in-bgp-but-used-for-source-addresses-00.pdf",
+      "meta": {
+        "title": "Analysis of TOA vs. ROA for Prefixes Not Announced in BGP but Used for Source Addresses",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-analysis-of-toa-vs-roa-for-prefixes-not-announced-in-bgp-but-used-for-source-addresses"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-the-updates-on-the-gap-analysis-problem-statement-and-requirements-for-inter-domain-sav-00.pdf",
+      "content_hash": "sha512-ic7iRFnTIhEhNa4y1LpNp4RWF2jnkCi4Jh0K3bkAiH0Zc8sPP1FPxlVqWuwRpATqoMKVt9tiW1ZDOVbrxkt4Gw",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-the-updates-on-the-gap-analysis-problem-statement-and-requirements-for-inter-domain-sav-00.pdf",
+      "meta": {
+        "title": "The Updates on the Gap Analysis, Problem Statement, and  Requirements for Inter-domain SAV",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-the-updates-on-the-gap-analysis-problem-statement-and-requirements-for-inter-domain-sav"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-savnet-traffic-origin-authorization-00.pdf",
+      "content_hash": "sha512-0oP0sMyCJPOJ6fc8gn5-_mvcs_YCS47YjTKuIZYXsj8P93s9nxG8LKFJXeR0rK4E-_4gd1J4hclOG4A7Bsr66Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-savnet-traffic-origin-authorization-00.pdf",
+      "meta": {
+        "title": "Traffic Origin Authorization",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-savnet-traffic-origin-authorization"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/125/session/savnet/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"SAVNET Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-125-savnet\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"SAVNET Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:35.856013+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "whisper",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf125/ietf125_savnet_35319.wtf.json",
+      "content_hash": "sha512-4arGgvplP0xYidpYQum_kxVm3cj5jHRimrMlQOhp07TEnvhYXNqvymZF7mYUswvjxry4g_SGyUDbTEbNDWYIkg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:19:35.856013+00:00",
+  "subject": "IETF 125 - SAVNET Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-03-30T22:46:47.222393+00:00",
+  "vcon": "0.4.0"
+}

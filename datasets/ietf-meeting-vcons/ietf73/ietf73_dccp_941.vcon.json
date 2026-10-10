@@ -1,0 +1,193 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6b1-d039-80c8-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 73, \"location\": \"Minneapolis, US\", \"working_group\": \"dccp\", \"session_id\": \"941\", \"room\": \"Duluth\", \"start_time\": \"2008-11-20T21:20:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:57:56.153679+00:00\", \"meeting_number\": 73, \"group_acronym\": \"dccp\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:57:56.153803+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:57:56.153812+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:57:56.153817+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:57:56.153822+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:57:56.153827+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/agenda/dccp.txt",
+      "content_hash": "sha512-q5NRqmfk_MO61bdmZ0jDLDVhESKbitcRFrJpjGg8ban06ts-cfXIjHxhgXReGuPCcA0uR8LnQl6iJ9aE4LQplA",
+      "mediatype": "text/plain",
+      "filename": "dccp.txt",
+      "meta": {
+        "title": "Agenda for DCCP at IETF-73",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/agenda-73-dccp"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/minutes/dccp.txt",
+      "content_hash": "sha512-8hBeBlzx6y4PIkuH6ihsyY0fjY-UvGxmuDMNwm3JGFtwiRXFuIeEfsH3jAwTlbQIu59F5PTm1xSPtstqWJRG4g",
+      "mediatype": "text/plain",
+      "filename": "dccp.txt",
+      "meta": {
+        "title": "Minutes for DCCP at IETF-73",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/minutes-73-dccp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/slides/dccp-0.pdf",
+      "content_hash": "sha512-Bnp52b2_NLcoTr8SPOgsaYnxn-V9DWd9PChN20ZWFLWOlRs3uKmHogjIBrY3rqfdORZw2zFLcopOdxPt_bRPVA",
+      "mediatype": "application/pdf",
+      "filename": "dccp-0.pdf",
+      "meta": {
+        "title": "Quick-Start for DCCP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/slides-73-dccp-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/slides/dccp-1.pdf",
+      "content_hash": "sha512-rV4V8bZh0071adhQWxMIaPM2_9Rl8lCYUQtfffjkRrqnzZWthBsGHBB1-zfzNRqlRLIYTKVXyeFNMcVDVwl6mg",
+      "mediatype": "application/pdf",
+      "filename": "dccp-1.pdf",
+      "meta": {
+        "title": "WG Chair & Agenda",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/slides-73-dccp-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/slides/dccp-2.pdf",
+      "content_hash": "sha512-jZuBE8bxlT6jBmOV1bXGpf3vKXWqLBG09t3o_rJp0EAyq60Fdt_H6AWBWOtNk6T9jYLp0M3DVzvs6OT2AHr9NA",
+      "mediatype": "application/pdf",
+      "filename": "dccp-2.pdf",
+      "meta": {
+        "title": "Service Codes",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/slides-73-dccp-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/slides/dccp-4.pdf",
+      "content_hash": "sha512-1yWgGkdHqv-ynM7xGjeTRh5631fS61EetmUjyJuU7rXGSyd_cp6KKfqgw2qgxBpXKpAaWWIjg7y01GLBWyfLoQ",
+      "mediatype": "application/pdf",
+      "filename": "dccp-4.pdf",
+      "meta": {
+        "title": "Simul Open",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/slides-73-dccp-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/slides/dccp-5.pdf",
+      "content_hash": "sha512-TO_1gUEdSqAUtQXBJ9zmQvw_2V0mBaNr5WM2CuARTe3p8xdsTH_wfF7ZJM_zHm4StIiaCAXP377TqMSxgUseCA",
+      "mediatype": "application/pdf",
+      "filename": "dccp-5.pdf",
+      "meta": {
+        "title": "Faster Restart",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/slides-73-dccp-5"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/slides/dccp-6.pdf",
+      "content_hash": "sha512-K8r0l9letxMNAUFuWa3s1SojkZ_aJGMULpakpocG-J5C5zLimEAzoBJxcIq2lmXkR9zzgrCRmjW7rPTtAvCaqg",
+      "mediatype": "application/pdf",
+      "filename": "dccp-6.pdf",
+      "meta": {
+        "title": "Behave for DCCP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/slides-73-dccp-6"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "url": "https://www.ietf.org/proceedings/73/slides/dccp-7.pdf",
+      "content_hash": "sha512-vwnKVJCWoOMo0KE7N83SPwevtOZtRI0CiXIae2pgkRHn7bZsmk7hgbpLcL9Ou1_QyXCnXpWXjPlRIqeo2nMO3Q",
+      "mediatype": "application/pdf",
+      "filename": "dccp-7.pdf",
+      "meta": {
+        "title": "DCCP NAT Encap",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/73/materials/slides-73-dccp-7"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/73/session/dccp/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DCCP Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-73-dccp\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DCCP Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:57:56.153109+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:57:56.153109+00:00",
+  "subject": "IETF 73 - DCCP Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:57:58.146484+00:00"
+}

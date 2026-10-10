@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# The same two gates CI runs: the unit tests, and the committed corpus judged
+# again against report.json. Neither needs the network.
+set -euo pipefail
+root=$(git rev-parse --show-toplevel)
+py="$root/.venv/bin/python"
+[ -x "$py" ] || { echo "pre-commit: create the venv first: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt" >&2; exit 1; }
+"$py" -m pytest -q -p no:cacheprovider "$root/tests"
+"$py" "$root/tools/build.py" check

@@ -1,0 +1,225 @@
+{
+  "uuid": "019d3273-892e-8374-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "ivaylopetrov@google.com",
+      "name": "Ivaylo Petrov",
+      "role": "chair"
+    },
+    {
+      "mailto": "michael_b_jones@hotmail.com",
+      "name": "Michael B. Jones",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-16T01:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://youtu.be/yuVzfQMXtzE",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 125,
+        "working_group": "cose"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 125, \"location\": \"Shenzhen, CN\", \"working_group\": \"cose\", \"session_id\": \"35120\", \"room\": \"Shangri-la Ballroom 1\", \"start_time\": \"2026-03-16T01:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:18:45.806494+00:00\", \"meeting_number\": 125, \"group_acronym\": \"cose\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:18:45.806536+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:18:45.806540+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:18:45.806543+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:18:45.806545+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:18:45.806566+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/agenda/agenda-125-cose-02.txt",
+      "content_hash": "sha512-VNu-e4vyLBa2IsrZZTTokkrB3C6cZ0K0UnOEPHLRs-skhJld4Jz6wNgfJdWuKtag5DB6IncflZC1pOu_X5_BQQ",
+      "mediatype": "text/plain",
+      "filename": "agenda-125-cose-02.txt",
+      "meta": {
+        "title": "Agenda IETF125: cose",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/agenda-125-cose"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/chatlog/chatlog-125-cose-202603200900-00.json",
+      "content_hash": "sha512-9OZvvKYfWJ4Zd6f0hMhPoyxrpdhPMPW9Tb88GxhoxSzI-1lrN-Tr1u39rV-PxFcihAIi-ybxjqhatnQukNGewA",
+      "mediatype": "application/json",
+      "filename": "chatlog-125-cose-202603200900-00.json",
+      "meta": {
+        "title": "Chat Log IETF125: cose: Fri 09:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/chatlog-125-cose-202603200900"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/125/materials/polls-125-cose-202603200900\", \"mimetype\": \"application/pdf\", \"filename\": \"polls-125-cose-202603200900.pdf\", \"title\": \"Polls IETF125: cose: Fri 09:00\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/minutes/minutes-125-cose-202603200100-00.md",
+      "content_hash": "sha512-vZTiHIBETVSniO7u9EbDp_i9B1eH5Dhw5ybAFmnU9_73lFGmzCEOD7uhfNixd_mzibA_uqNyHht4L1c_hK1uOA",
+      "mediatype": "text/markdown",
+      "filename": "minutes-125-cose-202603200100-00.md",
+      "meta": {
+        "title": "Minutes IETF125: cose: Fri 01:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/minutes-125-cose-202603200100"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-cose-cose-chair-slides-00.pdf",
+      "content_hash": "sha512-3LUJgLhhQPB2-MaQ3oLXoaxYw2ki2OYY-HSLEhLFwZLBNm6rPMeZXlCRiKYiRjWDyvV-AJH11pcFpfPo0wwcUA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-cose-cose-chair-slides-00.pdf",
+      "meta": {
+        "title": "cose-chair-slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-cose-cose-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-cose-draft-ietf-cose-falcon-and-draft-ietf-cose-sphincs-plus-00.pdf",
+      "content_hash": "sha512-VCd1xDjs4jLx2z74cnS4ZLBGOQ2-G79IN0nzG2gJE64knu1n6PVWUNPpDi2qUyh-OOvVBBgHmwmou0HwuArzvg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-cose-draft-ietf-cose-falcon-and-draft-ietf-cose-sphincs-plus-00.pdf",
+      "meta": {
+        "title": "draft-ietf-cose-falcon and draft-ietf-cose-sphincs-plus",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-cose-draft-ietf-cose-falcon-and-draft-ietf-cose-sphincs-plus"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-cose-cose-hpke-00.pdf",
+      "content_hash": "sha512-VhYUFbtU6gNoTJJu9r-eoL3I1MF-B621KOXugIzI78mKqf1vImhs0vD6-kGexyfbTJd9OgwXayIbNlMsVMa0nQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-cose-cose-hpke-00.pdf",
+      "meta": {
+        "title": "COSE HPKE",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-cose-cose-hpke"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-cose-split-signing-algorithms-for-cose-00.pdf",
+      "content_hash": "sha512-oEhtqlpkJgmzDoRORFuVsg2ItV4fkU9WbhS8jn9PkAXdQC_TAbo412kYSrxVK8tREZYT-B3EKidLS7YGjZvO5Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-cose-split-signing-algorithms-for-cose-00.pdf",
+      "meta": {
+        "title": "Split Signing Algorithms for COSE",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-cose-split-signing-algorithms-for-cose"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-cose-aes-cmac-00.pdf",
+      "content_hash": "sha512-Dzi9cX9GNR-sq5ZnQg9EviRU0vxU5HLJuTFdEUuISrBK0JxapE6hdg0NTkYfeX64KFFhFezZw4hEKFKJl1ifjg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-cose-aes-cmac-00.pdf",
+      "meta": {
+        "title": "AES-CMAC",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-cose-aes-cmac"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/125/session/cose/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"COSE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-125-cose\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"COSE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:18:45.806247+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "whisper",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf125/ietf125_cose_35120.wtf.json",
+      "content_hash": "sha512-lZ2-rOpN2g9WXIeWb9DgTDmRLKgY_PFT6GrNelmJna1szVSqsv-nHZXueIdts3KHyIYPCqVhZ8iMtBZJ5v-yqQ",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:18:45.806247+00:00",
+  "subject": "IETF 125 - COSE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-03-30T21:57:49.842558+00:00",
+  "vcon": "0.4.0"
+}

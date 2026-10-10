@@ -1,0 +1,189 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff699-a674-8ce5-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Dr. Bernard D. Aboba",
+      "mailto": "Bernard_Aboba@hotmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "Russ Housley",
+      "mailto": "housley@vigilsec.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 87, \"location\": \"Berlin, DE\", \"working_group\": \"iab\", \"session_id\": \"22613\", \"room\": \"Potsdam 1/3\", \"start_time\": \"2013-07-29T15:40:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:31:32.597545+00:00\", \"meeting_number\": 87, \"group_acronym\": \"iab\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:31:32.597613+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:31:32.597618+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:31:32.597621+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:31:32.597624+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:31:32.597626+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/agenda/agenda-87-iab-techplenary.txt",
+      "content_hash": "sha512-V6BBaRT-_EdwzUQnjB6vznWGg4mC4_3n5EGOCNorUo7OjO4LsU-eL_YTsJ_idqD8in5bii7IbUsKq6TQzDUQ_g",
+      "mediatype": "text/plain",
+      "filename": "agenda-87-iab-techplenary.txt",
+      "meta": {
+        "title": "Agenda for IAB at IETF-87",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/agenda-87-iab-techplenary"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-iab-techplenary-0.pdf",
+      "content_hash": "sha512-FKuBLPBMfLq9qOAJEurbFoVn5YL2J1oaxoa3DGRcorbMFMExflmWrVV9zVAk3bZ8I5KLVVNnsWirkLNHD1IAKQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-iab-techplenary-0.pdf",
+      "meta": {
+        "title": "NOTE WELL",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-iab-techplenary-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-iab-techplenary-1.pdf",
+      "content_hash": "sha512-B2eCRMRvSaQinrmP6_3yk4RPRy8UfVv45LJX4EkycsDa6wWDHqiEYJM14Dem1CHy7ruRudE_4XLyBIl8eDsVeA",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-iab-techplenary-1.pdf",
+      "meta": {
+        "title": "Agenda",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-iab-techplenary-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-iab-techplenary-2.pdf",
+      "content_hash": "sha512-9tbYmznv8hC72xmC_R0dQ9D-uJop0q_NQNWr206rDhPTyzR7J5h8K9583sldavRbegLtL_UY6rafWbN4x5SZBA",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-iab-techplenary-2.pdf",
+      "meta": {
+        "title": "IRTF Report",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-iab-techplenary-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-iab-techplenary-3.pdf",
+      "content_hash": "sha512-zvfW3-mncgWsvrDGId61zY299p6qVqKvwZn_zKWBvoJsdWeGZJCqn8ctHfDdXiqARUGlNYWmmwbFxyaklYrk8A",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-iab-techplenary-3.pdf",
+      "meta": {
+        "title": "RSE and RSOC Chair Report",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-iab-techplenary-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-iab-techplenary-4.pdf",
+      "content_hash": "sha512-XoXqlX4XMXL_9X0HCm9I8dQNUCkdCsjmzQmoQoJenltEUq5mZyWJEKc5AMwoxprEEsQP-zU5bnS7HTBp0wNNiw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-iab-techplenary-4.pdf",
+      "meta": {
+        "title": "IAB Report",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-iab-techplenary-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/slides/slides-87-iab-techplenary-5.pdf",
+      "content_hash": "sha512-Xbx7PSVsQyHsvgdTNkpcdlQx20vIHHAwCHCDsTV0g8YgfUmJG2JpazaWK8AS7EcYQO2fy6bgY3-BfripNOAgOw",
+      "mediatype": "application/pdf",
+      "filename": "slides-87-iab-techplenary-5.pdf",
+      "meta": {
+        "title": "Opus Tech Plenary Talks",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/slides-87-iab-techplenary-5"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "url": "https://www.ietf.org/proceedings/87/minutes/minutes-87-iab-techplenary.txt",
+      "content_hash": "sha512-V5QlMFYQdEJ4RHvL63-oEgh367BS8-Fz6XXzB1LmpXb231oXjml0Dn3DRmY7Ce5ZBE-9Xz3HWaPpOqqnqnK7Uw",
+      "mediatype": "text/plain",
+      "filename": "minutes-87-iab-techplenary.txt",
+      "meta": {
+        "title": "Minutes for IAB at IETF-87",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/87/materials/minutes-87-iab-techplenary"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/87/session/iab/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"IAB Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-87-iab\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"IAB Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:31:32.596977+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:31:32.596977+00:00",
+  "subject": "IETF 87 - IAB Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:31:34.413833+00:00"
+}

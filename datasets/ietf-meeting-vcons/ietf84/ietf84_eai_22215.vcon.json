@@ -1,0 +1,133 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff69e-b3cb-81f3-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "john-ietf@jck.com",
+      "name": "Dr. John C. Klensin",
+      "role": "chair"
+    },
+    {
+      "mailto": "jyee@afilias.info",
+      "name": "Joseph Yee",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 84, \"location\": \"Vancouver, BC, CA\", \"working_group\": \"eai\", \"session_id\": \"22215\", \"room\": \"Georgia A\", \"start_time\": \"2012-08-02T16:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T15:37:03.691229+00:00\", \"meeting_number\": 84, \"group_acronym\": \"eai\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T15:37:03.691246+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T15:37:03.691248+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T15:37:03.691249+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T15:37:03.691250+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T15:37:03.691251+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "url": "https://www.ietf.org/proceedings/84/agenda/agenda-84-eai.txt",
+      "content_hash": "sha512-ESwSNlpHJtLSGfAJXLQxGT78uT_f7ecJXAANyFp_ig_xF6F9GQPh51TGW5fYt9AY-JZLrPV-spRwE3KQboruAQ",
+      "mediatype": "text/plain",
+      "filename": "agenda-84-eai.txt",
+      "meta": {
+        "title": "Agenda for EAI at IETF-84",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/84/materials/agenda-84-eai"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "url": "https://www.ietf.org/proceedings/84/slides/slides-84-eai-0.pdf",
+      "content_hash": "sha512-7pyNU0Q70pxi1DgbAKCkBp0De-itrsKMHhp-Do0A_8_LHjoNDAL1IEzXr7TKObk1TkKx1UxXxQWINxo47g87bQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-84-eai-0.pdf",
+      "meta": {
+        "title": "General Agenda",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/84/materials/slides-84-eai-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "url": "https://www.ietf.org/proceedings/84/slides/slides-84-eai-1.pptx",
+      "content_hash": "sha512-DO82qw8MbE24jza3eQWqOTj6BrlcRC1d4sBBBEXQ5Q1K1xtR1pO6ps7QM1AwTlBx1YYxp6E6j4QftHAQeyaLmg",
+      "mediatype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "filename": "slides-84-eai-1.pptx",
+      "meta": {
+        "title": "Presentation YAO JianKang",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/84/materials/slides-84-eai-1"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "url": "https://www.ietf.org/proceedings/84/minutes/minutes-84-eai.txt",
+      "content_hash": "sha512-3lmR9N33to0t3iLDqvyuV2GTIiE1BfHbHwx69ChTGTKUxhb9d6mLJLcScbNP72APBJda35ErBOXhLjj59-x0wA",
+      "mediatype": "text/plain",
+      "filename": "minutes-84-eai.txt",
+      "meta": {
+        "title": "Minutes for EAI at IETF-84",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/84/materials/minutes-84-eai"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/84/session/eai/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"EAI Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-84-eai\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"EAI Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T15:37:03.691140+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T15:37:03.691140+00:00",
+  "subject": "IETF 84 - EAI Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T15:37:05.191609+00:00"
+}

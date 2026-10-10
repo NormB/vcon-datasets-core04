@@ -1,0 +1,203 @@
+{
+  "uuid": "019d3280-a1f1-87be-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "joeygsal@gmail.com",
+      "name": "Joey Salazar",
+      "role": "chair"
+    },
+    {
+      "mailto": "ietf@hardakers.net",
+      "name": "Wes Hardaker",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2023-11-06T16:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=HDKFZAkOyW4",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 118,
+        "working_group": "dance"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 118, \"location\": \"Prague, CZ\", \"working_group\": \"dance\", \"session_id\": \"31721\", \"room\": \"Congress Hall 1\", \"start_time\": \"2023-11-06T16:30:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:33:04.113788+00:00\", \"meeting_number\": 118, \"group_acronym\": \"dance\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:33:04.113811+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:33:04.113813+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:33:04.113814+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:33:04.113816+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:33:04.113819+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "url": "https://www.ietf.org/proceedings/118/minutes/minutes-118-dance-202311061630-01.md",
+      "content_hash": "sha512-TvvNnw2_pwJmeL74HUkTUIyrPSDOB6RoXNfKIqHUjdr59-unyLF-vElTv8bqQkxD7X39JjUmV8EiQfjSKu4xhA",
+      "mediatype": "text/markdown",
+      "filename": "minutes-118-dance-202311061630-01.md",
+      "meta": {
+        "title": "Minutes IETF118: dance: Mon 16:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/118/materials/minutes-118-dance-202311061630"
+      }
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "url": "https://www.ietf.org/proceedings/118/chatlog/chatlog-118-dance-202311061730-00.json",
+      "content_hash": "sha512-ZuVjDRsswLSYaNzKkiPgIw_-YpXCXkEl4wV5GNQ6hsPCG-e0Jr5MXCujzJyUFye6W1aL-aEQL_XHZBGVaYgJoQ",
+      "mediatype": "application/json",
+      "filename": "chatlog-118-dance-202311061730-00.json",
+      "meta": {
+        "title": "Chat Log IETF118: dance: Mon 17:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/118/materials/chatlog-118-dance-202311061730"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "url": "https://www.ietf.org/proceedings/118/agenda/agenda-118-dance-00.md",
+      "content_hash": "sha512-Covu26GyxV6iD2kTGnabaic9mwavDDRZjTFkISZfU1gO4TEjjEUXuR52_A3zO7idrtZHn3kYARnKlF36WG2PDQ",
+      "mediatype": "text/markdown",
+      "filename": "agenda-118-dance-00.md",
+      "meta": {
+        "title": "Agenda IETF118: dance",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/118/materials/agenda-118-dance"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "url": "https://www.ietf.org/proceedings/118/bluesheets/bluesheets-118-dance-202311061630-00.txt",
+      "content_hash": "sha512-0nF2uHad0lFmabL8iRK5rfCHj-YvbjJXvo-FNCWUQiBi2rjb0hAatA-NXHPWWCD-9K6aZ9BUsaxNXeEFZykmGw",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-118-dance-202311061630-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF118: dance : Mon 16:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/118/materials/bluesheets-118-dance-202311061630"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "url": "https://www.ietf.org/proceedings/118/slides/slides-118-dance-dance-chair-slides-00.pdf",
+      "content_hash": "sha512-Sal-DJTJyF3HgHRUJGMGix0LksVwqAjAgCp5IGRNRHi-owrgOctLsdRfd8ROyLuiNNsWYo0Ln-wB4qaRCaBZfQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-118-dance-dance-chair-slides-00.pdf",
+      "meta": {
+        "title": "DANCE Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/118/materials/slides-118-dance-dance-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "url": "https://www.ietf.org/proceedings/118/slides/slides-118-dance-last-call-comments-00.pdf",
+      "content_hash": "sha512-2KeQU8Csc-O9_KqTbsEco6OCGuax0OwDuXGcB5OZe6XhiHshpFMVLbgJGeOV9KWVsccM1qKSwPulrtOhalXeVw",
+      "mediatype": "application/pdf",
+      "filename": "slides-118-dance-last-call-comments-00.pdf",
+      "meta": {
+        "title": "last call comments",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/118/materials/slides-118-dance-last-call-comments"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "url": "https://www.ietf.org/proceedings/118/slides/slides-118-dance-iot-use-case-00.pdf",
+      "content_hash": "sha512-m-M5ZqYnyfhnIeoNUkWvpNgQvZOogMJVPbjEu5LD4QkGDbF85AAOSRzh18hZ0WMo28GYcluoyyvyXs3tPTiNig",
+      "mediatype": "application/pdf",
+      "filename": "slides-118-dance-iot-use-case-00.pdf",
+      "meta": {
+        "title": "IoT use case",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/118/materials/slides-118-dance-iot-use-case"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/118/session/dance/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"DANCE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-118-dance\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"DANCE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:33:04.113560+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf118/ietf118_dance_31721.wtf.json",
+      "content_hash": "sha512-aI-gxstbtK1Sw4GVaebgyb94ZVFJG6Fcl197vGu5PJaTH5tEErhhvTIGNJuFJOVyGLvo78KjaSccx_XpkkVLqg",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:33:04.113560+00:00",
+  "subject": "IETF 118 - DANCE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-11T20:33:42.088093+00:00",
+  "vcon": "0.4.0"
+}

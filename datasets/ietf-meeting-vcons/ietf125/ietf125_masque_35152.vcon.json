@@ -1,0 +1,193 @@
+{
+  "uuid": "019d3273-fbde-8aa7-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Eric Kinnear",
+      "mailto": "ekinnear@apple.com",
+      "role": "chair"
+    },
+    {
+      "name": "Dennis Jackson",
+      "mailto": "ietf@dennis-jackson.uk",
+      "role": "chair"
+    },
+    {
+      "name": "Marten Seemann",
+      "mailto": "martenseemann@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-16T08:30:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://youtu.be/snheAPwx2yw",
+      "duration": 5400,
+      "meta": {
+        "ietf_meeting": 125,
+        "working_group": "masque"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 125, \"location\": \"Shenzhen, CN\", \"working_group\": \"masque\", \"session_id\": \"35152\", \"room\": \"Grand Ballroom 2\", \"start_time\": \"2026-03-16T08:30:00+00:00\", \"duration_seconds\": 5400}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-03-28T03:19:15.166815+00:00\", \"meeting_number\": 125, \"group_acronym\": \"masque\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:15.166837+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:15.166840+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:15.166841+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:15.166842+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-03-28T03:19:15.166843+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "chatlog",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "url": "https://www.ietf.org/proceedings/125/chatlog/chatlog-125-masque-202603191630-00.json",
+      "content_hash": "sha512-29w0zsljBuzZ9nPKH7FoaYaysMbyT_P86IEoRKThpmc9keJtcMWhzCVhledj-tQLuEbFCKhAuTEtf7SvWNnkAg",
+      "mediatype": "application/json",
+      "filename": "chatlog-125-masque-202603191630-00.json",
+      "meta": {
+        "title": "Chat Log IETF125: masque: Thu 16:30",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/chatlog-125-masque-202603191630"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "url": "https://www.ietf.org/proceedings/125/agenda/agenda-125-masque-05.md",
+      "content_hash": "sha512-Gf2MTGIf7H05xzmCDDftL84t2krfK2ivA4rc-mN_u32GoSQjEHB4MYkmOyjqRAzcGJfQpbdltsXvqQJSCiIt-g",
+      "mediatype": "text/markdown",
+      "filename": "agenda-125-masque-05.md",
+      "meta": {
+        "title": "Agenda IETF125: masque",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/agenda-125-masque"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-masque-masque-chair-slides-00.pdf",
+      "content_hash": "sha512-OrYcyyjQ5Yc5lvVc2-kTWgx5iDU6zc6-8cSjlfsykC-4S9FQXA-bdA9GmZ1_MBGMmxzo3wiceq1-DrLARUkucg",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-masque-masque-chair-slides-00.pdf",
+      "meta": {
+        "title": "Masque Chair Slides",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-masque-masque-chair-slides"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-masque-http-datagram-compression-00.pdf",
+      "content_hash": "sha512-V5S8H2gjnCEMfPqqH0MAunn3EZ_2VON9z0ymSNfjGJ9P8oJ9E5O3GX30_L7tnzcR01ORx6bCiuAJKGRezNexdA",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-masque-http-datagram-compression-00.pdf",
+      "meta": {
+        "title": "HTTP Datagram Compression",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-masque-http-datagram-compression"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-masque-the-masque-architecture-00.pdf",
+      "content_hash": "sha512-wHl3iTbLyrO5dF0lOCYfFJ3dz9GdFRO5HopGglEonGZEg--vr_d5TtoJFCXbju4w-DBGN3DGnBViKaTQPIbJ-A",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-masque-the-masque-architecture-00.pdf",
+      "meta": {
+        "title": "The MASQUE Architecture",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-masque-the-masque-architecture"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "url": "https://www.ietf.org/proceedings/125/slides/slides-125-masque-ecn-and-dscp-support-for-httpss-connect-udp-00.pdf",
+      "content_hash": "sha512-GO10KfbhAM3BQW3exL9nWub3CIX1JDKzWVu2QdIGSl45fgKiWrLHJpR_tkX7Wy9NflmawOTl57jV2WQQ4MC5Zw",
+      "mediatype": "application/pdf",
+      "filename": "slides-125-masque-ecn-and-dscp-support-for-httpss-connect-udp-00.pdf",
+      "meta": {
+        "title": "ECN and DSCP support for HTTPS's Connect-UDP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/125/materials/slides-125-masque-ecn-and-dscp-support-for-httpss-connect-udp"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/125/session/masque/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MASQUE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-125-masque\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MASQUE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-03-28T03:19:15.166697+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "whisper",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf125/ietf125_masque_35152.wtf.json",
+      "content_hash": "sha512-QhBzwNjOejawLYDr-RbDypph3AntmsUe9AlQrE9ihJ9nFoRktOZbjo3fcnocNr6eh4KU9IxL-FxrdWg2V7TqRA",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-03-28T03:19:15.166697+00:00",
+  "subject": "IETF 125 - MASQUE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-03-30T22:25:13.425405+00:00",
+  "vcon": "0.4.0"
+}

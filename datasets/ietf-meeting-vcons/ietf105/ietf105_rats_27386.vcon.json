@@ -1,0 +1,292 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff388-7c9f-8712-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Ned Smith",
+      "mailto": "ned.smith@intel.com",
+      "role": "chair"
+    },
+    {
+      "name": "Nancy Cam-Winget",
+      "mailto": "ncamwing@cisco.com",
+      "role": "chair"
+    },
+    {
+      "name": "Kathleen Moriarty",
+      "mailto": "Kathleen.Moriarty.ietf@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2019-07-24T19:50:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=tEo6VoWEoA8",
+      "duration": 3600,
+      "meta": {
+        "ietf_meeting": 105,
+        "working_group": "rats"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 105, \"location\": \"Montreal, CA\", \"working_group\": \"rats\", \"session_id\": \"27386\", \"room\": \"Duluth\", \"start_time\": \"2019-07-24T19:50:00+00:00\", \"duration_seconds\": 3600}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:13:56.127583+00:00\", \"meeting_number\": 105, \"group_acronym\": \"rats\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:13:56.127603+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:13:56.127604+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:13:56.127605+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:13:56.127606+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:13:56.127607+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/minutes/minutes-105-rats-00.txt",
+      "content_hash": "sha512-_41C39ZkgpXYVkZ7CmrFLoAiJzfsMYOVexaJeJOgEnMGXOjD0_Pjbt_seBKqTVdL4Zl1QLbq-pJpS2rNQowZhg",
+      "mediatype": "text/plain",
+      "filename": "minutes-105-rats-00.txt",
+      "meta": {
+        "title": "Minutes IETF105: rats",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/minutes-105-rats"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/minutes/minutes-105-rats-00.txt",
+      "content_hash": "sha512-_41C39ZkgpXYVkZ7CmrFLoAiJzfsMYOVexaJeJOgEnMGXOjD0_Pjbt_seBKqTVdL4Zl1QLbq-pJpS2rNQowZhg",
+      "mediatype": "text/plain",
+      "filename": "minutes-105-rats-00.txt",
+      "meta": {
+        "title": "Minutes IETF105: rats",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/minutes-105-rats"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/agenda/agenda-105-rats-06.txt",
+      "content_hash": "sha512-MCXAhqgFT-AyMSEntkWS_DU-Q5c1YyAQRo5t969oKVQt_Q0SKrJEHZ25nY2LfUD1gQd1EsAVKlA1_ovVDhAI3A",
+      "mediatype": "text/plain",
+      "filename": "agenda-105-rats-06.txt",
+      "meta": {
+        "title": "Agenda IETF105: rats",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/agenda-105-rats"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/bluesheets/bluesheets-105-rats-201907251550-00.pdf",
+      "content_hash": "sha512-pagvx5W0YCdok6LuGRLTN42wWCPeq1J9C9kIoLy37PX4P8ix9Ygn4s9msdzvWzHXh20bbKaOnO0zdWSFebWW7A",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-105-rats-201907251550-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF105: rats : Thu 15:50",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/bluesheets-105-rats-201907251550"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/agenda/agenda-105-rats-06.txt",
+      "content_hash": "sha512-MCXAhqgFT-AyMSEntkWS_DU-Q5c1YyAQRo5t969oKVQt_Q0SKrJEHZ25nY2LfUD1gQd1EsAVKlA1_ovVDhAI3A",
+      "mediatype": "text/plain",
+      "filename": "agenda-105-rats-06.txt",
+      "meta": {
+        "title": "Agenda IETF105: rats",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/agenda-105-rats"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/bluesheets/bluesheets-105-rats-201907241550-00.pdf",
+      "content_hash": "sha512-8-xq7-TB9o6BqWuvQwP7JmTzrXbSk38oGaJ0RarDSHMH1cyK72P2tZftYh2iSsA5xU1m-J66u3h50bAs4tyvDw",
+      "mediatype": "application/pdf",
+      "filename": "bluesheets-105-rats-201907241550-00.pdf",
+      "meta": {
+        "title": "Bluesheets IETF105: rats : Wed 15:50",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/bluesheets-105-rats-201907241550"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-rats-sessa-rats-chair-slides-for-both-sessions-01.pdf",
+      "content_hash": "sha512-qpjsBWCqY9lrBhnQ11qeyHlhb73I47XsHuU4jf9j3TS5281XPMNFosbWAqBS9o7mQpFaiAspZU8-lSAr_Dbm6Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-rats-sessa-rats-chair-slides-for-both-sessions-01.pdf",
+      "meta": {
+        "title": "RATS Chair slides for both sessions",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-rats-sessa-rats-chair-slides-for-both-sessions"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-rats-sessa-rats-chair-slides-for-both-sessions-01.pdf",
+      "content_hash": "sha512-qpjsBWCqY9lrBhnQ11qeyHlhb73I47XsHuU4jf9j3TS5281XPMNFosbWAqBS9o7mQpFaiAspZU8-lSAr_Dbm6Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-rats-sessa-rats-chair-slides-for-both-sessions-01.pdf",
+      "meta": {
+        "title": "RATS Chair slides for both sessions",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-rats-sessa-rats-chair-slides-for-both-sessions"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-rats-sessb-rats-architecture-interaction-model-challange-response-yang-module-information-module-00.pdf",
+      "content_hash": "sha512-TBa_o4zIA5zTS6gNrP0GlNWpwnNvO-L6OTvHR8W6TgwnlGNL2qvoGejYClZ6BfdfxK2lKXXlFmrur8B8TWQv3A",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-rats-sessb-rats-architecture-interaction-model-challange-response-yang-module-information-module-00.pdf",
+      "meta": {
+        "title": "RATS Architecture, Interaction Model, Challange-Response YANG Module, Information Module",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-rats-sessb-rats-architecture-interaction-model-challange-response-yang-module-information-module"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-rats-sessa-rats-use-cases-discussion-slides-for-wed-00.pdf",
+      "content_hash": "sha512-2my1r_B6JeH5jWVDtHTqyybjiEtCqGbgMsA4SW_zKsMsRWeXpzNfg2LYM94c_0klSsKMv9Ndi7STAu-0Zmzjsg",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-rats-sessa-rats-use-cases-discussion-slides-for-wed-00.pdf",
+      "meta": {
+        "title": "RATS use cases discussion slides (for Wed)",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-rats-sessa-rats-use-cases-discussion-slides-for-wed"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-rats-eat-draft-status-and-issues-00.pdf",
+      "content_hash": "sha512-sDEfJdN7wyjfx8QETWc1UUuRg3knNcMzIi2iLop-OUQ_OedqmE9gw9CWTiMMLCMDi-EZiv5zLvZFc1yvcLB6XQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-rats-eat-draft-status-and-issues-00.pdf",
+      "meta": {
+        "title": "EAT Draft Status and Issues",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-rats-eat-draft-status-and-issues"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-rats-sessb-eat-claims-00.pdf",
+      "content_hash": "sha512-ztgL4_r7G8ZmiTL8eb5E1TTx2ua7phIEiyGmjgGFmHVyX0JAoRRPhzkpnqmxOpB77ZKxt_aCVtL9nPGtYFD0qw",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-rats-sessb-eat-claims-00.pdf",
+      "meta": {
+        "title": "EAT claims",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-rats-sessb-eat-claims"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "url": "https://www.ietf.org/proceedings/105/slides/slides-105-rats-remote-integrity-validation-workflow-01.pdf",
+      "content_hash": "sha512-d1bZmh6kwbBUIrtH4_hZaJTCsJPudE0VkeDyQ6DMq3Puxvo0thu5kuvytANaoOG-FNqOe4D5nR_D7Wy9rXnLNw",
+      "mediatype": "application/pdf",
+      "filename": "slides-105-rats-remote-integrity-validation-workflow-01.pdf",
+      "meta": {
+        "title": "Remote Integrity Validation Workflow",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/105/materials/slides-105-rats-remote-integrity-validation-workflow"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/105/session/rats/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"RATS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-105-rats\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"RATS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:13:56.127471+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf105/ietf105_rats_27386.wtf.json",
+      "content_hash": "sha512-uv8Bya3IAueAAgPrSFh4JJak2tHSdQZMyGC7WWVm9K3T0R6TU-VFv2Vh3kD5p_qmh7519MGymlKgbTP5aV8lcA",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:13:56.127471+00:00",
+  "subject": "IETF 105 - RATS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:47.020838+00:00"
+}

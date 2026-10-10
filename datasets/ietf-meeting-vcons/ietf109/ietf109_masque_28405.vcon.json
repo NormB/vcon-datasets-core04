@@ -1,0 +1,263 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff37c-b048-8b91-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Christopher A. Wood",
+      "mailto": "caw@heapingbits.net",
+      "role": "chair"
+    },
+    {
+      "name": "Eric Kinnear",
+      "mailto": "ekinnear@apple.com",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2020-11-20T09:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=U5k8pQP6-9c",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 109,
+        "working_group": "masque"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 109, \"location\": \"Online, TH\", \"working_group\": \"masque\", \"session_id\": \"28405\", \"room\": \"Room 8\", \"start_time\": \"2020-11-20T09:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:01:02.920857+00:00\", \"meeting_number\": 109, \"group_acronym\": \"masque\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:02.920875+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:02.920876+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:02.920877+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:02.920878+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:01:02.920879+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/materials/agenda-109-masque\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda IETF109: masque\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/bluesheets/bluesheets-109-masque-202011201600-00.txt",
+      "content_hash": "sha512-Sb_UneFO5a-6ieIjqi-ERmXnzedVa6N9nutzmQ5BbNOkJzlra3KRUIqzzzKxaT9foQoBJLoYrnnDn7nxfiNyAw",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-109-masque-202011201600-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF109: masque : Fri 16:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/bluesheets-109-masque-202011201600"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/minutes/minutes-109-masque-00.md",
+      "content_hash": "sha512-CzxT1o9wEzAuUs-pOYFmCYNja8-9CrlDlE4UKjUEx7YylCsuxgDR0Ar6RmaL8fSlWr2XSbxboKe589u1QkBHfg",
+      "mediatype": "text/markdown",
+      "filename": "minutes-109-masque-00.md",
+      "meta": {
+        "title": "Minutes IETF109: masque",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/minutes-109-masque"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/materials/agenda-109-masque\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda IETF109: masque\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/minutes/minutes-109-masque-00.md",
+      "content_hash": "sha512-CzxT1o9wEzAuUs-pOYFmCYNja8-9CrlDlE4UKjUEx7YylCsuxgDR0Ar6RmaL8fSlWr2XSbxboKe589u1QkBHfg",
+      "mediatype": "text/markdown",
+      "filename": "minutes-109-masque-00.md",
+      "meta": {
+        "title": "Minutes IETF109: masque",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/minutes-109-masque"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-masque-ietf109-masque-chair-01.pdf",
+      "content_hash": "sha512-rosQa5L5LF8P5sMOiNQNkmWkZb1l1eWIuhuhUalGBQgF335rHC_CAxX0561S0UTUT5T-wU_PFrYCb6B2nZoF0g",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-masque-ietf109-masque-chair-01.pdf",
+      "meta": {
+        "title": "IETF109-MASQUE-Chair",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-masque-ietf109-masque-chair"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-masque-ietf109-masque-chair-01.pdf",
+      "content_hash": "sha512-rosQa5L5LF8P5sMOiNQNkmWkZb1l1eWIuhuhUalGBQgF335rHC_CAxX0561S0UTUT5T-wU_PFrYCb6B2nZoF0g",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-masque-ietf109-masque-chair-01.pdf",
+      "meta": {
+        "title": "IETF109-MASQUE-Chair",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-masque-ietf109-masque-chair"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-masque-sessb-masque-interop-ietf-109-00.pdf",
+      "content_hash": "sha512-IryCVD_b7HGeKlUB8g2anr8TiPr9QITCuCdn8XtpyYs4p9twK4PCqCD5BWt-pQOo2GuDTVCVXQdaMdK1NH0Yhg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-masque-sessb-masque-interop-ietf-109-00.pdf",
+      "meta": {
+        "title": "MASQUE Interop IETF 109",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-masque-sessb-masque-interop-ietf-109"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-masque-sessb-connect-udp-00.pdf",
+      "content_hash": "sha512-1iEG_yvq3z8spNoTyGStd3ENucA97vYb3Lp7GOhbEBH0HmS1gYjFAPQupaYUEWMbus8VLDNcG_yq5qxihZBNwQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-masque-sessb-connect-udp-00.pdf",
+      "meta": {
+        "title": "CONNECT-UDP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-masque-sessb-connect-udp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-masque-sessb-masque-ip-proxying-requirements-00.pdf",
+      "content_hash": "sha512-L1aTI9onNkmySPQ0oWpay8TkmTzCqwycd_Efqp2hMCRBsT1uLG_iFhjkwsWpc59hX0feZy13y8cgm6VjV9Se6g",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-masque-sessb-masque-ip-proxying-requirements-00.pdf",
+      "meta": {
+        "title": "MASQUE IP Proxying Requirements",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-masque-sessb-masque-ip-proxying-requirements"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-masque-sessb-ietf-109-masque-quic-aware-00.pdf",
+      "content_hash": "sha512-IQo2ijeh93-bb6jDQEln4vqR-_JaEy3Q-IE69ne-czvWFNaonqid75_WDVtuRmWON-sITLIKEPYW3pOWUlD-uw",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-masque-sessb-ietf-109-masque-quic-aware-00.pdf",
+      "meta": {
+        "title": "IETF-109-MASQUE-QUIC-Aware",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-masque-sessb-ietf-109-masque-quic-aware"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-masque-sessb-the-connect-ip-method-for-proxying-ip-traffic-00.pdf",
+      "content_hash": "sha512-ry2bH04Iq_qAWokRolri49pF6tw9tLL429MQw0_Hz2MpVK9SNT3CcErATzqj67v1ZNGibLCJ8SP1FUcYtcWmiw",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-masque-sessb-the-connect-ip-method-for-proxying-ip-traffic-00.pdf",
+      "meta": {
+        "title": "Additional IP Proxying Requirement Considerations",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-masque-sessb-the-connect-ip-method-for-proxying-ip-traffic"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/session/masque/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MASQUE Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-109-masque\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MASQUE Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:01:02.920753+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf109/ietf109_masque_28405.wtf.json",
+      "content_hash": "sha512-LuHOQbmhyJgkW1WCbqdc355Gm0jnboqrkumrUX_smSs7xvT9Petb8NkNYC3WsgTiBy1by_VV3TxfPAPZ3Xzf8A",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:01:02.920753+00:00",
+  "subject": "IETF 109 - MASQUE Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:48.123736+00:00"
+}

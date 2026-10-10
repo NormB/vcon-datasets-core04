@@ -1,0 +1,218 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6b8-e6e0-8c6e-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 70, \"location\": \"Vancouver, CA\", \"working_group\": \"mobopts\", \"session_id\": \"674\", \"room\": \"Oak\", \"start_time\": \"2007-12-03T17:00:00+00:00\", \"duration_seconds\": 9000}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:05:40.706423+00:00\", \"meeting_number\": 70, \"group_acronym\": \"mobopts\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:40.706540+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:40.706546+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:40.706549+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:40.706552+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:05:40.706554+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "url": "https://www.ietf.org/proceedings/70/agenda/MobOpts.txt",
+      "content_hash": "sha512-YAuK99kFDjy78Lgqa3hLXanwaMqKFQr4k1wm6rnwSyzdlhz2-F2Ovd0uRvrSQ1KZEw4-2OyPo1Qmi5pWD9SHJA",
+      "mediatype": "text/plain",
+      "filename": "MobOpts.txt",
+      "meta": {
+        "title": "Agenda for MOBOPTS at IETF-70",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/agenda-70-mobopts"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "url": "https://www.ietf.org/proceedings/70/minutes/MobOpts.txt",
+      "content_hash": "sha512-0ozEcsCqrfwVHommM_8tqJQbAI2mV6Wo4CCmD5pFZYtDu8BHKrXlEqbM8c2dTJEE1BAoFIL2Qs1SJJX1Q0Sn3A",
+      "mediatype": "text/plain",
+      "filename": "MobOpts.txt",
+      "meta": {
+        "title": "Minutes for MOBOPTS at IETF-70",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/minutes-70-mobopts"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-0\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-0.pdf\", \"title\": \"Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-1\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-1.pdf\", \"title\": \"Location Privacy Solutions\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-2\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-2.pdf\", \"title\": \"MPA Framework\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/MobOpts-3.pdf",
+      "content_hash": "sha512-lAy-ft46lj0uu04MpsOStgoNF7HqmFHZJ7uBdYjGy4rlnmT3d72WVIfSw_vnvKXRERxvuGVkGEftllqkvn7S-Q",
+      "mediatype": "application/pdf",
+      "filename": "MobOpts-3.pdf",
+      "meta": {
+        "title": "Skitter vs Dimes",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-4\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-4.pdf\", \"title\": \"MIP6 CN Multihoming\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-5\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-5.pdf\", \"title\": \"Multicast and Mobility Problem Statement Update\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-6\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-6.pdf\", \"title\": \"Intro to Multimob\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-7\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-7.pdf\", \"title\": \"Multimob Mobile IPTV Reqs\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/MobOpts-8.pdf",
+      "content_hash": "sha512-HU--gSiWDJFBZBScCGdmQ0lGmsOru5Nl1A5-eDdfqcnsPCYatTZzcCnV4tS-yfOgXkG8wOSKz7QZGkPApKRJBw",
+      "mediatype": "application/pdf",
+      "filename": "MobOpts-8.pdf",
+      "meta": {
+        "title": "Multimob IGMP/MLD Reqs",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-8"
+      }
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-9\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-9.pdf\", \"title\": \"Multimob Problem Space\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-10\", \"mimetype\": \"application/pdf\", \"filename\": \"slides-70-mobopts-10.pdf\", \"title\": \"Multimob Solutions\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "url": "https://www.ietf.org/proceedings/70/slides/MobOpts-11.pdf",
+      "content_hash": "sha512-qsKwXCJ-1Cu6tRPwoG5ekF5gPftgf6HGikyjdlsgXg6FPW7SIYL70yJmxhcGINoTQ6nTZsHrAIWABEUQrVTpgQ",
+      "mediatype": "application/pdf",
+      "filename": "MobOpts-11.pdf",
+      "meta": {
+        "title": "Multimob Summary",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/70/materials/slides-70-mobopts-11"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/70/session/mobopts/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"MOBOPTS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-70-mobopts\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"MOBOPTS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:05:40.704914+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [],
+  "created_at": "2026-08-12T16:05:40.704914+00:00",
+  "subject": "IETF 70 - MOBOPTS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T16:05:43.697201+00:00"
+}

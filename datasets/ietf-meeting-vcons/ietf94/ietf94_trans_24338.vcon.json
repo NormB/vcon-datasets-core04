@@ -1,0 +1,212 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff6cc-56ff-8f1a-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "mailto": "melinda.shore@gmail.com",
+      "name": "Melinda Shore",
+      "role": "chair"
+    },
+    {
+      "mailto": "paul@nohats.ca",
+      "name": "Paul Wouters",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2015-11-02T04:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=EnVQeXFYZ00",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 94,
+        "working_group": "trans"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 94, \"location\": \"Yokohama, JP\", \"working_group\": \"trans\", \"session_id\": \"24338\", \"room\": \"Room 413\", \"start_time\": \"2015-11-02T04:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T16:26:54.592346+00:00\", \"meeting_number\": 94, \"group_acronym\": \"trans\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T16:26:54.592389+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T16:26:54.592392+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T16:26:54.592395+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T16:26:54.592397+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T16:26:54.592398+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/94/materials/agenda-94-trans\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Agenda for TRANS at IETF-94\"}",
+      "encoding": "json",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-trans-0.pdf",
+      "content_hash": "sha512-kgcGC-AxOxsSS7bckDc0-SNsNbdJGBnP9ra2p4z-WpMqB-m6ReQ-hg0wuIRZuttW5_w1-8CtH7UD68fESAR5vw",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-trans-0.pdf",
+      "meta": {
+        "title": "Attack model update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-trans-0"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-trans-1.pdf",
+      "content_hash": "sha512-Mu8lpu9_VuiFTQkvb8i26QDnF9RhdAp8GwiSlviozWxzzCIpZaPf81iaLzvkjsbTY1DrxdohPDi29fj-hGxkbQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-trans-1.pdf",
+      "meta": {
+        "title": "Agenda",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-trans-1"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-trans-2.pdf",
+      "content_hash": "sha512-lMa4rzaYOqG7H4FoCMwswvhmLrbdB4LaodSbs4ICpGlfVAyKAs_xAuzXXyo9iPJhd7KthPJxqtiCq_CS3HSP6A",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-trans-2.pdf",
+      "meta": {
+        "title": "6962-bis issue tracker update",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-trans-2"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-trans-3.pdf",
+      "content_hash": "sha512-81YU02xPbl6D9m2c6HDkWoWsNMVGqcVY_F25sCG0GwcxG_FGt7GRxNALstXb_ANcIwpGdrg9Ao_Wo1VN1yFmFA",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-trans-3.pdf",
+      "meta": {
+        "title": "Gossip for CT",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-trans-3"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-trans-4.pdf",
+      "content_hash": "sha512-M9YNSPqk3X5f06WssS6Ejt_KtO2DnKVBQCky5rlr517hG3l4IA4-xacC0uJzjIGxnT8ilY9ij0Db9Y6dTFYsGA",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-trans-4.pdf",
+      "meta": {
+        "title": "ct-cothorities",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-trans-4"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "url": "https://www.ietf.org/proceedings/94/slides/slides-94-trans-5.pdf",
+      "content_hash": "sha512-bvIWTBLBtlzvslYg5WjjS1SFcq9j6huR65r0qghTjZm9MYiY8pxhoOYX8gZF1gV10gjDbqzHjflFcBWE-1kMQw",
+      "mediatype": "application/pdf",
+      "filename": "slides-94-trans-5.pdf",
+      "meta": {
+        "title": "CT over DNS",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/slides-94-trans-5"
+      }
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "url": "https://www.ietf.org/proceedings/94/minutes/minutes-94-trans.txt",
+      "content_hash": "sha512-IbK54cwfrtXRk3nKOju1w5VLWSJ97rlhO2HHRX92BltY7LESOe41F7nPPPhvJAzs4vqWAyQNjCTY9ljUA6jTbA",
+      "mediatype": "text/plain",
+      "filename": "minutes-94-trans.txt",
+      "meta": {
+        "title": "Minutes for TRANS at IETF-94",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/94/materials/minutes-94-trans"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/94/session/trans/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TRANS Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-94-trans\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"TRANS Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T16:26:54.592023+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "apple",
+      "product": "speechanalyzer",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf94/ietf94_trans_24338.wtf.json",
+      "content_hash": "sha512-APrZxakMbYU0B0ninMls99Lotqh3C99XB9GnOnmfSRJEX0KKDbNqP6sqL47q2aq4lFXvEWB2SBgUHyp5dAij9A",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T16:26:54.592023+00:00",
+  "subject": "IETF 94 - TRANS Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "role",
+    "meta",
+    "wtf_transcription"
+  ],
+  "updated_at": "2026-08-13T01:57:44.132337+00:00"
+}

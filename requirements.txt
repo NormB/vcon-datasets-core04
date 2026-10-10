@@ -1,0 +1,7 @@
+# Validation. rfc3339-validator and rfc3986-validator are what make jsonschema
+# check `format: date-time` and `format: uri`; without them it skips both
+# silently, and tools/core04.py refuses to run.
+jsonschema==4.26.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+pytest==8.4.2

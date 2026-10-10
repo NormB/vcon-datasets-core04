@@ -1,0 +1,396 @@
+{
+  "vcon": "0.4.0",
+  "uuid": "019ff37d-9d17-84c0-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Yoshifumi Nishida",
+      "mailto": "nsd.ietf@gmail.com",
+      "role": "chair"
+    },
+    {
+      "name": "Michael Scharf",
+      "mailto": "michael.scharf@hs-esslingen.de",
+      "role": "chair"
+    },
+    {
+      "name": "Michael Tüxen",
+      "mailto": "tuexen@fh-muenster.de",
+      "role": "chair"
+    },
+    {
+      "name": "IETF Attendees",
+      "role": "attendee"
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2020-11-17T05:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "mediatype": "video/mp4",
+      "url": "https://www.youtube.com/watch?v=8WZdXe1pajU",
+      "duration": 7200,
+      "meta": {
+        "ietf_meeting": 109,
+        "working_group": "tcpm"
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "meeting_metadata",
+      "body": "{\"ietf_meeting_number\": 109, \"location\": \"Online, TH\", \"working_group\": \"tcpm\", \"session_id\": \"28385\", \"room\": \"Room 8\", \"start_time\": \"2020-11-17T05:00:00+00:00\", \"duration_seconds\": 7200}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"ietf2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-08-12T01:02:03.543464+00:00\", \"meeting_number\": 109, \"group_acronym\": \"tcpm\", \"session_index\": 0}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": \"2099-12-31T23:59:59+00:00\", \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-08-12T01:02:03.543487+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-08-12T01:02:03.543489+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-08-12T01:02:03.543490+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-08-12T01:02:03.543493+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-08-12T01:02:03.543494+00:00\"}], \"terms_of_service\": \"https://www.ietf.org/about/note-well/\", \"metadata\": {\"terms_of_service_name\": \"IETF Note Well\", \"jurisdiction\": \"IETF\", \"controller\": \"Internet Engineering Task Force (IETF)\", \"notes\": \"Participation in IETF meetings constitutes agreement to the Note Well, which permits recording, transcription, and public archival of proceedings. See also BCP 78 (RFC 5378) and BCP 79 (RFC 8179) for IPR policies.\"}}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "agenda",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/agenda/agenda-109-tcpm-03.txt",
+      "content_hash": "sha512-YH9k4XVtffXppEDmcgKQPR2lf05fbVMnMg6ZIPxMWE4EBdtoEmicE3BJEL-VVybetNw7b3u0tQUle8wZp8vq1Q",
+      "mediatype": "text/plain",
+      "filename": "agenda-109-tcpm-03.txt",
+      "meta": {
+        "title": "Agenda IETF109: tcpm",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/agenda-109-tcpm"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tcpm-generalized-ecn/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"ECN++: Adding Explicit Congestion Notification (ECN) to TCP Control Packets\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-amend-tcpm-mptcp-robe/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Multipath TCP Extension for Robust Session Establishment\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-gomez-tcpm-ack-rate-request/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TCP ACK Rate Request Option\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-kang-tcpm-accurate-data-scheduling-by-server/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Accurate Data Scheduling by Server in MPTCP\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-kang-tcpm-fault-management-in-mptcp-session/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Fault Management Mechanism in MPTCP Session\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tcpm-yang-tcp/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"A YANG Model for Transmission Control Protocol (TCP) Configuration and State\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-yang-tcpm-ets/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TCP ETS: Extensible Timestamp Options\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-mathis-tcpm-rfc6937bis/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Proportional Rate Reduction for TCP\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/minutes/minutes-109-tcpm-00.txt",
+      "content_hash": "sha512-ZrElTxhS3vbM0zml-ehWVIzZ4OZRvACQtfuQo0MkJ6TEhuqDBb_OLVzkcxnQAR6he5RmepbZoPAkxapv76-rag",
+      "mediatype": "text/plain",
+      "filename": "minutes-109-tcpm-00.txt",
+      "meta": {
+        "title": "Minutes IETF109: tcpm",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/minutes-109-tcpm"
+      }
+    },
+    {
+      "purpose": "bluesheets",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/bluesheets/bluesheets-109-tcpm-202011171200-00.txt",
+      "content_hash": "sha512--1pY9ni1syi_oKQTL8U4_XaWFMSKhEDSzUGqugeH6_xMJTHKknQRZNAW5icUePaqMvQe-0JDdUsREPPezpXScw",
+      "mediatype": "text/plain",
+      "filename": "bluesheets-109-tcpm-202011171200-00.txt",
+      "meta": {
+        "title": "Bluesheets IETF109: tcpm : Tue 12:00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/bluesheets-109-tcpm-202011171200"
+      }
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tcpm-rfc793bis/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"Transmission Control Protocol (TCP)\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "document",
+      "body": "{\"url\": \"https://datatracker.ietf.org/doc/draft-ietf-tcpm-accurate-ecn/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"More Accurate Explicit Congestion Notification (AccECN) Feedback in TCP\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-wg-status-updates-01.pdf",
+      "content_hash": "sha512-OF857yhyIQpOWqXGWXeMxfbsA7wpwpT5idz8_zy7eo2HXJeT9lr_tkKPdFgfqDnI19K1Xb2GSg7_LyqemKe9Bw",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-wg-status-updates-01.pdf",
+      "meta": {
+        "title": "WG Status updates",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-wg-status-updates"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-updates-to-draft-ietf-tcpm-yang-tcp-00-02.pdf",
+      "content_hash": "sha512-mU4QFNPN_cB4X7MOz3_5VtuXIXKjx4z8xMaeO2QT2t4ELsHVYL7SQNmkM4Qk80UowRLknfQKXEikL1Z3SfX2eA",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-updates-to-draft-ietf-tcpm-yang-tcp-00-02.pdf",
+      "meta": {
+        "title": "Updates to draft-ietf-tcpm-yang-tcp-00",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-updates-to-draft-ietf-tcpm-yang-tcp-00"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-more-accurate-ecn-feedback-in-tcp-ecn-adding-explicit-congestion-notification-01.pdf",
+      "content_hash": "sha512-jvunQ4F4XxmTY2WNjMd-N3I1Rluu33Wb6GPFdiA-v8z5sg71V_Jlv3pLVEjZAXEyioXZRYgF7wGTVMbWZNy9Cg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-more-accurate-ecn-feedback-in-tcp-ecn-adding-explicit-congestion-notification-01.pdf",
+      "meta": {
+        "title": "More Accurate ECN Feedback in TCP / ECN++: Adding Explicit Congestion Notification",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-more-accurate-ecn-feedback-in-tcp-ecn-adding-explicit-congestion-notification"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-rfc-793bis-00.pdf",
+      "content_hash": "sha512-SBfjDgCB_bgkEM1970pfUODAENQC00WLiLNN3rGHwsRjRI1H9s_j93YiIv8YQwsLm1x40UeKiqCn8ZigRZhvyg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-rfc-793bis-00.pdf",
+      "meta": {
+        "title": "RFC 793bis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-rfc-793bis"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-tcp-ack-rate-request-00.pdf",
+      "content_hash": "sha512-lV_tdKmBEgPQCIqySQqPg1w8gSHwAhptDJHrocVOfJBxuPhK8bqhHfOvqgjw1FSCqfv-Zw6zvU0oW84iyx-M4Q",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-tcp-ack-rate-request-00.pdf",
+      "meta": {
+        "title": "TCP ACK Rate Request",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-tcp-ack-rate-request"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-tcp-ets-extensible-timestamps-in-microseconds-and-network-rtt-measurements-00.pdf",
+      "content_hash": "sha512-AmkIxPzTvYxvQgzEIjOwOI3bNeOE_4yXfilDY0x8_YPWfEu_BsY_uqPb2LoxxYNkZD-jHIvi59TFSTSoH8onTg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-tcp-ets-extensible-timestamps-in-microseconds-and-network-rtt-measurements-00.pdf",
+      "meta": {
+        "title": "TCP ETS: Extensible Timestamps in Microseconds and Network RTT Measurements",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-tcp-ets-extensible-timestamps-in-microseconds-and-network-rtt-measurements"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-progress-for-accurate-data-scheduling-by-server-in-mptcp-00.pdf",
+      "content_hash": "sha512-xp8WlEdSLSWcce-gT3rneTQI0e_LZS6ou0LRkMOpGmk3T0DQ987kLF-I1cuWDlJrt6nNEaE6Wb-PEiQch7ZoEQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-progress-for-accurate-data-scheduling-by-server-in-mptcp-00.pdf",
+      "meta": {
+        "title": "Progress for Accurate Data Scheduling by Server in MPTCP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-progress-for-accurate-data-scheduling-by-server-in-mptcp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-fault-management-enhancement-in-mptcp-00.pdf",
+      "content_hash": "sha512-wjrA48c_m0IJ7nh9oATIMsOikK9v3ovyA126jkeU0L4_HdiZwFqw_O6Hb3UKA__sOplobzL0BZMfLDfti7HVEQ",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-fault-management-enhancement-in-mptcp-00.pdf",
+      "meta": {
+        "title": "Fault Management Enhancement in MPTCP",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-fault-management-enhancement-in-mptcp"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-update-on-mptcp-robe-00.pdf",
+      "content_hash": "sha512-m6aSFVR01TRFVNeXeHxHtmrsgkFuFS65Dl7GKy4v65xEOMDH-Iz6A_fVyz1wiInbvY8hMFkHoUe4x2wOP_P3Pg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-update-on-mptcp-robe-00.pdf",
+      "meta": {
+        "title": "Update on MPTCP RobE",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-update-on-mptcp-robe"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-rfc-6937bis-00.pdf",
+      "content_hash": "sha512-pxPFxSCjim_mJlL4XmbHHz-Xmy2j5an5Lzzvi3GzF_WelFNVoOGhPce3zO-KLWI-QvmFEA5qQnzf51DrJ0ebXA",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-rfc-6937bis-00.pdf",
+      "meta": {
+        "title": "RFC 6937bis",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-rfc-6937bis"
+      }
+    },
+    {
+      "purpose": "slides",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "url": "https://www.ietf.org/proceedings/109/slides/slides-109-tcpm-tcpls-00.pdf",
+      "content_hash": "sha512-MBigu_Amlv5jBKO4I11LAFMWSFf3EYvf5Gxbv1uLN6fJ7sKxt2unpocAIEik7Ife1G1hfFrEv6pgav1Od6nlbg",
+      "mediatype": "application/pdf",
+      "filename": "slides-109-tcpm-tcpls-00.pdf",
+      "meta": {
+        "title": "TCPLS",
+        "datatracker_url": "https://datatracker.ietf.org/meeting/109/materials/slides-109-tcpm-tcpls"
+      }
+    },
+    {
+      "purpose": "agenda",
+      "body": "{\"url\": \"https://datatracker.ietf.org/meeting/109/session/tcpm/\", \"mimetype\": \"text/html\", \"filename\": null, \"title\": \"TCPM Agenda\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    },
+    {
+      "purpose": "minutes",
+      "body": "{\"url\": \"https://notes.ietf.org/notes-ietf-109-tcpm\", \"mimetype\": \"text/markdown\", \"filename\": null, \"title\": \"TCPM Notes\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-08-12T01:02:03.543328+00:00",
+      "mediatype": "application/json"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "youtube",
+      "product": "auto-captions",
+      "url": "https://github.com/vcon-dev/ietf-meeting-vcons/releases/download/transcripts-ietf109/ietf109_tcpm_28385.wtf.json",
+      "content_hash": "sha512-VhFs18QcXGKPPpJTZk36qFld8ZCvSoVKUwH1nNtTrHSlUMqp_otzdHuCCiR2ehQJj72wqDACNjO2PnSoo4Sq0g",
+      "mediatype": "application/json"
+    }
+  ],
+  "created_at": "2026-08-12T01:02:03.543328+00:00",
+  "subject": "IETF 109 - TCPM Working Group Session",
+  "extensions": [
+    "lawful_basis",
+    "wtf_transcription",
+    "role",
+    "meta"
+  ],
+  "updated_at": "2026-08-12T01:54:48.305679+00:00"
+}
