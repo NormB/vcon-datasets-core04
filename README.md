@@ -94,6 +94,13 @@ the recordings as public records of the City of Newport, RI; the same
 additive rule meets the note either way. This is the maintainer's reading of
 the published terms, not legal advice.
 
+Personal data in the IETF set: 6,169 of the 8,181 IETF containers (counted
+2026-10-10 at the pinned commit) name parties by email address, the working
+group chairs and session participants as the IETF publishes them. They are
+carried as upstream publishes them. Removing or replacing them would modify
+IETF content, which the provisions above do not allow outside the IETF
+Standards Process, and the repository's rule allows only added keys.
+
 The vendored schema, `schema/vcon.schema.json`, is `vcon_json_schema.json`
 from the IETF vCon working group's
 [draft-ietf-vcon-vcon-core](https://github.com/ietf-wg-vcon/draft-ietf-vcon-vcon-core)
