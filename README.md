@@ -155,8 +155,12 @@ core-04 `content_hash` in a `manifest.tsv`:
 ```
 
 `--urls` is a file with one URL per line. `--cookies` is a Netscape-format
-`cookies.txt` exported from a browser signed in to the IETF Datatracker; it
-holds a live login, so keep it private and delete it after the run. The
+`cookies.txt` holding the `sessionid` cookie of `auth.ietf.org`, from a
+browser signed in to the IETF Datatracker. With it, each request follows the
+single sign-on redirects (`get.ietf.org/oidc`, the `auth.ietf.org` authorize
+endpoint, the callback) to the file; the script stops before it would load
+the sign-in page. The file holds a live login, so keep it private and delete
+it after the run. The
 script sends only those cookies, one download at a time, two seconds apart.
 It stops, with a message saying why, on a login redirect, a web page in place
 of audio, a Cloudflare challenge, a short download, or less than 2 GiB of free

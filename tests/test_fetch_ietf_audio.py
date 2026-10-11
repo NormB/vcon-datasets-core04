@@ -32,8 +32,36 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
     def do_GET(self):
         Handler.hits.append((self.path, self.headers.get("Cookie")))
+        cookie = self.headers.get("Cookie") or ""
+        # The real chain: get.ietf.org -> /oidc -> auth.ietf.org authorize ->
+        # either back through /oidc/callback (signed in) or to the sign-in page.
+        if self.path.startswith("/oidc/callback"):
+            self.send_response(302)
+            self.send_header("Set-Cookie", "getsession=yes; Path=/")
+            self.send_header("Location", self.path.split("next=", 1)[1])
+            self.end_headers()
+            return
+        if self.path.startswith("/oidc"):
+            self.send_response(302)
+            self.send_header("Location", "/authorize?next=" + self.path.split("p=", 1)[1])
+            self.end_headers()
+            return
+        if self.path.startswith("/authorize"):
+            nxt = self.path.split("next=", 1)[1]
+            self.send_response(302)
+            if "sessionid=good" in cookie:
+                self.send_header("Location", "/oidc/callback?code=c&next=" + nxt)
+            else:
+                self.send_header("Location", "/accounts/login/?next=" + nxt)
+            self.end_headers()
+            return
+        if self.path.startswith("/accounts/login"):
+            self.send_response(403)
+            self.send_header("cf-mitigated", "challenge")
+            self.end_headers()
+            return
         if self.path.startswith("/audio/ok/"):
-            if self.headers.get("Cookie") != "sessionid=good":
+            if "getsession=yes" not in cookie:
                 self.send_response(302)
                 self.send_header("Location", "/oidc?p=" + self.path)
                 self.end_headers()
@@ -74,11 +102,6 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.send_header("Content-Length", str(len(AUDIO) + 10))
             self.end_headers()
             self.wfile.write(AUDIO)
-        elif self.path.startswith("/oidc"):
-            self.send_response(200)
-            self.send_header("Content-Type", "text/html")
-            self.end_headers()
-            self.wfile.write(b"<html>sign in</html>")
         else:
             self.send_response(404)
             self.end_headers()
@@ -139,6 +162,22 @@ def test_downloads_saves_and_hashes(server, tmp_path):
     assert not list(out.glob("*.part"))
 
 
+def test_a_signed_in_session_completes_the_sign_on_chain(server, tmp_path):
+    # Only the sign-in session cookie is given; the download host's own
+    # session is set on the way, as get.ietf.org does after /oidc/callback.
+    url = server + "/audio/ok/c.mp3"
+    rows = fia.fetch_all([url], tmp_path / "out", cookies(tmp_path))
+    assert rows[0].content_hash == expected_hash(AUDIO)
+    paths = [h[0].split("?")[0] for h in Handler.hits]
+    assert paths == ["/audio/ok/c.mp3", "/oidc", "/authorize", "/oidc/callback", "/audio/ok/c.mp3"]
+
+
+def test_the_sign_on_happens_once_per_run(server, tmp_path):
+    urls = [server + "/audio/ok/a.mp3", server + "/audio/ok/b.mp3"]
+    fia.fetch_all(urls, tmp_path / "out", cookies(tmp_path))
+    assert [h[0].split("?")[0] for h in Handler.hits].count("/authorize") == 1
+
+
 def test_follows_a_redirect_to_the_file(server, tmp_path):
     url = server + "/audio/moved/b.mp3"
     rows = fia.fetch_all([url], tmp_path / "out", cookies(tmp_path))
@@ -152,6 +191,7 @@ def test_a_login_redirect_stops_the_run(server, tmp_path):
         fia.fetch_all(urls, tmp_path / "out", cookies(tmp_path, value="expired"))
     assert not (tmp_path / "out" / "a.mp3").exists()
     assert len([h for h in Handler.hits if h[0].startswith("/audio/")]) == 1  # stopped at the first
+    assert not [h for h in Handler.hits if h[0].startswith("/accounts/login")]  # never loads the sign-in page
 
 
 def test_a_cloudflare_challenge_stops_the_run(server, tmp_path):
@@ -246,3 +286,15 @@ def test_a_short_body_is_not_saved(server, tmp_path):
     with pytest.raises(fia.HttpFailed):
         fia.fetch_all([server + "/audio/short/a.mp3"], tmp_path / "out", cookies(tmp_path))
     assert not list((tmp_path / "out").glob("*.mp3*"))
+
+
+def test_the_stop_message_counts_only_this_runs_urls(server, tmp_path, capsys):
+    out = tmp_path / "out"
+    out.mkdir()
+    fia.write_manifest(out, [fia.Row("https://other.example/x.mp3", "x.mp3", 1, "sha512-x")])
+    urls = tmp_path / "u.txt"
+    urls.write_text(server + "/audio/ok/a.mp3\n")
+    rc = fia.main(["download", "--urls", str(urls), "--cookies", str(cookies(tmp_path, "expired")),
+                   "--out", str(out), "--delay", "0"])
+    assert rc == 1
+    assert "0 of 1 files" in capsys.readouterr().err

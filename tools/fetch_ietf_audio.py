@@ -21,8 +21,9 @@ a Cloudflare challenge stops the run with a message saying which.
         file name, and write DIR/manifest.tsv.
 
 The cookies file is the Netscape cookies.txt format that browser cookie
-export extensions write; it needs the cookies for get.ietf.org. It holds a
-live login: keep it private and delete it when the run is done.
+export extensions write; it needs the sessionid cookie of auth.ietf.org,
+which lets the single sign-on redirects complete. It holds a live login:
+keep it private and delete it when the run is done.
 
 Exit codes: 0 done, 1 stopped (login, challenge, mismatch, disk, HTTP error),
 2 bad arguments.
@@ -171,12 +172,20 @@ def hash_local(urls, src):
 # ---- downloading ----
 
 class _StopAtLogin(urllib.request.HTTPRedirectHandler):
+    """Follow the single sign-on redirects; stop before the sign-in page.
+
+    get.ietf.org sends an unsigned request through /oidc to the auth.ietf.org
+    authorize endpoint. With a signed-in session there, that answers with a
+    code, get.ietf.org sets its own session and redirects to the file. Without
+    one it redirects to the sign-in page, which this script never requests.
+    """
+
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         target = urllib.parse.urlsplit(newurl)
-        if (target.path.startswith("/oidc") or target.netloc.startswith("auth.")
-                or "/accounts/login" in target.path):
-            raise NeedsLogin(f"{req.full_url} redirected to the login ({newurl.split('?')[0]}); "
-                             "export fresh cookies from a signed-in browser and run again")
+        if "/accounts/login" in target.path:
+            raise NeedsLogin(f"{req.full_url} redirected to the sign-in page; the sessionid "
+                             "cookie for auth.ietf.org is missing or expired. Export fresh "
+                             "cookies from a signed-in browser and run again")
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
@@ -280,7 +289,8 @@ def main(argv=None):
         rows = fetch_all(urls, args.out, args.cookies, args.delay, log=print)
     except FetchStopped as e:
         print(f"stopped: {e}", file=sys.stderr)
-        print(f"{len(read_manifest(args.out))} of {len(urls)} files are in "
+        saved = read_manifest(args.out)
+        print(f"{sum(u in saved for u in urls)} of {len(urls)} files are in "
               f"{pathlib.Path(args.out) / MANIFEST}; run again to continue", file=sys.stderr)
         return 1
     print(f"done: {len(rows)} of {len(urls)} files, manifest {pathlib.Path(args.out) / MANIFEST}")
