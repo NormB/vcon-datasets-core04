@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "pcp"
-      }
+      },
+      "content_hash": "sha512-rpFE43faldC3GNN7BB34DY64oFJ5cmi_QpVf8eUabjZo7CC4pOs84D7jov56U6pIAXHnh1iM5hw2FYIdBrqXpw"
     }
   ],
   "attachments": [

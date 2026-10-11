@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "mile"
-      }
+      },
+      "content_hash": "sha512-fjPm2VEdv9UrcGQ05Mi4YJ9gH492vb8p-zenJV8gAaxN-geQKmkK5jfN46EV65e6mJ9ZprsEtYHmdf6udI1xMA"
     }
   ],
   "attachments": [

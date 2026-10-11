@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "ospf"
-      }
+      },
+      "content_hash": "sha512-OSXivj8QcqP4cF5xCfTJFWZTeOOnlYC8_NBM_J42fkakllE73QP64xtHiqk63goCISXk1L8WDObTUeAap6j_rw"
     }
   ],
   "attachments": [

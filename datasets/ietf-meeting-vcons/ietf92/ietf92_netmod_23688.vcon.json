@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "netmod"
-      }
+      },
+      "content_hash": "sha512-Y9GZ1fc88hR474B8dcM0jQyz6-3a4yTFkz_WfSyjxeTbQCAow5MhpCIVg3m0m_t1bq3uGD_1heORZ86byHluEg"
     }
   ],
   "attachments": [

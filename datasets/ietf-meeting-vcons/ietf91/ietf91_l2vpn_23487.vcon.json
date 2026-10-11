@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "l2vpn"
-      }
+      },
+      "content_hash": "sha512-im4W-WYje5EB31YsQcOmbyOuwHkmmmQS54ZPWw8xguO-Ui-18VUMrMe3Ar_Y_on9MRxtml4t2j91s0ea8XV5LQ"
     }
   ],
   "attachments": [

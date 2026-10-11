@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "bfd"
-      }
+      },
+      "content_hash": "sha512-1PS-KI8YCsbbZdoxe4Os85E7gk1yNXoVr3EpEKTmx9QjIUqnrG_j0pOo36qlZxLQE0y3z4DeQHlLBDi2sB2Hpw"
     }
   ],
   "attachments": [

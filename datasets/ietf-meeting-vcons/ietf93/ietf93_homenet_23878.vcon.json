@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "homenet"
-      }
+      },
+      "content_hash": "sha512-bYvDSXD6aDlT7levzQHBIZbrK0mw41upRUHfRPYhieI-s6E_pr3SY92u4aLUG08A1o3uHbeQKkaiTCfFvIeKJw"
     }
   ],
   "attachments": [

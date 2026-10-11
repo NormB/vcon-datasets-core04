@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "opsec"
-      }
+      },
+      "content_hash": "sha512-AamNwQBgUjejwMVt-kqDOXdBoeZkxJgHwn1xM-OAUNOILivbbArLfrwf4wg-Cf7jwQz7fvQ4deC1vC7rngBLdg"
     }
   ],
   "attachments": [

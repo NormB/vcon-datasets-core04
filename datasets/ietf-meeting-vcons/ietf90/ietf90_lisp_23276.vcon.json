@@ -37,7 +37,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "lisp"
-      }
+      },
+      "content_hash": "sha512-WfQFVLr9Xw34FoX7HDK6mRe7R4G8XH04nhliK9XAwNqUoTWH25Y_bIgaXE-ci9CRsCQ8ugVYLMROKrOJoTmjqw"
     }
   ],
   "attachments": [

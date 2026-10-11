@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "ippm"
-      }
+      },
+      "content_hash": "sha512-bckbjDFZImhYWHbi--vgLkekx_nnvql3nLIf8fHFpTHtNycq9Bg4iBuXKDZ6LF4E7dXD2LR6yYS7rqUKBG3oyA"
     }
   ],
   "attachments": [

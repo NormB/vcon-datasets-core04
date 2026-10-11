@@ -33,7 +33,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "cdni"
-      }
+      },
+      "content_hash": "sha512-kFRwZ7RNaVTFYQlDIuMrjaDkXUHVorO9rCYYEnapU1skMRdyy8ZDY-r-LmRKo53ePcwsMQtnKg6bmh0pXAnrhg"
     }
   ],
   "attachments": [

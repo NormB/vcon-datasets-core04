@@ -33,7 +33,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "ccamp"
-      }
+      },
+      "content_hash": "sha512-SarfGEBWfqn1HK3z__MaXncxss2RL_cG3ff9Y8zkPWrW4goPioIYmNrYeWewHPRe50cAraHrh_j5rREjjqsEig"
     }
   ],
   "attachments": [

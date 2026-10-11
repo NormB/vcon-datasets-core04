@@ -28,6 +28,25 @@ datasets has one.
 Applies to all three datasets. It is the only finding in the Supreme Court
 dataset, so every container there passes the schema after it.
 
+### `dialog-content-hash`: `content_hash` on recordings, from the fetched bytes
+
+[Core-04 section 2.4](https://datatracker.ietf.org/doc/html/draft-ietf-vcon-vcon-core-04#section-2.4)
+requires `content_hash` beside `url`. A hash can only come from the bytes the
+URL serves, so this correction reads it from a table:
+[`hashes/ietf-audio.tsv`](hashes/ietf-audio.tsv), one row per URL with the
+file's size and its `content_hash` (section 2.2: `sha512-` and the base64url
+digest). The table was made on 2026-10-11 by `tools/fetch_ietf_audio.py`,
+which downloaded every IETF 86 and 90-94 audio recording with a signed-in
+IETF Datatracker session; see README.md.
+
+The rule: when a dialog has a `url`, no `content_hash`, and its URL is in a
+hash table, add that table's `content_hash`. A dialog with a `url` that is in
+no table is counted as unresolved in REPORT.md and left unchanged.
+
+Applies to the IETF dataset's audio recordings. Checking these hashes needs
+an IETF login, since the URLs redirect to it; the upstream README leaves them
+unhashed for that reason.
+
 ## Open
 
 These are recorded and not changed. Each would need a value the data does
@@ -43,11 +62,6 @@ them. REPORT.md counts these dialogs by host.
 * **IETF, YouTube recordings.** A YouTube watch URL serves an HTML page, not
   the media, so no hash of it can describe the recording. The upstream README
   ("Media references") states this and writes no hash for these by design.
-* **IETF, ietf.org audio (IETF 90 to 94).** The `www.ietf.org/audio/` URLs
-  now redirect to the IETF login. A probe on 2026-10-09 followed
-  `get.ietf.org/oidc` to `auth.ietf.org` and ended at a Cloudflare challenge
-  (HTTP 403). The upstream README records the same, and that there is no
-  public mirror.
 * **Newport, Granicus recordings.** Each `cityofnewport.granicus.com/
   DownloadFile.php` URL redirects to `archive-video.granicus.com`, which
   answered HTTP 403 "Request blocked" from CloudFront on 2026-10-09, with and
@@ -66,6 +80,15 @@ attachment, so removing the reference would make them fail it, and a dialog
 cannot be made up. Upstream would need either to add the session's dialog or
 to say how core-04 expects an attachment of a session without a recording to
 be referenced.
+
+### IETF: one recording labeled `audio/mpeg` that is Ogg Vorbis
+
+`https://www.ietf.org/audio/ietf93/ietf93-congresshalli-20150720-0900.mp3`,
+referenced by `ietf93/ietf93_icnrg_23899.vcon.json` with
+`"mediatype": "audio/mpeg"`, serves Ogg Vorbis audio (mono, 16 kHz) under an
+`.mp3` name. Correcting the value would change an original value, which this
+repository does not do; its `content_hash` is applied, since it describes the
+bytes served.
 
 ### IETF: dialogs that name parties that do not exist
 

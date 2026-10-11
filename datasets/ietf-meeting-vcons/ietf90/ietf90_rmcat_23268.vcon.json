@@ -37,7 +37,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "rmcat"
-      }
+      },
+      "content_hash": "sha512-g23r6UpBFDNjNoSUtXFZnIicz0iGr2MRW1Ubac5fw1Auhsrr4kBYa2mCK1KM7yWwiikfdRiH8qH25yPOYGzT9A"
     }
   ],
   "attachments": [

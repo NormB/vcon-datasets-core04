@@ -37,7 +37,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "kitten"
-      }
+      },
+      "content_hash": "sha512-HMnXmwyI2-CYTDdkCrvpP-CTXW4Y0ZRf0cd11jorDqsQTREWl29G4yQsroIB4tqeWFuirK5hTEGnsUXInvSgng"
     }
   ],
   "attachments": [

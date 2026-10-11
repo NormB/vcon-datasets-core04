@@ -6,7 +6,7 @@ Schema: `schema/vcon.schema.json`, SHA-256 `b3c1ae28041dea304c978a0e9e04da18253f
 
 | Dataset | Containers | Corrected | Valid before | Valid after |
 |---|---:|---:|---:|---:|
-| ietf-meeting-vcons | 8181 | 8181 | 0 | 4102 |
+| ietf-meeting-vcons | 8181 | 8181 | 0 | 4527 |
 | vcon-dataset-city-of-newport-ri | 115 | 115 | 0 | 0 |
 | vcon-supreme-court-arguments | 8503 | 8503 | 0 | 8503 |
 
@@ -14,15 +14,15 @@ Schema: `schema/vcon.schema.json`, SHA-256 `b3c1ae28041dea304c978a0e9e04da18253f
 
 Upstream https://github.com/vcon-dev/ietf-meeting-vcons at `b919f24dd29c0419f356c4b1133220c18de3a9ef`, license BSD-3-Clause.
 
-Corrections applied (count of objects): `attachment-mediatype` 57781.
+Corrections applied (count of objects): `attachment-mediatype` 57781, `dialog-content-hash` 425.
 
-Found and not settled by the data (count of objects): none.
+Found and not settled by the data (count of objects): `dialog-content-hash` 3654.
 
 Schema findings after correction:
 
 | Finding | Containers |
 |---|---:|
-| `/dialog/* dependencies: dependencies {"url": ["content_hash"]}` | 4079 |
+| `/dialog/* dependencies: dependencies {"url": ["content_hash"]}` | 3654 |
 
 Index errors (not visible to the schema):
 
@@ -31,13 +31,12 @@ Index errors (not visible to the schema):
 | `attachment-dialog-index` | 4102 |
 | `dialog-party-index` | 463 |
 
-4102 of the valid containers carry an index error.
+4171 of the valid containers carry an index error.
 
 Dialogs with `url` and no `content_hash`, by host:
 
 | Host | Dialogs |
 |---|---:|
-| `www.ietf.org` | 425 |
 | `www.youtube.com` | 3161 |
 | `youtu.be` | 400 |
 | `youtube.com` | 93 |
@@ -48,7 +47,7 @@ Upstream https://github.com/vcon-dev/vcon-dataset-city-of-newport-ri at `1a999e1
 
 Corrections applied (count of objects): `attachment-mediatype` 230.
 
-Found and not settled by the data (count of objects): none.
+Found and not settled by the data (count of objects): `dialog-content-hash` 115.
 
 Schema findings after correction:
 

@@ -37,7 +37,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "alto"
-      }
+      },
+      "content_hash": "sha512-ajSptT4omKf2aC059R48irM7kIq8_FiQ1JyQkaq_8mAfAqMZwQ_aQAe0fapDZjVbEMQQRgZnN5krAJWwOF8Pqw"
     }
   ],
   "attachments": [

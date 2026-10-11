@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "payload"
-      }
+      },
+      "content_hash": "sha512-lVdzUGm3fFUZbZjjz9_Zo94gJ-fHLLBr86ol6Z9bvIH7DBl193Xrwdbc2lOn-E-7bfyX9U1ODv3tIoFwLxcLtg"
     }
   ],
   "attachments": [

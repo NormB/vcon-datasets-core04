@@ -38,7 +38,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "mpls"
-      }
+      },
+      "content_hash": "sha512-w8eSVRdVKbTOrxmlGNAGoYvLucPJTboS5EHKOFMJCQ8QsNbQVo2cctkCsahnpM4oeut1Vj3lLlkujB-jgWhQhA"
     }
   ],
   "attachments": [

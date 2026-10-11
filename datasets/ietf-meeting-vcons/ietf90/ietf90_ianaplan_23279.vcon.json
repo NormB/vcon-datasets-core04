@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "ianaplan"
-      }
+      },
+      "content_hash": "sha512-9YK0nylw8VvgbsZNg6mgCqprfdKDqkAofyEd7UTZ0CPlnGubtL2Yvg4Z_qYRnUlMKq2kpImID8qqwizyTpzWxQ"
     }
   ],
   "attachments": [

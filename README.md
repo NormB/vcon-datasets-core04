@@ -8,7 +8,9 @@ A vCon is a JSON container for one conversation: its parties, its recordings
 or messages (dialogs), its attachments and its analysis.
 
 On 2026-10-09 no container in these datasets passed the core-04 JSON schema.
-The correction adds one field. Every Supreme Court container passes after it.
+The corrections add two fields: `mediatype` on inline attachments, and
+`content_hash` on recordings whose bytes were fetched and hashed. Every
+Supreme Court container passes after them.
 The IETF and Newport datasets carry problems the data cannot settle; those
 are listed in [CHANGES.md](CHANGES.md) and left as they are.
 
@@ -22,6 +24,7 @@ were corrected, how many pass the schema before and after, and what remains.
 |---|---|
 | `datasets/<name>/` | The corrected containers, at the same relative paths as upstream, and the dataset's `LICENSE` |
 | `PINS.tsv` | The upstream repository and commit each dataset is built from |
+| `hashes/*.tsv` | Content hashes of fetched recordings, one row per URL, applied by the `dialog-content-hash` correction |
 | `CHANGES.md` | The change list: each correction with the core-04 section behind it, and each open item |
 | `REPORT.md`, `report.json` | The measured counts, and the tree digest each dataset is checked against |
 | `tools/core04.py` | The correction rule, the validator and the index checks |
@@ -86,9 +89,9 @@ the content comes from.
 
 Conclusion: redistributing the IETF dataset under these terms is allowed
 because the corrections never modify IETF content. Every `body`, transcript
-and URL is carried byte for byte; the only change is a `mediatype` key added
-beside an attachment's content, and the build fails if any original value
-changes. The attribution each container already carries is kept. The Newport
+and URL is carried byte for byte; the only changes are keys added beside the
+content (`mediatype` on an attachment, `content_hash` on a recording), and the
+build fails if any original value changes. The attribution each container already carries is kept. The Newport
 dataset carries the same note in its LICENSE, although its README describes
 the recordings as public records of the City of Newport, RI; the same
 additive rule meets the note either way. This is the maintainer's reading of
@@ -168,9 +171,10 @@ disk; a second run verifies what is already saved and continues. For files
 downloaded in a browser instead, `hash-local --urls FILE --dir DIR` hashes
 them, matched to URLs by file name.
 
-Anyone checking these hashes needs an IETF login too, which is why the
-upstream dataset does not carry them. The manifest is not applied to the
-corpus; adding it as a correction is a separate decision.
+The manifest of the 2026-10-11 run is committed as `hashes/ietf-audio.tsv`
+and applied by the `dialog-content-hash` correction (CHANGES.md). Anyone
+checking these hashes needs an IETF login too, which is why the upstream
+dataset does not carry them.
 
 ## Validation
 

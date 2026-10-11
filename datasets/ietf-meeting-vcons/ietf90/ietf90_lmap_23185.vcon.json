@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "lmap"
-      }
+      },
+      "content_hash": "sha512-nX9Bo1eiyyarCOqEjeSwlMexSjSyXi9rtYEITYjQg8jl_HqA3rWmXGihHHpoj2k9QMt9dypO4r-TiQDsrEVIEQ"
     }
   ],
   "attachments": [

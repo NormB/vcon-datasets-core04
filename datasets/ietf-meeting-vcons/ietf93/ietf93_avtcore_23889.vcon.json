@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "avtcore"
-      }
+      },
+      "content_hash": "sha512-EnjzUxqjZjrzVJ22d7Tb9F5a9m6x8Gfh89Jh1hbRggrFKfWoPbJkkjPQpMNzTx5cHwekPDHYxCPwAArXaS8DhA"
     }
   ],
   "attachments": [

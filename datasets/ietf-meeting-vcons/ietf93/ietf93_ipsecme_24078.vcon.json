@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "ipsecme"
-      }
+      },
+      "content_hash": "sha512-PHsKWjoHk1NvzQN9uZ2M8Ok4q49OASaCEvo_ud14RuJCi3vXIdPYHRW5h7l4hkH5VlcQNRnhs67XJ2E1UhgefA"
     }
   ],
   "attachments": [

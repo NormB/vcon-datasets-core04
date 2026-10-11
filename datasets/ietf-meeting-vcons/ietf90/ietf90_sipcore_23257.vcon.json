@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "sipcore"
-      }
+      },
+      "content_hash": "sha512-owNm6yYu5cUu9h9AOZBY1IGVbFkzjd901fhF8uWJiBbGE1udgJMsp6v-nAkfiI76yJv3zMf4sczPuRhJP0OJag"
     }
   ],
   "attachments": [

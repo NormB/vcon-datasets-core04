@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "siprec"
-      }
+      },
+      "content_hash": "sha512-y31-up9bcnGabncIHtDyQMUWTITISn1gftZ7H2MY01Yx0r1HTHi4N7hg2Oih8gml0rvCzw9J56EQbqnpDoXMag"
     }
   ],
   "attachments": [

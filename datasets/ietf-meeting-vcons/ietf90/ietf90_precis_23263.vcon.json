@@ -31,7 +31,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "precis"
-      }
+      },
+      "content_hash": "sha512-wCYfzhwrSjKxVEBG0ctYAwCNjW2qNHs1xBOYbaLMw_KjXM8JPC3vkSCT29bCYkciNEPmlvGstZi8_SF4xIgrcg"
     }
   ],
   "attachments": [

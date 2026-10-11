@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "mptcp"
-      }
+      },
+      "content_hash": "sha512-argy9VkczWgg4_7tF3d0TsNAHHIKZMeEqiMlj1QRjmM172WdMjUuAH6q532MPns32o4y9kP-4bVIK0Mrrn9nDA"
     }
   ],
   "attachments": [

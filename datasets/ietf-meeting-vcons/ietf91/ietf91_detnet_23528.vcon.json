@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "detnet"
-      }
+      },
+      "content_hash": "sha512-wEPX0-bRHv4YapGzcHltkRZggHbfDpH_-7Y2SvMob9qmkzheTTzKEfZS46lKpTLpfKjQjHpEOeko0vhA8dgTHA"
     }
   ],
   "attachments": [

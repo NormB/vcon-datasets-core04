@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "dtn"
-      }
+      },
+      "content_hash": "sha512-gMDXy1PRXG_7slJFfegMcV9xYfTMYjWgkACPsSg7NKRJgk5Hmjaj1_O1NkgjVXvtPZ844LrlFyIp6loNVorxDw"
     }
   ],
   "attachments": [

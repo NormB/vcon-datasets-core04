@@ -33,7 +33,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "manet"
-      }
+      },
+      "content_hash": "sha512-lJkYpOSlvPAEhbTfXsyBYdINLELKAsI3c05_dYrVn4iYEscjO3gq16wdch4qjdO0n6A69dDRARLgME_wTAI4ZA"
     }
   ],
   "attachments": [

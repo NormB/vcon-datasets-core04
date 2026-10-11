@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "v6ops"
-      }
+      },
+      "content_hash": "sha512-8-pHZzxYMvjOHY7iE4UYExY6tTkeUjILlFUZgZfvnKf9rL-AGBDQzeVKKbLJSZlyUogPJigna_l0PivBqfAo5A"
     }
   ],
   "attachments": [

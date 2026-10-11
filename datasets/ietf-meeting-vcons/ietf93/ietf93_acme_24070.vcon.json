@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "acme"
-      }
+      },
+      "content_hash": "sha512-du82w2FWVYnd_eR5s8wMjq0CXX3NxwA0oOhHjyuFsmSvQdIDrgnmaSMr4CjJluuiIyuyV3kjjanIQWEXEKztGg"
     }
   ],
   "attachments": [

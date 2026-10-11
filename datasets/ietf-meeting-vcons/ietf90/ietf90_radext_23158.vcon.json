@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "radext"
-      }
+      },
+      "content_hash": "sha512-DDukm_AqX_gz4phFCxz1D5GSTfWZXwbcDN_7Ru_NE5rB1_yqmiFC1ApmOuNvlM0QwDNxVvnsaTKTC-TAmTum8g"
     }
   ],
   "attachments": [

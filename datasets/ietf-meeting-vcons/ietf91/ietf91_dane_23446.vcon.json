@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "dane"
-      }
+      },
+      "content_hash": "sha512-K2mRGzwSJ9KTZwvxT6FpvWnRbSTzlA3p-tkH1b-gFzvQtV7WaIPULCPhFKBFCxK59LBhusQmaH6KRofZlELjpg"
     }
   ],
   "attachments": [

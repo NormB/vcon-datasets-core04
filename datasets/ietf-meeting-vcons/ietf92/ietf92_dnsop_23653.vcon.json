@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "dnsop"
-      }
+      },
+      "content_hash": "sha512-fotablPeziYhnSC3nWMqDhhUkh_XbellpDslq2Y13MHd8Ir5Ev4arSGKQ6k_c4mPOG8j7zV6IifiHCA8eWWaBA"
     }
   ],
   "attachments": [

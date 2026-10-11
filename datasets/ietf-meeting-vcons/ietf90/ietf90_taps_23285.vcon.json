@@ -27,7 +27,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "taps"
-      }
+      },
+      "content_hash": "sha512-DnsXpstuYDANoltS_r6ur2e03OekpEPOxZ9ThdCeA3DUssYqBQWwqzRpjPeJiqoXUFTX_3O3aXFMI5jH_EjaZA"
     }
   ],
   "attachments": [

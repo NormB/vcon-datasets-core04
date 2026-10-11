@@ -33,7 +33,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "cfrg"
-      }
+      },
+      "content_hash": "sha512-TY0TcA2GTePEUk5izX4986wGuGSMiJM0uH_csEFRey6CsWdzLpFDvS4B7krClyALVo3c5zds1Y_Vmhcz_hICBA"
     }
   ],
   "attachments": [

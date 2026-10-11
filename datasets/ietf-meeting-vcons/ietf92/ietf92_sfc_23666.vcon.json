@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "sfc"
-      }
+      },
+      "content_hash": "sha512-s6U9OgYJuvfvElC_jUBn_I5dcXzu0Ai6Li29CVXwIok7Q4L9v_w1mFm1eyYpS9ymF-Bj8drXZu1kfr07E0m-RQ"
     }
   ],
   "attachments": [

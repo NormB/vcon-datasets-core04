@@ -37,7 +37,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "rtcweb"
-      }
+      },
+      "content_hash": "sha512-yd3o9QhSaaEN6_40latXkOsDVLkMSDvUw-QKPhIRVWU02hUxdfRTMKG442tMvdPJyhA4k9gBfKmpY6Y2FpIG9g"
     }
   ],
   "attachments": [

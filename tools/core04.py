@@ -11,6 +11,10 @@ What is corrected (draft-ietf-vcon-vcon-core-04):
   JSON, so the media type is ``application/json``. Any other inline
   attachment without ``mediatype`` is reported as unresolved and left as it
   is.
+* ``dialog-content-hash`` -- a Dialog Object with ``url`` must carry
+  ``content_hash`` (section 2.4). It is added only from a table of hashes
+  computed from the bytes the URL served (``read_hashes``); a dialog whose URL
+  is not in a table is reported as unresolved.
 
 Every correction adds a key. None changes or removes a value: the IETF Trust
 Legal Provisions allow IETF content to be redistributed in full and without
@@ -69,9 +73,22 @@ def _parses_as_json(text):
     return True
 
 
-def correct(doc):
-    """Apply every correction to ``doc`` in place."""
+def correct(doc, hashes=None):
+    """Apply every correction to ``doc`` in place.
+
+    ``hashes`` maps a URL to the content_hash of the bytes it served.
+    """
     applied, unresolved = [], []
+    hashes = hashes or {}
+    for i, d in enumerate(doc.get("dialog") or []):
+        if not isinstance(d, dict) or not isinstance(d.get("url"), str) or "content_hash" in d:
+            continue
+        where = Change("dialog-content-hash", f"/dialog/{i}")
+        if d["url"] in hashes:
+            d["content_hash"] = hashes[d["url"]]
+            applied.append(where)
+        else:
+            unresolved.append(where)
     for i, a in enumerate(doc.get("attachments") or []):
         if not isinstance(a, dict) or "body" not in a or "mediatype" in a:
             continue
@@ -217,6 +234,29 @@ def unhashed_url_hosts(doc):
             host = urllib.parse.urlsplit(d["url"]).netloc
             hosts[host] = hosts.get(host, 0) + 1
     return hosts
+
+
+# ---- hash tables ----
+
+# Section 2.2: "sha512", a hyphen, and the base64url SHA-512 digest. 64 bytes
+# encode to 86 characters without padding.
+_SHA512_TOKEN = re.compile(r"^sha512-[A-Za-z0-9_-]{86}$")
+
+
+def read_hashes(path):
+    """URL -> content_hash, from a fetch manifest (url, filename, size, content_hash)."""
+    lines = pathlib.Path(path).read_text().splitlines()
+    if not lines or lines[0].split("\t") != ["url", "filename", "size", "content_hash"]:
+        raise ValueError(f"{path}: not a fetch manifest")
+    table = {}
+    for n, line in enumerate(lines[1:], 2):
+        url, _name, _size, token = line.split("\t")
+        if not _SHA512_TOKEN.match(token):
+            raise ValueError(f"{path}:{n}: {token!r} is not a sha512 content_hash")
+        if url in table:
+            raise ValueError(f"{path}:{n}: {url} is listed twice")
+        table[url] = token
+    return table
 
 
 # ---- pins ----

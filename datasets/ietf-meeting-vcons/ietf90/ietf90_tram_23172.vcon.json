@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "tram"
-      }
+      },
+      "content_hash": "sha512-l7OVQ5Pv-9BYC3x2H6dGhvKHnibwJzkz5PMfkLt420auoo-OCBF99quE-mIxJ8XPcAzqphR-UXGee8F4PcsgWQ"
     }
   ],
   "attachments": [

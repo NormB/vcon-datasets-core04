@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "tcpinc"
-      }
+      },
+      "content_hash": "sha512-TGYTKBww459bUn6pb5jfiK8hXAgqG8JoTVKcOcdEHk02sOkfy94NJ4I8QQIz8-fn7KGQaA8vmJqv41sJBVrMtg"
     }
   ],
   "attachments": [

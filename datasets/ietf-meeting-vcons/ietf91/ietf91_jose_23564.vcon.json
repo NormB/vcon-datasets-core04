@@ -33,7 +33,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "jose"
-      }
+      },
+      "content_hash": "sha512-GPBvcsfrVe31KYC_1StufrqIwJP3Nm5DUk-yR8fd5IJ2yapRUBDUo2Uzojb4N9elZKiFE19V9UdOqur-eeUuiA"
     }
   ],
   "attachments": [

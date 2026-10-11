@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "ecrit"
-      }
+      },
+      "content_hash": "sha512-CDp41zZOLlMxtwLuEezgJYJTTYZbl8sALiRHlavJPvBH8awdITvJmGSrDYuMIymC9n5Nb9OmQMzV22e6bbdCiQ"
     }
   ],
   "attachments": [

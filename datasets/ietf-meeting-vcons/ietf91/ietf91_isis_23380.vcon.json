@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "isis"
-      }
+      },
+      "content_hash": "sha512-7PlZrfj3X-GBBiisPpYAFvbMdWgV5ggykVb8sKF6P8NDOioXXOsNR_DYjFc8aLzaeRiAB63ah7ZS8XqXgxLWhQ"
     }
   ],
   "attachments": [

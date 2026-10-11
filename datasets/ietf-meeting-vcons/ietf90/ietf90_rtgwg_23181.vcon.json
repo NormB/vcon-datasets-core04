@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "rtgwg"
-      }
+      },
+      "content_hash": "sha512-KicFdmcerg-xwTIcAPvudyznKTyyv0Vpy_aumN5icQhDC0Ah5yRILOso2uHivuWKTk4e0IJym5sE4L9mGyoalw"
     }
   ],
   "attachments": [

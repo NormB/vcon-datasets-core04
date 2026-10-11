@@ -27,7 +27,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "httpbis"
-      }
+      },
+      "content_hash": "sha512-Q-Tg29ouX_DrKybMJVQDPas1PYDolCuZHK-UnTh-2ukQsY1oAIWR1gw1VMejpOr6KVuqH1wEfz4SZUX90SXfzg"
     }
   ],
   "attachments": [

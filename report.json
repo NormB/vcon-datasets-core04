@@ -2,13 +2,14 @@
   "datasets": {
     "ietf-meeting-vcons": {
       "applied": {
-        "attachment-mediatype": 57781
+        "attachment-mediatype": 57781,
+        "dialog-content-hash": 425
       },
       "changed_containers": 8181,
       "commit": "b919f24dd29c0419f356c4b1133220c18de3a9ef",
       "containers": 8181,
       "findings_after": {
-        "/dialog/* dependencies: dependencies {\"url\": [\"content_hash\"]}": 4079
+        "/dialog/* dependencies: dependencies {\"url\": [\"content_hash\"]}": 3654
       },
       "findings_before": {
         "/attachments/* required: 'mediatype' is a required property": 8181,
@@ -19,18 +20,19 @@
         "dialog-party-index": 463
       },
       "license": "BSD-3-Clause",
-      "tree_sha256": "2732157c81ff63f177f7974552401c34d9c0c1291ea23118512e6cb2b30768e5",
+      "tree_sha256": "2b7971373935e02d78caacebcce26c7d3a8f98f938de02ea50a17c30bf18fb98",
       "unhashed_url_hosts": {
-        "www.ietf.org": 425,
         "www.youtube.com": 3161,
         "youtu.be": 400,
         "youtube.com": 93
       },
-      "unresolved": {},
+      "unresolved": {
+        "dialog-content-hash": 3654
+      },
       "url": "https://github.com/vcon-dev/ietf-meeting-vcons",
-      "valid_after": 4102,
+      "valid_after": 4527,
       "valid_before": 0,
-      "valid_with_index_errors": 4102
+      "valid_with_index_errors": 4171
     },
     "vcon-dataset-city-of-newport-ri": {
       "applied": {
@@ -52,7 +54,9 @@
       "unhashed_url_hosts": {
         "cityofnewport.granicus.com": 115
       },
-      "unresolved": {},
+      "unresolved": {
+        "dialog-content-hash": 115
+      },
       "url": "https://github.com/vcon-dev/vcon-dataset-city-of-newport-ri",
       "valid_after": 0,
       "valid_before": 0,
@@ -79,6 +83,9 @@
       "valid_before": 0,
       "valid_with_index_errors": 0
     }
+  },
+  "hash_tables": {
+    "ietf-audio.tsv": "7aed328abb8548808e267e9ab47152cb5ed94221362cfcc32e82bbbb9f2c13f6"
   },
   "schema_sha256": "b3c1ae28041dea304c978a0e9e04da18253fa58517ad3472a6adf1167c01a8d9"
 }

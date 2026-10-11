@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 91,
         "working_group": "sidr"
-      }
+      },
+      "content_hash": "sha512-zLlGpYqE9tB8eejst5_BFmuO7zjWjJxgwmzbz8GiguYP4yv2PWm8hsX_1FVGkms4vEYpYieOrUxZsJK8rR2d4g"
     }
   ],
   "attachments": [

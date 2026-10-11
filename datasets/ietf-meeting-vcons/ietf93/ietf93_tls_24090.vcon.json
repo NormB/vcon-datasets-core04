@@ -33,7 +33,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "tls"
-      }
+      },
+      "content_hash": "sha512-QoQAlJa4m19KBvAnEvgCB4JzVxOKHmo58hJ58ojcEof2L3zApG3o88ZdYN5dmbYqlGJ_KqI2XnYG4Qr3JKIBdw"
     }
   ],
   "attachments": [

@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "scim"
-      }
+      },
+      "content_hash": "sha512-zprEAATW7_k-rTJu4DTj-cuktljsdoEFz3PnUoGGrOIQOk-GJHNL6Cnj9A6DjZRGPSBor8LpBkTHwwKnbLF5PA"
     }
   ],
   "attachments": [

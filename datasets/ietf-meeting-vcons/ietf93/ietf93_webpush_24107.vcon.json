@@ -33,7 +33,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "webpush"
-      }
+      },
+      "content_hash": "sha512-S-QYMejhnXaQQdSCS5OqbYwcNUi3BEQRaoHwWtNxZoV3m5tWP5T0qfuGMkCKTexrJROZhajO5I9UhY93lgI-jg"
     }
   ],
   "attachments": [

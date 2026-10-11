@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "ppsp"
-      }
+      },
+      "content_hash": "sha512-qhq1UgEp_e-5WS3l_H35jlsVjYF7mDQ5LAX7CImTULtBZsdFPuWtMgt7mkkUkMlFlkdctpuknlSvmBNRPklVRA"
     }
   ],
   "attachments": [

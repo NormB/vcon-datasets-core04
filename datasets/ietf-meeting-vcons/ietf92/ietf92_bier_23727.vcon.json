@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "bier"
-      }
+      },
+      "content_hash": "sha512-XdQwzNVXKmGXqu_fz2QALeeohHioLaH3dRFkT3AQsOp8PcDfakCIW-xN4Y6QOVyasvRg4ydGBoO9LGm4D_Dcjg"
     }
   ],
   "attachments": [

@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "stir"
-      }
+      },
+      "content_hash": "sha512-gW7Bkcm0hq5rB4unjanbTJpYGOxPF8uHRUmuVc11cLu5YSsncsTXWBDVlpfUGUiS9oLZ-BR8sUs2cFrxSBhrHQ"
     }
   ],
   "attachments": [

@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "straw"
-      }
+      },
+      "content_hash": "sha512-lDQZLEZSQ_ZGxSu_tCe-5_NgS5pXF5d9bx6-K-d3nmz8VybmR6bTdQ7jZO-mwEVk0rvwKCxI3-clGrO4B2rw8w"
     }
   ],
   "attachments": [

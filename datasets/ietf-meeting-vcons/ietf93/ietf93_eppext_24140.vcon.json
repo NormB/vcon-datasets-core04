@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "eppext"
-      }
+      },
+      "content_hash": "sha512-B-KCU--HhtA0dnwyYgUtS7BWfLtcJgwnsrpE0jADk1m9p8MHLBZnZOHeeu1o0nRjaphRN03yuu7bc1X89DKXkQ"
     }
   ],
   "attachments": [

@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "netconf"
-      }
+      },
+      "content_hash": "sha512-q72h3YrnpY2PvgXkwkisLqrh2LRboYu4ODMB1hL232YWKaPdh0M9xHpbrlRVJMC-WZMwwlcxkafMxROWT_IxRw"
     }
   ],
   "attachments": [

@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "grow"
-      }
+      },
+      "content_hash": "sha512-QYWTsOD5FrY160DxPNb7AGvCwmOJmp-fAYYSMo_jT357jR7m6I4Y8bsaMz8enxrki-wtBWIDmW1P4qap9Qy79Q"
     }
   ],
   "attachments": [

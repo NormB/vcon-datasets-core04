@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "openpgp"
-      }
+      },
+      "content_hash": "sha512-hcZdEzkIndgbQiPtOw1zjpiHOCxQS6iFp7X6KhfxtiEgcOVL19BhWjf6BSx6ZbiKv_bZTb9RTr0kqBEEAkCm2g"
     }
   ],
   "attachments": [

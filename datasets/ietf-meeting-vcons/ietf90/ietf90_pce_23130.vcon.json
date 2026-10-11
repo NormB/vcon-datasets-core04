@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "pce"
-      }
+      },
+      "content_hash": "sha512-LC3RliY4NqLUvNJ-uuZF980uoTdkiQr6fq_AGh0hkq4Uv0sG4KhUwEsoT3s3w0G7TuQ7duSBODjoVcxSnzHj5Q"
     }
   ],
   "attachments": [

@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 93,
         "working_group": "trill"
-      }
+      },
+      "content_hash": "sha512-f1KgFWwpoArmVMgizSZk68KkKKIFE4bzCsw2Iak3tuvKaQZfm1I0a6AV9ofNzO0id6ky08GciOZ6pdzTgTl4MQ"
     }
   ],
   "attachments": [

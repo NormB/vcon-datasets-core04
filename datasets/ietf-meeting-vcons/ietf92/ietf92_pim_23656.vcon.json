@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "pim"
-      }
+      },
+      "content_hash": "sha512-V8EJW4kqTcpjWRfg9SzxvCgosrnKktQZ5ZH3emt35cJhlQIwFNaFxRfm4nY4i5GqVYbXRKceQB_xffcsRTTAWg"
     }
   ],
   "attachments": [

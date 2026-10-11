@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 92,
         "working_group": "nfvrg"
-      }
+      },
+      "content_hash": "sha512-hHj0KIwlVZPIsUjpYw-Q_oGxQPcnrrmUofKnCDG69aQ3gjcFH40ShaCX7tM5tDpt4UTrxJK2Fpgtr8VmFwVhFA"
     }
   ],
   "attachments": [

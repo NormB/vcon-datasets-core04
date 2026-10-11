@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "softwire"
-      }
+      },
+      "content_hash": "sha512-nYAXNvp0hPfgNbwpIwaQy1bV5qGr19_gdrizy5bc5ZR6WgM4YOpT7OLUjb4nnrsEHZ8IsHrUCdYc2erx-Qbq3A"
     }
   ],
   "attachments": [

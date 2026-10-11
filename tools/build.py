@@ -31,6 +31,7 @@ PINS = ROOT / "PINS.tsv"
 OUT = ROOT / "datasets"
 REPORT_JSON = ROOT / "report.json"
 REPORT_MD = ROOT / "REPORT.md"
+HASHES = ROOT / "hashes"
 
 SAFE_CONFIG = [
     "-c", "core.hooksPath=/dev/null",
@@ -117,10 +118,31 @@ def _tree_digest(root):
     return h.hexdigest()
 
 
-def build(pins, cache, out, schema):
+def default_hash_tables():
+    return sorted(HASHES.glob("*.tsv"))
+
+
+def _tables_digest(tables):
+    return {pathlib.Path(t).name: hashlib.sha256(pathlib.Path(t).read_bytes()).hexdigest()
+            for t in tables}
+
+
+def load_hashes(tables):
+    merged = {}
+    for t in tables:
+        for url, token in core04.read_hashes(t).items():
+            if merged.get(url, token) != token:
+                raise ValueError(f"{t}: {url} has a different hash in another table")
+            merged[url] = token
+    return merged
+
+
+def build(pins, cache, out, schema, hash_tables=()):
     """Correct every pinned dataset into ``out``; return the report."""
     v = core04.validator(schema)
+    hashes = load_hashes(hash_tables)
     report = {"schema_sha256": hashlib.sha256(pathlib.Path(schema).read_bytes()).hexdigest(),
+              "hash_tables": _tables_digest(hash_tables),
               "datasets": {}}
     for pin in pins:
         tree = fetch(pin, cache)
@@ -139,7 +161,7 @@ def build(pins, cache, out, schema):
             style = core04.detect_style(raw, doc)
             original = copy.deepcopy(doc)
             before.add(original, v)
-            result = core04.correct(doc)
+            result = core04.correct(doc, hashes=hashes)
             core04.assert_additive(original, doc)
             for c in result.applied:
                 _bump(applied, c.rule)
@@ -173,10 +195,12 @@ def build(pins, cache, out, schema):
     return report
 
 
-def verify(out, report, schema):
+def verify(out, report, schema, hash_tables=()):
     """Problems found judging ``out`` again against ``report``; empty when it matches."""
     v = core04.validator(schema)
     problems = []
+    if _tables_digest(hash_tables) != report.get("hash_tables", {}):
+        problems.append("hash tables: hashes/ differs from the tables the report was built with")
     if hashlib.sha256(pathlib.Path(schema).read_bytes()).hexdigest() != report.get("schema_sha256"):
         problems.append("schema: vendored schema differs from the one the report was built with")
     for name, want in report["datasets"].items():
@@ -253,13 +277,13 @@ def main(argv=None):
     try:
         if args.cmd == "build":
             pins = core04.parse_pins(PINS.read_text())
-            report = build(pins, args.cache, OUT, SCHEMA)
+            report = build(pins, args.cache, OUT, SCHEMA, default_hash_tables())
             _write_json(REPORT_JSON, report)
             REPORT_MD.write_text(render(report))
             print(render(report).split("\n## ")[0])
             return 0
         report = json.loads(REPORT_JSON.read_text())
-        problems = verify(OUT, report, SCHEMA)
+        problems = verify(OUT, report, SCHEMA, default_hash_tables())
         if REPORT_MD.read_text() != render(report):
             problems.append("REPORT.md: not what report.json renders to; rerun build")
         pinned = {p.name: p.commit for p in core04.parse_pins(PINS.read_text())}

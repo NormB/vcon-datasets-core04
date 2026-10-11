@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "urnbis"
-      }
+      },
+      "content_hash": "sha512-WW70GGkavcWag1AwSuYx7AOHgjFQsNiqz45WQP3vbFVPzYozwrzuR7bRrD8hCpjroIOlNsuVhTE2Md2hbmDaYA"
     }
   ],
   "attachments": [

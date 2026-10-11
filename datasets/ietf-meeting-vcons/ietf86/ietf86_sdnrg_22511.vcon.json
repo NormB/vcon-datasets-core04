@@ -27,7 +27,8 @@
       "meta": {
         "ietf_meeting": 86,
         "working_group": "sdnrg"
-      }
+      },
+      "content_hash": "sha512-Ht3nfhKu2gnomJyldGhgW7XeM_66za4IMA1t-Zs2yI1zlte8tKqhYquPupKttbsFBId5Qz2GTZnlAS0ILN-1Qw"
     }
   ],
   "attachments": [

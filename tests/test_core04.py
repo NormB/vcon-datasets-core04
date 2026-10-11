@@ -5,6 +5,7 @@ the case it must change and the cases it must leave alone.
 """
 
 import copy
+import hashlib
 import json
 import pathlib
 import subprocess
@@ -292,7 +293,7 @@ def test_build_refuses_an_output_that_is_not_additive(tmp_path, monkeypatch):
     repo, head = upstream(tmp_path, {"LICENSE": b"x", "a.vcon.json": core04.dump(
         container(attachments=[attachment(encoding="json", body="{}")]), core04.STYLES[0])})
 
-    def mangle(doc):
+    def mangle(doc, hashes=None):
         doc["uuid"] = "changed"
         return core04.Correction([], [])
     monkeypatch.setattr(core04, "correct", mangle)
@@ -390,3 +391,85 @@ def test_build_reports_hosts_and_valid_with_index_errors(tmp_path):
     text = build.render(report)
     assert "| Host | Dialogs |" in text and "| `youtu.be` | 1 |" in text
     assert "1 of the valid containers carry an index error" in text
+
+
+# ---- dialog-content-hash, from a table of hashes made from the fetched bytes ----
+
+HASH = "sha512-" + "B" * 86
+
+
+def test_url_in_the_table_gets_its_content_hash():
+    doc = container(dialog=[recording("https://www.ietf.org/a.mp3")])
+    result = core04.correct(doc, hashes={"https://www.ietf.org/a.mp3": HASH})
+    assert doc["dialog"][0]["content_hash"] == HASH
+    assert core04.Change("dialog-content-hash", "/dialog/0") in result.applied
+
+
+def test_url_not_in_the_table_is_unresolved_and_unchanged():
+    doc = container(dialog=[recording("https://www.youtube.com/watch?v=x")])
+    result = core04.correct(doc, hashes={"https://www.ietf.org/a.mp3": HASH})
+    assert "content_hash" not in doc["dialog"][0]
+    assert result.unresolved == [core04.Change("dialog-content-hash", "/dialog/0")]
+
+
+def test_an_existing_content_hash_is_never_replaced():
+    doc = container(dialog=[recording("https://www.ietf.org/a.mp3", content_hash="sha512-old")])
+    result = core04.correct(doc, hashes={"https://www.ietf.org/a.mp3": HASH})
+    assert doc["dialog"][0]["content_hash"] == "sha512-old"
+    assert result.applied == [] and result.unresolved == []
+
+
+def test_without_a_table_nothing_is_hashed():
+    doc = container(dialog=[recording("https://www.ietf.org/a.mp3")])
+    core04.correct(doc)
+    assert "content_hash" not in doc["dialog"][0]
+
+
+def test_read_hashes_reads_the_fetch_manifest(tmp_path):
+    p = tmp_path / "h.tsv"
+    p.write_text("url\tfilename\tsize\tcontent_hash\n"
+                 f"https://www.ietf.org/a.mp3\ta.mp3\t10\t{HASH}\n")
+    assert core04.read_hashes(p) == {"https://www.ietf.org/a.mp3": HASH}
+
+
+@pytest.mark.parametrize("bad", [
+    "sha512-",                       # no digest
+    "sha512-" + "B" * 85,            # wrong length
+    "sha512-" + "B" * 85 + "=",      # padding
+    "SHA512-" + "B" * 86,            # algorithm not lowercase
+])
+def test_read_hashes_refuses_a_malformed_token(tmp_path, bad):
+    p = tmp_path / "h.tsv"
+    p.write_text(f"url\tfilename\tsize\tcontent_hash\nhttps://x/a.mp3\ta.mp3\t1\t{bad}\n")
+    with pytest.raises(ValueError):
+        core04.read_hashes(p)
+
+
+def test_read_hashes_refuses_one_url_twice(tmp_path):
+    p = tmp_path / "h.tsv"
+    p.write_text(f"url\tfilename\tsize\tcontent_hash\nhttps://x/a.mp3\ta.mp3\t1\t{HASH}\n"
+                 f"https://x/a.mp3\ta.mp3\t1\t{HASH}\n")
+    with pytest.raises(ValueError):
+        core04.read_hashes(p)
+
+
+def test_build_applies_the_hash_table_and_reports_it(tmp_path):
+    doc = container(dialog=[recording("https://www.ietf.org/a.mp3"),
+                            recording("https://youtu.be/x")])
+    repo, head = upstream(tmp_path, {"LICENSE": b"x", "a.vcon.json": core04.dump(doc, core04.STYLES[0])})
+    table = tmp_path / "h.tsv"
+    table.write_text(f"url\tfilename\tsize\tcontent_hash\nhttps://www.ietf.org/a.mp3\ta.mp3\t1\t{HASH}\n")
+    out = tmp_path / "out"
+    report = build.build([core04.Pin("ds", str(repo), head, "MIT")], tmp_path / "cache", out, SCHEMA,
+                         hash_tables=[table])
+    fixed = json.loads((out / "ds/a.vcon.json").read_bytes())
+    assert fixed["dialog"][0]["content_hash"] == HASH
+    assert "content_hash" not in fixed["dialog"][1]
+    ds = report["datasets"]["ds"]
+    assert ds["applied"] == {"dialog-content-hash": 1}
+    assert ds["unresolved"] == {"dialog-content-hash": 1}
+    assert ds["unhashed_url_hosts"] == {"youtu.be": 1}
+    assert report["hash_tables"] == {"h.tsv": hashlib.sha256(table.read_bytes()).hexdigest()}
+    assert build.verify(out, report, SCHEMA, hash_tables=[table]) == []
+    table.write_text(table.read_text() + "https://www.ietf.org/b.mp3\tb.mp3\t1\t" + HASH + "\n")
+    assert any(p.startswith("hash tables") for p in build.verify(out, report, SCHEMA, hash_tables=[table]))

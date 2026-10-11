@@ -32,7 +32,8 @@
       "meta": {
         "ietf_meeting": 90,
         "working_group": "nvo3"
-      }
+      },
+      "content_hash": "sha512-ve2cEQEmGnK1Cp_wxaNoKNo6HJQ_dkfetNwuMw29Rqa2VnOvr4sXr2v3OBTkN94bef7aM9kuZDV7MQ452lRuEw"
     }
   ],
   "attachments": [
