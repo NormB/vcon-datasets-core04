@@ -50,6 +50,13 @@ checked against real subscribers". Republishing them could reach real people.
 Including them with reserved values (`example.invalid` addresses, 555-01xx
 numbers) in their place would be a separate decision.
 
+fake-vcons is corrected upstream instead. `tools/fake_vcons.py` applies the
+core-04 corrections to a fake-vcons checkout in place, adding keys only:
+`start` on each attachment (from the container's `created_at`), `mediatype:
+application/json` on each JSON attachment body, and `encoding: none` on each
+text dialog. It reports, and does not change, attachments whose object body
+is declared `encoding: none`. Run it as `python tools/fake_vcons.py <checkout>`.
+
 ## What a correction may do
 
 A correction adds a key to an object. It never changes or removes a value,
